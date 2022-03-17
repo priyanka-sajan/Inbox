@@ -1,0 +1,50 @@
+body {
+	margin:0;
+	padding:0;
+}
+.menu-bar {
+	width:3%;
+	float:left;
+	
+	margin-top:20px;
+	padding-left:5px;
+	
+}
+.gmail-icon {
+	width:15%;
+	float:left;
+	
+	
+}
+.search-bar {
+    width: 63%;
+    float: left;
+    
+    padding:5px;
+}
+.input-bar{
+padding:50px;
+}
+
+.support {
+	width:4%;
+	float:left;
+	
+}
+.settings {
+	width:4%;
+	float:left;
+	
+}
+.google-apps {
+	width:4%;
+	float:left;
+	
+}
+.account {
+	width:4%;
+	float:left;
+	
+}
+
+	
