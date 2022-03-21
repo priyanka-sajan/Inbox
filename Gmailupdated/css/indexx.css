@@ -23,7 +23,7 @@ body {
 	float:left;
 	}
 .search-bar {
-	width: 35%;
+	width: 48%;
 	float: left;
 	border-radius:6px;
 	border:1px none #cdcfd1;
@@ -43,33 +43,34 @@ body {
 	border: none;
 	background-color:#e6eaed ;
 	}
-
 .input-box:focus{
 	outline:none;
 	background-color:#e6eaed ;
+	}
+.fa-sliders {
+	padding-left:10px;
 	}
 .support {
 	width:3%;
 	float:right;
 	margin-top: 10px;
-	margin-left: 45%;
 	font-size: 20px;
 	}
 .settings {
 	width:3%;
-	float:left;
+	float:right;
 	margin-top: 10px;
 	font-size: 20px;
 	}
 
 .google-apps {
 	width:3%;
-	float:left;
+	float:right;
 	margin-top: 10px;
 	font-size: 20px;
 	}
 .account {
-	float:left;
+	float:right;
 	margin-top: 8px;
 	border: 1px solid black;
 	font-size: 16px;
@@ -78,6 +79,16 @@ body {
 	border-radius: 50%;
 	color: white;
 	}
+	.account1 {
+		float:left;
+		margin-top: 8px;
+		border: 1px solid black;
+		font-size: 16px;
+		background-color: rgb(194, 25, 143);
+		padding: 4px 8px;
+		border-radius: 50%;
+		color: white;
+		}
 
 .clear {
 	clear:both;
@@ -270,10 +281,26 @@ body {
 	font-weight:400px;
 	}
 
-  .fa-calendar,.fa-lightbulb,.fa-circle-check,.fa-circle-user,.fa-minus
+  .fa-calendar
      {
     font-size: 18px;
+	color:blue;
      }
+.fa-lightbulb {
+	font-size: 18px;
+	color:yellow;
+	}
+.fa-circle-check {
+	font-size: 18px;
+	color:blue;
+	}
+.fa-circle-user {
+	font-size: 18px;
+	color:blue;
+	}
+.fa-minus {
+	font-size: 18px;
+	}
 .main-right i {
 	padding:15px;
 	float:right;
