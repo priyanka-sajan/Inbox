@@ -1,0 +1,151 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif;
+	}
+.top-nav {
+	padding-top: 10px;
+	border-bottom: 1px solid rgb(237, 241, 248);
+	padding-bottom: 10px;
+	width:100%;
+	height:44px;
+	border-top:3px solid tomato;
+	}
+#image {
+	width:9%;
+	float:left;
+	padding-left:113px;
+	margin-top:-8px;
+	}
+.about {
+	width:3%;
+	padding-left:32px;
+	float:left;
+	}
+.product {
+	width:5%;
+	font-size:15px;
+	padding-left:17px;
+	float:left;
+	}
+.forteams {
+	width:5%;
+	float:left;
+	}
+.search-bar {
+	width:44%;
+	float:left;
+	height:41px;
+	border:1px solid grey;
+	}
+.input-box{
+	width:88%;
+	height:31px;
+	text-align:left;
+	margin-top:8px;
+	padding-left:6px;
+	outline: none;
+	border: none;
+	background-color:white;
+	}
+.login {
+	width:2%;
+	margin-right:241px;
+	float:right;
+	
+	}
+.button {
+	display: flex;
+	width:57px;
+	height:39px;
+	border-color:#f1f3f4;
+	border-radius:1px;
+	background-color:lightblue;
+	} 
+.signup {
+	width:5%;
+	float:right;
+	border:1px solid black;
+	}
+.button1 {
+	display: flex;
+	width:57px;
+	height:39px;
+	border-color:#f1f3f4;
+	border-radius:1px;
+	background-color:lightblue;
+	} 
+.side-bar {
+	border-right:1px solid grey;
+	width: 17%;
+	}
+	
+.home {
+	padding-left:125px;
+	
+	}
+.public {
+	padding-left:125px;
+	
+	}
+.questions {
+	padding-left:125px;
+	
+	}
+.tags {
+	padding-left:146px;
+	
+	}
+.users {
+	padding-left:146px;
+	cursor:pointer;
+	
+	}
+.collectives {
+	padding-left:118px;
+	padding-bottom: 17px;
+	font-size:13px;
+	
+	}
+.fa-circle-exclamation {
+	padding-left:20px;
+	}
+.fa-bahai {
+	color:orange;
+	}
+.explore {
+	padding-left:125px;
+ 	font-size:13px;
+	}
+.findjob {
+	padding-left:118px;
+	font-size:14px;
+	}
+.job {
+	padding-left:134px;
+	
+	}
+.companies {
+	padding-left:131px;
+	
+	}
+.teams {
+	padding-left:119px;
+	font-size:13px;
+	}
+.clear1 {
+	float:left;
+	clear:both;
+	}
+.right {
+	float:left;
+	}
+
+#image1 {
+	float:left;
+	width:75%;
+	height:75%;
+	}
+
+
+	
