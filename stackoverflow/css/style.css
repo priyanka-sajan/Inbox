@@ -14,8 +14,8 @@ body {
 #image {
 	width:9%;
 	float:left;
-	padding-left:113px;
-	margin-top:-8px;
+	padding-left:74px;
+	
 	}
 .about {
 	width:3%;
@@ -39,7 +39,7 @@ body {
 	border:1px solid grey;
 	}
 .input-box{
-	width:88%;
+	width:80%;
 	height:31px;
 	text-align:left;
 	margin-top:8px;
@@ -49,10 +49,8 @@ body {
 	background-color:white;
 	}
 .login {
-	width:2%;
-	margin-right:241px;
+	width:4%;
 	float:right;
-	
 	}
 .button {
 	display: flex;
@@ -66,6 +64,7 @@ body {
 	width:5%;
 	float:right;
 	border:1px solid black;
+	margin-right: 200px;
 	}
 .button1 {
 	display: flex;
@@ -76,76 +75,260 @@ body {
 	background-color:lightblue;
 	} 
 .side-bar {
-	border-right:1px solid grey;
-	width: 17%;
+	float:left;
+	border-right:1px solid #d5d5d5;
+	width: 20.5%;
+	color:grey;
 	}
 	
 .home {
 	padding-left:125px;
+	font-size: 13px;
+	margin-left:30px;
+	margin-top:30px;
 	
 	}
 .public {
-	padding-left:125px;
+	padding-left:153px;
+	font-size:13px;
+	
 	
 	}
 .questions {
-	padding-left:125px;
+	padding-left:152px;
 	
 	}
 .tags {
-	padding-left:146px;
+	padding-left:177px;
 	
 	}
 .users {
-	padding-left:146px;
+	padding-left:177px;
 	cursor:pointer;
 	
 	}
 .collectives {
-	padding-left:118px;
+	padding-left:152px;
 	padding-bottom: 17px;
 	font-size:13px;
 	
 	}
 .fa-circle-exclamation {
-	padding-left:20px;
+	padding-left:60px;
 	}
 .fa-bahai {
 	color:orange;
 	}
 .explore {
-	padding-left:125px;
+	padding-left:146px;
  	font-size:13px;
 	}
 .findjob {
-	padding-left:118px;
+	padding-left:146px;
 	font-size:14px;
 	}
 .job {
-	padding-left:134px;
+	padding-left:173px;
 	
 	}
 .companies {
-	padding-left:131px;
+	padding-left:173px;
+	
 	
 	}
 .teams {
-	padding-left:119px;
+	padding-left:140px;
 	font-size:13px;
 	}
 .clear1 {
-	float:left;
+	
 	clear:both;
 	}
 .right {
+	width:55%;
 	float:left;
 	}
-
+.row1 {
+	
+	width:100%;
+	}
 #image1 {
 	float:left;
-	width:75%;
-	height:75%;
+	width:150px;
+	height:147px;
+	padding-left:20px;
+	border-radius:10px;
+	margin-top:20px;
+	margin-left: 19px;
+	}
+.name {
+	font-size: 31px;
+	margin-top:15px;
+    	}
+.title{
+	margin-left:-20px;
+	float:left;
+	}
+.degree {
+	font-size: 22px;
+	color:grey;
 	}
 
-
+.description {
+	width:148px;
+	float:left;
+	padding:12px;
+	margin-left:140px;
+	border:1px solid #d5d5d5;
+	}
+.fa-cake-candles,.member,.fa-clock, .lastseen,.fa-twitter,.cake,.fa-github,.fa-location-dot,.location {
+	color:grey;
+	}
+.bold {
+	color:black;
+	}
+.freeteam {
+	background-color:skyblue;
+	color:white;
+	}
+.row2 {
+	display:block;
+      width:100%;
+	}
+.profile {
+	color:white;
 	
+	}
+.activity {
+	color:white;
+	background-color:orange;
+	}
+.button2 {
+	margin-top:11px;
+	margin-right:21%;
+	border-radius:25px;
+	background-color:orange;
+	width:70px;
+	border: 1px solid orange;
+	}
+
+.photo {
+	float:left;
+	padding-left:19px;
+	margin-top:12px;
+	width:18%;
+	
+	}
+.heading {
+	float:left;
+	height:154px;
+	width:48%;
+	
+	}
+.profile-button {
+	float:left;
+	width:12%;
+	border: 1px solid orange;
+	}
+.clear-row1 {
+	clear:both;
+	}
+.mainbody {
+	border-left:1px solid #b5b4b3
+	flex:86%;
+	padding:15px;
+	margin-left:2%;
+	}
+.profile-btn
+	{
+    flex:5%;
+    text-align: center;
+	}
+.profile-button button
+	{
+    padding:10px;
+    background-color: white;
+    border:1px solid #6b6a67 ;
+    font-size:13px;
+    color:#6b6a67;
+    border-radius:3px;
+	}
+.profile-button i
+	{
+    padding-left:2px;
+    color:#6b6a67;
+	}
+
+.btn-group {
+	margin-top:142px;
+	margin-left:7%;
+	}
+.profile-btn {
+   padding:7px 10px;
+   background-color:#f0912b;
+   border:none;
+   border-radius:25px;
+   color:white;
+	}
+.activity-btn {
+    border:none;
+    padding:7px 10px;
+    background-color:white;
+	}
+.activity-btn:hover {
+    border:none;
+    border-radius:25px;
+    background-color:#d2d4d6;
+	}	
+.left {
+    float:left;
+    display:flex;
+    
+    margin-top:56px;
+	}
+.stats-heading {
+	flex:13%;
+	}
+.heading {
+    font-size:20px;
+  
+	}
+.stats {
+    border:1px solid rgb(211, 206, 206);
+    padding:10px;
+    border-radius:10px;
+    margin-top:10px;
+	}
+.content{
+    display: flex;
+    flex-direction: row;   
+	}
+.answers {
+	flex:30%;  
+	}
+.questions {
+	flex:30%;
+	}
+.numbers {
+    padding-top:20px;
+	}
+.stats span {
+    font-size:13px;
+    color:rgb(109, 99, 99);
+	}
+.stats i {
+    color:#3a3a39;
+	}
+
+.logsign {
+	float:left;
+	}	
+
+.communities {
+	width:10px;
+	margin-left:313px;
+	font-size:13px;
+	padding-left:334px;
+	float:left;
+	border:1px solid yellow;
+	}
