@@ -1,185 +1,553 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gmail</title>
-    <script src="javascript/js.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-</head>
-<body>
-	<div class="main-container">
-		<div class="top-nav">
-	        <div class="stackoverflow">
-		    <img src="image/stackoverflow.png" id="image" alt="stack logo">
-	      </div>
-	        <div class="about">
-		    <p>About</p>
-	        </div>
-	        <div class="product">
-		    <p>Product</p>
-	        </div>
-	        <div class="forteams">
-		    <p>For Teams</p>
-	         </div>
-	        <div class="search-bar">
-		      <form>
-			<i class="fa-solid fa-magnifying-glass"></i>
-			<input type="text" class="input-box"  placeholder="user:217408">
-		       </form>
-	       </div>
-	
-	   <div class="signup">
-		<button>
-		   <span class="signup-text">Sign up</span>
-		</button>
-	  </div>
-	   <div class="login">
-		<button>
-		   Log in
-		</button>
-	   </div>
-	</div>
-	<div class="side-bar">
-		<div class="home">
-			<p>Home</p>
-		</div>
-		<div class="public">
-			<p>PUBLIC</p>
-		</div>
-		<div class="questions">
-			<i class="fa-solid fa-earth-americas"></i>&nbsp; Questions
-			  
-		</div>
-		<div class="tags">
-			<p>Tags</p>
-		</div>
-		<div class="users">
-			<p><bold>Users</bold></p>
-		</div>
-		<div class="collectives">
-			<span>COLLECTIVES</span><i class="fa-solid fa-circle-exclamation"></i>
-		</div>
-		<div class="explore">
-			<i class="fa-solid fa-bahai"></i>&nbsp; Explore Collectives
-		</div>
-		<div class="findjob">
-			<p>FIND A JOB</P>
-		</div>
-		<div class="job">
-		     <p>Jobs</p>
-		</div>
-		<div class="companies">
-		 	<p>Companies</p>
-		</div>
-		<div class="teams">
-		 	<p>TEAMS</p>
-		</div>
-		<div class="description">
-			<span class="bold"><strong>Stack Overflow for Teams </strong></span>
-			-Collaborate and share knowledge with a private group.
-			<img src="image/figure1.png" id="figure" alt="figure logo">
-			<div class="free">
-				<button>
-					<div class="freeteam">
-					  <span>Create a free Team</span>
-					</div>
-				</button>
-				<div>What is Teams?</div>
-			</div>
-		</div>
-		
-	</div>
-	<div class="mainbody">
-		<div class="photo">
-			<img src="image/picture1.png" alt="profile">
-		</div>
-		<div class="heading">
-			<div class="name">Günter Zöchbauer</div>
-		  		<div class="degree">BSc.</div>
-     		 		 <div class="cake">
-					 <i class="fa-solid fa-cake-candles"></i>
-					  Member for 12 years,4 months
-					 <i class="fa-regular fa-clock"></i>
-					 <span class="lastseen">Last seen this week</span>
-				</div>
-				 <div class="location">
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-github"></i>
-                            <i class="fa-solid fa-location-dot"></i>
-                            <p>Linz, Austria<p> 
-                        </div>
-			</div>
-		</div>
-		<div class="profile-button">
-			<button>Profile <i class="fa-solid fa-caret-down"></i></button>
-		</div>
-	
-	<div class="btn-group">
-		<button class="profile-btn">Profile</button>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Gmail</title>
+      <script src="javascript/js.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+      <div class="main-container">
+         <div class="top-nav">
+            <div class="stackoverflow">
+               <img src="image/stackoverflow.png" id="image" alt="stack logo">
+            </div>
+            <div class="about">
+               <p>About</p>
+            </div>
+            <div class="product">
+               <p>Product</p>
+            </div>
+            <div class="forteams">
+               <p>For Teams</p>
+            </div>
+            <div class="search-bar">
+               <form>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <input type="text" class="input-box"  placeholder="user:217408">
+               </form>
+            </div>
+            <div class="signup">
+               <button>
+               <span class="signup-text">Sign up</span>
+               </button>
+            </div>
+            <div class="login">
+               <button>
+               Log in
+               </button>
+            </div>
+         </div>
+         <div class="side-bar">
+            <div class="home">
+               <p>Home</p>
+            </div>
+            <div class="public">
+               <p>PUBLIC</p>
+            </div>
+            <div class="questionss">
+               <i class="fa-solid fa-earth-americas"></i>&nbsp; Questions
+            </div>
+            <div class="tags">
+               <p>Tags</p>
+            </div>
+            <div class="users">
+               <p>
+                  <bold>Users</bold>
+               </p>
+            </div>
+            <div class="collectives">
+               <span>COLLECTIVES</span><i class="fa-solid fa-circle-exclamation"></i>
+            </div>
+            <div class="explore">
+               <i class="fa-solid fa-bahai"></i>&nbsp; Explore Collectives
+            </div>
+            <div class="findjob">
+               <p>FIND A JOB</P>
+            </div>
+            <div class="job">
+               <p>Jobs</p>
+            </div>
+            <div class="companies">
+               <p>Companies</p>
+            </div>
+            <div class="teams">
+               <p>TEAMS</p>
+            </div>
+            <div class="description">
+               <span class="bold"><strong>Stack Overflow for Teams </strong></span>
+               -Collaborate and share knowledge with a private group.
+               <img src="image/figure1.png" id="figure" alt="figure logo">
+               <div class="free">
+                  <button>
+                     <div class="freeteam">
+                        <span>Create a free Team</span>
+                     </div>
+                  </button>
+                  <div class="qnteam">What is Teams?</div>
+               </div>
+            </div>
+         </div>
+         <div class="mainbody">
+            <div class="photo">
+               <img src="image/picture1.png"  alt="profile">
+            </div>
+            <div class="heading">
+               <div class="name">Günter Zöchbauer</div>
+               <div class="degree">BSc.</div>
+               <div class="cake">
+                  <i class="fa-solid fa-cake-candles"></i>
+                  Member for 12 years,4 months
+                  <i class="fa-regular fa-clock"></i>
+                  <span class="lastseen">Last seen this week</span>
+               </div>
+               <div class="location">
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-github"></i>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Linz, Austria</span> 
+               </div>
+            </div>
+         </div>
+         <div class="profile-button">
+            <button>Profile <i class="fa-solid fa-caret-down"></i></button>
+         </div>
+         <div class="btn-group">
+            <button class="profile-btn">Profile</button>
             <button class="activity-btn">Activity</button>
-	</div>
-</div>
-	<div class="left">
-		<div class="stats-heading">
-                  <span class="title">Stats</span>
-                		<div class="stats">
-                    <div class="content">
-                       <div class="answers">
-                            <div class="numbers">544,922<br><span>reputation</span> </div>
-                            <div class="numbers">9,317 <br><span>answers</span></div>
-                        </div>
-                        <div class="questions">
-                            <div class="numbers">74.7 <br><span>reputation</span></div>
-                            <div class="numbers">93<br><span>questions</span></div>
-                        </div>
-                    </div>
-                    <br>
-				<div class="trophy">
-					<i class="fa-solid fa-trophy-star"></i>
-						<span>top<b> 0.01% </b>this quarter</span> 
-				</div>
-			</div><br>
-			
-			<div class="communities">
-				<span class="title">communities</span>
-                		<span class="view-all">View all <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
-             	</div>
-			<div class="clear"></div>
-             	<div class="section">
-				<div>
-                    		<span class="sub-section"><i class="fa-brands fa-stack-overflow"></i>Stack Overflow</span>
-                    		<span class="count">544.9k</span>
-                		</div>
-                		<div>
-                    		<span class="sub-section"><i class="fa-regular fa-user"></i>Super User</span>
-                    		<span class="count">692</span>
-                		</div>
-                		<div>
-                    		<span class="sub-section"><i class="fa-regular fa-message"></i>Meta Stack Exchange</span>
-                    		<span class="count">181</span>
-                		</div>
-               		 <div>
-                    		<span class="sub-section"><i class="fa-regular fa-square"></i>Area 51</span>
-                    		<span class="count">151</span>
-                		</div>
-                		<div>
-                    		<span class="sub-section"><i class="fa-solid fa-hand-holding-dollar"></i>Personal Finance & Money</span>
-                    		<span class="count">143</span>
-                		</div>
-                		<div class="clear"></div>
-				</div>
-			</div>
-		<div class="about">gxdhgchgv
-		</div>
-	</mainbody>
-	
-		
-			
-		</div>
-	
-
-	</body>
+         </div>
+      </div>
+      <div class="left">
+         <div class="stats-heading">
+            <div class="title">Stats</div>
+            <div class="content">
+               <div class="div-left-stats">
+                  <div class="numbers">544,922<br><span class="num">reputation</span> </div>
+                  <div class="numbers">9,317 <br><span class="num">answers</span></div>
+               </div>
+               <div class="div-right-stats">
+                  <div class="numbers">74.7 <br><span class="num">reached</span></div>
+                  <div class="numbers">93<br><span class="num">questions</span></div>
+                  <div class="trophy">
+                     <i class="fa-solid fa-trophy"></i><br>
+                     <span>top<b> 0.01% </b>this quarter</span> 
+                  </div>
+               </div>
+               <br>
+            </div>
+            <br>
+            <div class="communities">
+               <span class="comm">Communities</span>
+               <span class="view">view all<i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+            <div class="section">
+               <span class="div-comm-left"><i class="fa-brands fa-stack-overflow"></i>Stack Overflow</span><br>
+               <span class="count1">545.6k</span>
+               <div>
+                  <span class="div-comm-left"><i class="fa-regular fa-user"></i>Super User</span>
+                  <span class="count2">692</span>
+               </div>
+               <div>
+                  <span class="div-comm-left"><i class="fa-regular fa-message"></i>Meta Stack Exchange</span>
+                  <span class="count3">181</span>
+               </div>
+               <div>
+                  <span class="div-comm-left"><i class="fa-regular fa-square"></i>Area 51</span>
+                  <span class="count4">151</span>
+               </div>
+               <div>
+                  <span class="div-comm-left"><i class="fa-solid fa-hand-holding-dollar"></i>Personal Finance & Money</span>
+                  <span class="count5">143</span>
+               </div>
+               <div class="clear"></div>
+            </div>
+         </div>
+      </div>
+      <div class="right">
+         <div class="right-row-1">
+            <div>About</div>
+         </div>
+         <br>
+         <div class="right-row-2">
+            <div>
+               Google+ Profil: https://twitter.com/gzoechi
+            </div>
+         </div>
+         <div class="right-row-3">
+            <div class="right-list">
+               <ul>
+                  <li>I'm an enthusiastic and experienced</li>
+                  <ul>
+                     <li>software engineer</li>
+                     <li>sortware architect</li>
+                     <li>developer</li>
+                     <li>consultant</li>
+                     <li><b>looking for clients/projects</b></li>
+                     <ul>
+                        <li>I focus on custom line of business applications with Dart, Flutter, Angular (mobile, browser, server)</li>
+                     </ul>
+                  </ul>
+                  <li>I have also a lot of experience with</li>
+                  <ul>
+                     <li>TypeScript</li>
+                     <li>CSS</li>
+                     <li>.NET/C# , Java, Dynamics AX ERP</li>
+                     <li>databases (SQL, Firebase)</li>
+                     <li>OSX, Linux, Windows</li>
+                     <li>and many more</li>
+                  </ul>
+               </ul>
+            </div>
+         </div>
+         <div class="right-row-4">
+            <div class="badge-list">
+               <div class="badge">Badges</div>
+               <div class="view-badge">View all badges</div>
+               <br>
+               <div class="box-1">
+                  <div class="ba-1"><i class="fa-solid fa-certificate"></i></div>
+                  <div class="ba-2">
+                     <div class="stat">185</div>
+                     <div>gold badges</div>
+                  </div>
+                  <br><br>
+                  <div class="clear-ba"></div>
+                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 routing</button></div>
+                  <div class="date-1"> June 17,2017</div>
+                  <div class="clear-text"></div>
+                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 template</button></div>
+                  <div class="date-1"> July 29,2017</div>
+                  <div class="clear-text"></div>
+                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 directive</button></div>
+                  <div class="date-1"> July 29,2017</div>
+                  <div class="clear-text"></div>
+               </div>
+               <div class="box-2">
+                  <div class="ba-1"><i class="fa-solid fa-certificate"></i></div>
+                  <div class="ba-2">
+                     <div class="stat">1,877</div>
+                     <div>silver badges</div>
+                  </div>
+                  <br><br>
+                  <div class="clear-ba"></div>
+                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>dart-polymer</button></div>
+                  <div class="date-1"> Oct 25, 2014</div>
+                  <div class="clear-text"></div>
+                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 forms</button></div>
+                  <div class="date-1"> Mar 31, 2017</div>
+                  <div class="clear-text"></div>
+                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 dart</button></div>
+                  <div class="date-1"> July 3,2016</div>
+                  <div class="clear-text"></div>
+               </div>
+               <div class="box-3">
+                  <div class="ba-1"><i class="fa-solid fa-certificate"></i></div>
+                  <div class="ba-2">
+                     <div class="stat">1,877</div>
+                     <div>bronze badges</div>
+                  </div>
+                  <br><br>
+                  <div class="clear-ba"></div>
+                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular component</button></div>
+                  <div class="date-1"> Oct 25, 2014</div>
+                  <div class="clear-text"></div>
+                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 pipe</button></div>
+                  <div class="date-1"> Mar 31, 2017</div>
+                  <div class="clear-text"></div>
+                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>dart pub</button></div>
+                  <div class="date-1"> July 3,2016</div>
+                  <div class="clear-text"></div>
+               </div>
+               <div class="box-clear"></div>
+            </div>
+         </div>
+         <br>
+         <div class="right-row-5">
+            <div class="badge">Top tags</div>
+            <div class="view-badge">View all tags</div>
+            <br><br>
+            <div class="tags-list">
+               <div class="t-list">
+                  <div class="left-side">angular<i class="fa-solid fa-circle"></i></div>
+                  <div class="right-side">
+                     <span class="col1">58,947score</span>
+                     <div class="col2">5,576 posts</div>
+                     <div class="col3">59 posts%</div>
+                     <div class="clear-col-tag"></div>
+                  </div>
+                  <div class="clear-tag"></div>
+               </div>
+               <div class="t-list">
+                  <div class="left-side">dart <i class="fa-solid fa-circle"></i></div>
+                  <div class="right-side">
+                     <span class="col1">18,461score</span>
+                     <div class="col2">3,312 posts</div>
+                     <div class="col3">35 posts%</div>
+                     <div class="clear-col-tag"></div>
+                  </div>
+                  <div class="clear-tag"></div>
+               </div>
+               <div class="t-list">
+                  <div class="left-side">typescript <i class="fa-solid fa-circle"></i></div>
+                  <div class="right-side">
+                     <div class="col1">13,222score</div>
+                     <div class="col2">1,300 posts</div>
+                     <div class="col3">14 posts%</div>
+                     <div class="clear-col-tag"></div>
+                  </div>
+                  <div class="clear-tag"></div>
+               </div>
+               <div class="t-list">
+                  <div class="left-side">flutter <i class="fa-solid fa-circle"></i></div>
+                  <div class="right-side">
+                     <div class="col1">12,35score</div>
+                     <div class="col2">907 posts</div>
+                     <div class="col3">10 posts%</div>
+                     <div class="clear-col-tag"></div>
+                  </div>
+                  <div class="clear-tag"></div>
+               </div>
+               <div class="t-list">
+                  <div class="left-side">javascript<i class="fa-solid fa-circle"></i> </div>
+                  <div class="right-side">
+                     <div class="col1">8,636score</div>
+                     <div class="col2">1,087posts</div>
+                     <div class="col3">12posts%</div>
+                     <div class="clear-col-tag"></div>
+                  </div>
+                  <div class="clear-tag"></div>
+               </div>
+               <div class="t-list">
+                  <div class="left-side">angular2-routing<i class="fa-solid fa-circle"></i> </div>
+                  <div class="right-side">
+                     <div class="col1">3,890score</div>
+                     <div class="col2">426 posts</div>
+                     <div class="col3">5posts%</div>
+                     <div class="clear-col-tag"></div>
+                  </div>
+                  <div class="clear-tag"></div>
+               </div>
+            </div>
+         </div>
+         <div class="top">
+            <div class="meta-heading">Top Post</div>
+            <br>
+            <div class="top1">View all questions, answers, and articles</div>
+         </div>
+         <div class="top-post-block">
+            <div class="block top-layer">
+               <i class="fa-solid fa-message" ></i>
+               <span class="year">1985</span>
+               <span class="qns">What is the difference between Promises and Observables?</span>
+               <span class="date"> Mar 13,2017</span>                     
+            </div>
+            <div class="block top-layer">
+               <i class="fa-solid fa-message "></i>
+               <span class="year">1163</span>
+               <span class="qns">How can I select an element in a component template?</span>
+               <span class="date">Feb 13,2017</span>                     
+            </div>
+            <div class="block top-layer">
+               <i class="fa-solid fa-message"></i>
+               <span class="year">1145</span>
+               <span class="qns">What is the equivalent of ngShow and ngHide in Angular 2+?</span>
+               <span class="date"> Mar 13,2017</span>                     
+            </div>
+            <div class="block top-layer">
+               <i class="fa-solid fa-message" ></i>
+               <span class="year">883</span>
+               <span class="qns">Binding select element to object in Angular</span>
+               <span class="date"> Oct 24,2019</span>                     
+            </div>
+            <div class="block top-layer">
+               <i class="fa-solid fa-message" ></i>
+               <span class="year">823</span>
+               <span class="qns">*ngIf and *ngFor on same element causing error</span>
+               <span class="date"> Mar 13,2017</span>                    
+            </div>
+            <div class="block top-layer">
+               <i class="fa-solid fa-message" ></i>
+               <span class="year">725</span>
+               <span class="qns">How to add conditional attribute in Angular 2?</span>
+               <span class="date"> Mar 13,2017</span>                     
+            </div>
+            <div class="block top-layer">
+               <i class="fa-solid fa-message" ></i>
+               <span class="year">1985</span>
+               <span class="qns">What is the difference between Promises and Observables?</span>
+               <span class="date"> Mar 13,2017</span>                    
+            </div>
+            <div class="block top-layer">
+               <i class="fa-solid fa-message" ></i>
+               <span class="year">602</span>
+               <span class="qns">What is the difference between declarations, providers, and import in NgModule?</span>
+               <span class="date"> Jul 13,2017</span>                     
+            </div>
+            <div class="block top-layer">
+               <i class="fa-solid fa-message"></i>
+               <span class="year">1985</span>
+               <span class="qns">What is the difference between Promises and Observables?</span>
+               <span class="date"> Jun 15,2018</span>                     
+            </div>
+            <div class="block top-layer">
+               <i class="fa-solid fa-message" ></i>
+               <span class="year">591</span>
+               <span class="qns">How to pass query parameters with a routerLink</span>
+               <span class="date"> May 23,2019</span>                     
+            </div>
+         </div>
+         <div class="top-meta-posts">
+            <span class="meta-heading" >Top Meta Posts</span>
+            <span class="right-side">
+            <i class="fa-regular fa-message" id="meta-post1"></i><sub>7</sub>
+            <i class="fa-regular fa-message" id="meta-post2"></i><sub>0</sub>
+            </span>
+            <div class="clear"></div>
+         </div>
+         <br>
+         <div class="top-meta-post">
+           <div class="top-post-block">
+              <div class="block top-layer">
+                       <div class="layer">
+               <i class="fa-brands fa-stack-overflow"></i>
+                          <span class="digit">6</span>
+                          <span class="qns">Layout issue in tags filter field in new UI</span>
+                                               
+                       </div><br>
+                       <div class="layer">
+               <i class="fa-brands fa-stack-overflow"></i>
+                          <span class="digit">3</span>
+                          <span class="qns">Find questions that are marked as duplicate</span>
+                                              
+                       </div><br>
+                       <div class="layer">
+               <i class="fa-brands fa-stack-overflow"></i>
+                          <span class="digit">3</span>
+                          <span class="qns">Lots of problems with the editing filter area</span>
+                                            
+                       </div> 
+         </div>
+         <div class="top-meta-posts">
+            <div class="meta-heading" >Top network posts</div>
+            <div class="right-side">View all network posts
+               </div>
+            <div class="clear"></div>
+         </div>
+         <div class="top-meta-post">
+            <div class="layer">
+               <i class="fa-light fa-head-side"></i>
+               <span class="digit">56</span>
+               <span class="qns">How to make a symlinked folder appear as a normal folder</span>
+            </div>
+            <br>
+            <div class="layer">
+               <i class="fa-light fa-head-side"></i>
+               <span class="digit">5</span>
+               <span class="qns">How can I export transactions from GnuCash including references to associated files</span>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>	
+      <div class="row-clear"></div>
+      </div>
+      </div>
+      <div class="row-4">
+      </div>
+      <div class="row-6">
+      </div>
+      <div class="row-7">
+      </div>
+      <div class="row-8">
+      </div>
+      <div class="row-9">
+      </div>
+      <div class="row-10">
+      </div>
+      <div class="row-11">
+      </div>
+      <div class="row-12">
+      </div>
+      </div>
+      </div>
+      <div class="bottom-container">
+         <div class="col-1"></div>
+         <div class="col-2"></div>
+         <div class="col-3"></div>
+         <div class="col-4"></div>
+         <div class="col-5"></div>
+         <div class="col-6"></div>
+         <div class="col-clear"></div>
+      </div>
+      <footer>
+         <div class="footer-logo">
+            <i class="fa-brands fa-stack-overflow"></i>
+         </div>
+         <div class="column">
+            <ul>
+               <li class="footer-title"><b>STACK OVERFLOW</b></li>
+               <li>Questions</li>
+               <li>Jobs</li>
+               <li>Developer job directory</li>
+               <li>help</li>
+            </ul>
+         </div>
+         <div class="column">
+            <ul>
+               <li class="footer-title"><b>PRODUCTS</b></li>
+               <li>Teams</li>
+               <li>Talents</li>
+               <li>Advertising</li>
+               <li>enterprise</li>
+            </ul>
+         </div>
+         <div class="column">
+            <ul>
+               <li class="footer-title"><b> COMPANY</b></li>
+               <li> About</li>
+               <li>Press</li>
+               <li> Work Here</li>
+               <li> Legal</li>
+               <li>Privacy Policy</li>
+               <li>Terms of Service</li>
+               <li>Contact Us</li>
+               <li>Cookie Settings</li>
+               <li>Cookie Policy</li>
+            </ul>
+         </div>
+         <div class="column">
+            <ul>
+               <li class="footer-title"><b>STACK EXCHANGE NETWORK</b></li>
+               <li> Technology</li>
+               <li>Culture and recreation</li>
+               <li>lifes & arts</li>
+               <li> Science</li>
+               <li>Professional</li>
+               <li>Business</li>
+               <li>API</li>
+               <li>Data</li>
+            </ul>
+         </div>
+         <div>
+            <div class="link2">
+               <ul>
+                  <li>Blog</li>
+                  <li>Facebook</li>
+                  <li>twitter</li>
+                  <li>LinkedIn</li>
+                  <li>Instagram</li>
+               </ul>
+            </div>
+            <div class="footer-description">site design / logo © 2022 Stack Exchange Inc; user contributions<br>
+               licensed under cc by-sa. rev 2022.3.18.41718
+            </div>
+         </div>
+      </footer>
+   </body>
 </html>
