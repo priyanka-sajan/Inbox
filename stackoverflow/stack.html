@@ -7,12 +7,13 @@
       <title>Gmail</title>
       <script src="javascript/js.js"></script>
       <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/media.css">
    </head>
    <body>
       <div class="main-container">
          <div class="top-nav">
             <div class="stackoverflow">
-               <img src="image/stackoverflow.png" id="image" alt="stack logo">
+               <img src="image/stacklogo.png" id="image" alt="stack logo">
             </div>
             <div class="about">
                <p>About</p>
@@ -55,7 +56,7 @@
             </div>
             <div class="users">
                <p>
-                  <bold>Users</bold>
+                  <b>Users</b>
                </p>
             </div>
             <div class="collectives">
@@ -81,11 +82,9 @@
                -Collaborate and share knowledge with a private group.
                <img src="image/figure1.png" id="figure" alt="figure logo">
                <div class="free">
-                  <button>
-                     <div class="freeteam">
-                        <span>Create a free Team</span>
-                     </div>
-                  </button>
+                  <div class="freeteam">
+                     <button class="freeteam1"> Create a free Team </button>
+                  </div>
                   <div class="qnteam">What is Teams?</div>
                </div>
             </div>
@@ -110,381 +109,457 @@
                   <span>Linz, Austria</span> 
                </div>
             </div>
+            <!-- </div> -->
+            <div class="profile-button">
+               <button>Profile <i class="fa-solid fa-caret-down"></i></button>
+            </div>
          </div>
-         <div class="profile-button">
-            <button>Profile <i class="fa-solid fa-caret-down"></i></button>
-         </div>
+         <!-- 2nd row -->
          <div class="btn-group">
             <button class="profile-btn">Profile</button>
             <button class="activity-btn">Activity</button>
          </div>
-      </div>
-      <div class="left">
-         <div class="stats-heading">
-            <div class="title">Stats</div>
-            <div class="content">
-               <div class="div-left-stats">
-                  <div class="numbers">544,922<br><span class="num">reputation</span> </div>
-                  <div class="numbers">9,317 <br><span class="num">answers</span></div>
-               </div>
-               <div class="div-right-stats">
-                  <div class="numbers">74.7 <br><span class="num">reached</span></div>
-                  <div class="numbers">93<br><span class="num">questions</span></div>
-                  <div class="trophy">
+         <!-- stat and community -->
+         <div class="left">
+            <div class="stats-heading">
+               <div class="title">Stats</div>
+               <div class="content">
+                  <div class="div-left-stats">
+                     <div class="numbers">544,922<br><span class="num">reputation</span> </div>
+                     <div class="numbers">9,317 <br><span class="num">answers</span></div>
+                  </div>
+                  <div class="div-right-stats">
+                     <div class="numbers">74.7 <br><span class="num">reached</span></div>
+                     <div class="numbers">93<br><span class="num">questions</span></div>
+                  </div>
+                  <div class="clear1"></div>
+                  <div class="div-left-stats1">
                      <i class="fa-solid fa-trophy"></i><br>
                      <span>top<b> 0.01% </b>this quarter</span> 
                   </div>
+                  <div class="clear1"></div>
+                  <br>
                </div>
-               <br>
+               <div class="communities">
+                  <span class="comm">Communities</span>
+                  <span class="view">view all<i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+               </div>
+               <div class="section">
+                  <span class="div-comm-left"><i class="fa-brands fa-stack-overflow"></i>Stack Overflow</span>
+                  <span class="count1">545.6k</span>
+                  <div>
+                     <span class="div-comm-left"><i class="fa-regular fa-user"></i>Super User</span>
+                     <span class="count2">692</span>
+                  </div>
+                  <div>
+                     <span class="div-comm-left"><i class="fa-regular fa-message"></i>Meta Stack Exchange</span>
+                     <span class="count3">181</span>
+                  </div>
+                  <div>
+                     <span class="div-comm-left"><i class="fa-regular fa-square"></i>Area 51</span>
+                     <span class="count4">151</span>
+                  </div>
+                  <div>
+                     <span class="div-comm-left"><i class="fa-solid fa-hand-holding-dollar"></i>Personal Finance & Money</span>
+                     <span class="count5">143</span>
+                  </div>
+                  <div class="clear"></div>
+               </div>
+            </div>
+         </div>
+         <div class="right">
+            <div class="right-row-1">
+               <div>About</div>
             </div>
             <br>
-            <div class="communities">
-               <span class="comm">Communities</span>
-               <span class="view">view all<i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            <!-- 2 row -->
+            <div class="right-row-2">
+               <div>
+                  Google+ Profile:<a href=""> https://twitter.com/gzoechi</a>
+               </div>
             </div>
-            <div class="section">
-               <span class="div-comm-left"><i class="fa-brands fa-stack-overflow"></i>Stack Overflow</span><br>
-               <span class="count1">545.6k</span>
-               <div>
-                  <span class="div-comm-left"><i class="fa-regular fa-user"></i>Super User</span>
-                  <span class="count2">692</span>
-               </div>
-               <div>
-                  <span class="div-comm-left"><i class="fa-regular fa-message"></i>Meta Stack Exchange</span>
-                  <span class="count3">181</span>
-               </div>
-               <div>
-                  <span class="div-comm-left"><i class="fa-regular fa-square"></i>Area 51</span>
-                  <span class="count4">151</span>
-               </div>
-               <div>
-                  <span class="div-comm-left"><i class="fa-solid fa-hand-holding-dollar"></i>Personal Finance & Money</span>
-                  <span class="count5">143</span>
-               </div>
-               <div class="clear"></div>
-            </div>
-         </div>
-      </div>
-      <div class="right">
-         <div class="right-row-1">
-            <div>About</div>
-         </div>
-         <br>
-         <div class="right-row-2">
-            <div>
-               Google+ Profil: https://twitter.com/gzoechi
-            </div>
-         </div>
-         <div class="right-row-3">
-            <div class="right-list">
-               <ul>
-                  <li>I'm an enthusiastic and experienced</li>
+            <!-- 3 row -->
+            <div class="right-row-3">
+               <div class="right-list">
                   <ul>
-                     <li>software engineer</li>
-                     <li>sortware architect</li>
-                     <li>developer</li>
-                     <li>consultant</li>
-                     <li><b>looking for clients/projects</b></li>
+                     <li>I'm an enthusiastic and experienced</li>
                      <ul>
-                        <li>I focus on custom line of business applications with Dart, Flutter, Angular (mobile, browser, server)</li>
+                        <li>software engineer</li>
+                        <li>sortware architect</li>
+                        <li>developer</li>
+                        <li>consultant</li>
+                        <li><b>looking for clients/projects</b></li>
+                        <ul>
+                           <li>I focus on custom line of business applications with Dart, Flutter, Angular (mobile, browser, server)</li>
+                        </ul>
+                     </ul>
+                     <li>I have also a lot of experience with</li>
+                     <ul>
+                        <li>TypeScript</li>
+                        <li>CSS</li>
+                        <li>.NET/C# , Java, Dynamics AX ERP</li>
+                        <li>databases (SQL, Firebase)</li>
+                        <li>OSX, Linux, Windows</li>
+                        <li>and many more</li>
                      </ul>
                   </ul>
-                  <li>I have also a lot of experience with</li>
-                  <ul>
-                     <li>TypeScript</li>
-                     <li>CSS</li>
-                     <li>.NET/C# , Java, Dynamics AX ERP</li>
-                     <li>databases (SQL, Firebase)</li>
-                     <li>OSX, Linux, Windows</li>
-                     <li>and many more</li>
-                  </ul>
-               </ul>
+               </div>
             </div>
-         </div>
-         <div class="right-row-4">
-            <div class="badge-list">
-               <div class="badge">Badges</div>
-               <div class="view-badge">View all badges</div>
-               <br>
-               <div class="box-1">
-                  <div class="ba-1"><i class="fa-solid fa-certificate"></i></div>
-                  <div class="ba-2">
-                     <div class="stat">185</div>
-                     <div>gold badges</div>
+            <!-- badge row -->
+            <div class="right-row-4">
+               <div class="badge-list">
+                  <div class="badge">Badges</div>
+                  <div class="view-badge">View all badges</div>
+                  <br>
+                  <div class="box-1">
+                     <div class="ba-1"><img src="image/badge1.png" alt="badge1"></div>
+                     <div class="ba-2">
+                        <div class="stat">185</div>
+                        <div>gold badges</div>
+                     </div>
+                     <br><br>
+                     <div class="clear-ba"></div>
+                     <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 routing</button></div>
+                     <div class="date-1"> June 17,2017</div>
+                     <div class="clear-text"></div>
+                     <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 template</button></div>
+                     <div class="date-1"> July 29,2017</div>
+                     <div class="clear-text"></div>
+                     <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 directive</button></div>
+                     <div class="date-1"> July 29,2017</div>
+                     <div class="clear-text"></div>
                   </div>
-                  <br><br>
-                  <div class="clear-ba"></div>
-                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 routing</button></div>
-                  <div class="date-1"> June 17,2017</div>
-                  <div class="clear-text"></div>
-                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 template</button></div>
-                  <div class="date-1"> July 29,2017</div>
-                  <div class="clear-text"></div>
-                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 directive</button></div>
-                  <div class="date-1"> July 29,2017</div>
-                  <div class="clear-text"></div>
-               </div>
-               <div class="box-2">
-                  <div class="ba-1"><i class="fa-solid fa-certificate"></i></div>
-                  <div class="ba-2">
-                     <div class="stat">1,877</div>
-                     <div>silver badges</div>
+                  <div class="box-2">
+                     <div class="ba-1"><img src="image/badge2.png" alt="badge2"></div>
+                     <div class="ba-2">
+                        <div class="stat">1,877</div>
+                        <div>silver badges</div>
+                     </div>
+                     <br><br>
+                     <div class="clear-ba"></div>
+                     <div><button class="text-1"><i class="fa-solid fa-circle"></i>dart-polymer</button></div>
+                     <div class="date-1"> Oct 25, 2014</div>
+                     <div class="clear-text"></div>
+                     <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 forms</button></div>
+                     <div class="date-1"> Mar 31, 2017</div>
+                     <div class="clear-text"></div>
+                     <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 dart</button></div>
+                     <div class="date-1"> July 3,2016</div>
+                     <div class="clear-text"></div>
                   </div>
-                  <br><br>
-                  <div class="clear-ba"></div>
-                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>dart-polymer</button></div>
-                  <div class="date-1"> Oct 25, 2014</div>
-                  <div class="clear-text"></div>
-                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 forms</button></div>
-                  <div class="date-1"> Mar 31, 2017</div>
-                  <div class="clear-text"></div>
-                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 dart</button></div>
-                  <div class="date-1"> July 3,2016</div>
-                  <div class="clear-text"></div>
-               </div>
-               <div class="box-3">
-                  <div class="ba-1"><i class="fa-solid fa-certificate"></i></div>
-                  <div class="ba-2">
-                     <div class="stat">1,877</div>
-                     <div>bronze badges</div>
+                  <div class="box-3">
+                     <div class="ba-1"><img src="image/badge2.png" alt="badge2"></div>
+                     <div class="ba-2">
+                        <div class="stat">1,877</div>
+                        <div>bronze badges</div>
+                     </div>
+                     <br><br>
+                     <div class="clear-ba"></div>
+                     <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular component</button></div>
+                     <div class="date-1"> Oct 25, 2014</div>
+                     <div class="clear-text"></div>
+                     <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 pipe</button></div>
+                     <div class="date-1"> Mar 31, 2017</div>
+                     <div class="clear-text"></div>
+                     <div><button class="text-1"><i class="fa-solid fa-circle"></i>dart pub</button></div>
+                     <div class="date-1"> July 3,2016</div>
+                     <div class="clear-text"></div>
                   </div>
-                  <br><br>
-                  <div class="clear-ba"></div>
-                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular component</button></div>
-                  <div class="date-1"> Oct 25, 2014</div>
-                  <div class="clear-text"></div>
-                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>angular2 pipe</button></div>
-                  <div class="date-1"> Mar 31, 2017</div>
-                  <div class="clear-text"></div>
-                  <div><button class="text-1"><i class="fa-solid fa-circle"></i>dart pub</button></div>
-                  <div class="date-1"> July 3,2016</div>
-                  <div class="clear-text"></div>
+                  <div class="box-clear"></div>
                </div>
-               <div class="box-clear"></div>
-            </div>
-         </div>
-         <br>
-         <div class="right-row-5">
-            <div class="badge">Top tags</div>
-            <div class="view-badge">View all tags</div>
-            <br><br>
-            <div class="tags-list">
-               <div class="t-list">
-                  <div class="left-side">angular<i class="fa-solid fa-circle"></i></div>
-                  <div class="right-side">
-                     <span class="col1">58,947score</span>
-                     <div class="col2">5,576 posts</div>
-                     <div class="col3">59 posts%</div>
-                     <div class="clear-col-tag"></div>
-                  </div>
-                  <div class="clear-tag"></div>
-               </div>
-               <div class="t-list">
-                  <div class="left-side">dart <i class="fa-solid fa-circle"></i></div>
-                  <div class="right-side">
-                     <span class="col1">18,461score</span>
-                     <div class="col2">3,312 posts</div>
-                     <div class="col3">35 posts%</div>
-                     <div class="clear-col-tag"></div>
-                  </div>
-                  <div class="clear-tag"></div>
-               </div>
-               <div class="t-list">
-                  <div class="left-side">typescript <i class="fa-solid fa-circle"></i></div>
-                  <div class="right-side">
-                     <div class="col1">13,222score</div>
-                     <div class="col2">1,300 posts</div>
-                     <div class="col3">14 posts%</div>
-                     <div class="clear-col-tag"></div>
-                  </div>
-                  <div class="clear-tag"></div>
-               </div>
-               <div class="t-list">
-                  <div class="left-side">flutter <i class="fa-solid fa-circle"></i></div>
-                  <div class="right-side">
-                     <div class="col1">12,35score</div>
-                     <div class="col2">907 posts</div>
-                     <div class="col3">10 posts%</div>
-                     <div class="clear-col-tag"></div>
-                  </div>
-                  <div class="clear-tag"></div>
-               </div>
-               <div class="t-list">
-                  <div class="left-side">javascript<i class="fa-solid fa-circle"></i> </div>
-                  <div class="right-side">
-                     <div class="col1">8,636score</div>
-                     <div class="col2">1,087posts</div>
-                     <div class="col3">12posts%</div>
-                     <div class="clear-col-tag"></div>
-                  </div>
-                  <div class="clear-tag"></div>
-               </div>
-               <div class="t-list">
-                  <div class="left-side">angular2-routing<i class="fa-solid fa-circle"></i> </div>
-                  <div class="right-side">
-                     <div class="col1">3,890score</div>
-                     <div class="col2">426 posts</div>
-                     <div class="col3">5posts%</div>
-                     <div class="clear-col-tag"></div>
-                  </div>
-                  <div class="clear-tag"></div>
-               </div>
-            </div>
-         </div>
-         <div class="top">
-            <div class="meta-heading">Top Post</div>
-            <br>
-            <div class="top1">View all questions, answers, and articles</div>
-         </div>
-         <div class="top-post-block">
-            <div class="block top-layer">
-               <i class="fa-solid fa-message" ></i>
-               <span class="year">1985</span>
-               <span class="qns">What is the difference between Promises and Observables?</span>
-               <span class="date"> Mar 13,2017</span>                     
-            </div>
-            <div class="block top-layer">
-               <i class="fa-solid fa-message "></i>
-               <span class="year">1163</span>
-               <span class="qns">How can I select an element in a component template?</span>
-               <span class="date">Feb 13,2017</span>                     
-            </div>
-            <div class="block top-layer">
-               <i class="fa-solid fa-message"></i>
-               <span class="year">1145</span>
-               <span class="qns">What is the equivalent of ngShow and ngHide in Angular 2+?</span>
-               <span class="date"> Mar 13,2017</span>                     
-            </div>
-            <div class="block top-layer">
-               <i class="fa-solid fa-message" ></i>
-               <span class="year">883</span>
-               <span class="qns">Binding select element to object in Angular</span>
-               <span class="date"> Oct 24,2019</span>                     
-            </div>
-            <div class="block top-layer">
-               <i class="fa-solid fa-message" ></i>
-               <span class="year">823</span>
-               <span class="qns">*ngIf and *ngFor on same element causing error</span>
-               <span class="date"> Mar 13,2017</span>                    
-            </div>
-            <div class="block top-layer">
-               <i class="fa-solid fa-message" ></i>
-               <span class="year">725</span>
-               <span class="qns">How to add conditional attribute in Angular 2?</span>
-               <span class="date"> Mar 13,2017</span>                     
-            </div>
-            <div class="block top-layer">
-               <i class="fa-solid fa-message" ></i>
-               <span class="year">1985</span>
-               <span class="qns">What is the difference between Promises and Observables?</span>
-               <span class="date"> Mar 13,2017</span>                    
-            </div>
-            <div class="block top-layer">
-               <i class="fa-solid fa-message" ></i>
-               <span class="year">602</span>
-               <span class="qns">What is the difference between declarations, providers, and import in NgModule?</span>
-               <span class="date"> Jul 13,2017</span>                     
-            </div>
-            <div class="block top-layer">
-               <i class="fa-solid fa-message"></i>
-               <span class="year">1985</span>
-               <span class="qns">What is the difference between Promises and Observables?</span>
-               <span class="date"> Jun 15,2018</span>                     
-            </div>
-            <div class="block top-layer">
-               <i class="fa-solid fa-message" ></i>
-               <span class="year">591</span>
-               <span class="qns">How to pass query parameters with a routerLink</span>
-               <span class="date"> May 23,2019</span>                     
-            </div>
-         </div>
-         <div class="top-meta-posts">
-            <span class="meta-heading" >Top Meta Posts</span>
-            <span class="right-side">
-            <i class="fa-regular fa-message" id="meta-post1"></i><sub>7</sub>
-            <i class="fa-regular fa-message" id="meta-post2"></i><sub>0</sub>
-            </span>
-            <div class="clear"></div>
-         </div>
-         <br>
-         <div class="top-meta-post">
-           <div class="top-post-block">
-              <div class="block top-layer">
-                       <div class="layer">
-               <i class="fa-brands fa-stack-overflow"></i>
-                          <span class="digit">6</span>
-                          <span class="qns">Layout issue in tags filter field in new UI</span>
-                                               
-                       </div><br>
-                       <div class="layer">
-               <i class="fa-brands fa-stack-overflow"></i>
-                          <span class="digit">3</span>
-                          <span class="qns">Find questions that are marked as duplicate</span>
-                                              
-                       </div><br>
-                       <div class="layer">
-               <i class="fa-brands fa-stack-overflow"></i>
-                          <span class="digit">3</span>
-                          <span class="qns">Lots of problems with the editing filter area</span>
-                                            
-                       </div> 
-         </div>
-         <div class="top-meta-posts">
-            <div class="meta-heading" >Top network posts</div>
-            <div class="right-side">View all network posts
-               </div>
-            <div class="clear"></div>
-         </div>
-         <div class="top-meta-post">
-            <div class="layer">
-               <i class="fa-light fa-head-side"></i>
-               <span class="digit">56</span>
-               <span class="qns">How to make a symlinked folder appear as a normal folder</span>
             </div>
             <br>
-            <div class="layer">
-               <i class="fa-light fa-head-side"></i>
-               <span class="digit">5</span>
-               <span class="qns">How can I export transactions from GnuCash including references to associated files</span>
+            <!-- Top tags -->
+            <div class="border-tag">
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <div class="angular"><button class="ang">angular</button><i class="fa-solid fa-circle"></i></div>
+                  </div>
+                  <div class="right-tag">
+                     <span class="big"><b>58,947</b></span>
+                     <span>score</span> 
+                     <span class="big"><b>5,576</b></span>
+                     <span>posts</span>
+                     <span class="big"><b>59</b></span>
+                     <span>post%</span>
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <div class="angular"><button class="ang">dart</button><i class="fa-solid fa-circle"></i></div>
+                  </div>
+                  <div class="right-tag">
+                     <span class="big"><b>18,461</b></span>
+                     <span>score</span> 
+                     <span class="big"><b>3,312</b></span>
+                     <span>posts</span>
+                     <span class="big"><b>35</b></span>
+                     <span>post%</span>
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <div class="angular"><button class="ang">typescript</button><i class="fa-solid fa-circle"></i></div>
+                  </div>
+                  <div class="right-tag">
+                     <span class="big"><b>13,222</b></span>
+                     <span>score</span> 
+                     <span class="big"><b>1,300</b></span>
+                     <span>posts</span>
+                     <span class="big"><b>14</b></span>
+                     <span>post%</span>
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <div class="angular"><button class="ang">flutter</button><i class="fa-solid fa-circle"></i></div>
+                  </div>
+                  <div class="right-tag">
+                     <span class="big"><b>12,035</b></span>
+                     <span>score</span> 
+                     <span class="big"><b>907</b></span>
+                     <span>posts</span>
+                     <span class="big"><b>10</b></span>
+                     <span>post%</span>
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <div class="angular"><button class="ang">javascript</button><i class="fa-solid fa-circle"></i></div>
+                  </div>
+                  <div class="right-tag">
+                     <span class="big"><b>8,636</b></span>
+                     <span>score</span> 
+                     <span class="big"><b>1,088</b></span>
+                     <span>posts</span>
+                     <span class="big"><b>12</b></span>
+                     <span>post%</span>
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <div class="angular"><button class="ang">angular2-routing</button><i class="fa-solid fa-circle"></i></div>
+                  </div>
+                  <div class="right-tag">
+                     <span class="big"><b>3,890</b></span>
+                     <span>score</span> 
+                     <span class="big"><b>426</b></span>
+                     <span>posts</span>
+                     <span class="big"><b>5</b></span>
+                     <span>post%</span>
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+            </div>
+            <!-- Top  post -->
+            <div class="top">
+               <div class="top-left-head">
+                  <div class="meta-heading">Top Post</div>
+                  <br>
+                  <div class="top1">View all questions, answers, and articles</div>
+               </div>
+               <div class="score-table">
+                  <span class="score-right">Score</span>
+                  <span class="newest">Newest</span>
+               </div>
+               <div class="top-right-table">
+                  <span class="all">All</span>
+                  <span class="q1">Questions</span>
+                  <span class="ans">Answers</span>
+                  <span class="article">Articles</span>
+               </div>
+               <div class="clear1"></div>
+            </div>
+            <div class="top-post-block">
+               <div class="block top-layer">
+                  <i class="fa-solid fa-message" ></i>
+                  <span class="year">1985</span>
+                  <span class="qns">What is the difference between Promises and Observables?</span>
+                  <span class="date"> Mar 13,2017</span>                     
+               </div>
+               <div class="block top-layer">
+                  <i class="fa-solid fa-message "></i>
+                  <span class="year">1163</span>
+                  <span class="qns">How can I select an element in a component template?</span>
+                  <span class="date">Feb 13,2017</span>                     
+               </div>
+               <div class="block top-layer">
+                  <i class="fa-solid fa-message"></i>
+                  <span class="year">1145</span>
+                  <span class="qns">What is the equivalent of ngShow and ngHide in Angular 2+?</span>
+                  <span class="date"> Mar 13,2017</span>                     
+               </div>
+               <div class="block top-layer">
+                  <i class="fa-solid fa-message" ></i>
+                  <span class="year">883</span>
+                  <span class="qns">Binding select element to object in Angular</span>
+                  <span class="date"> Oct 24,2019</span>                     
+               </div>
+               <div class="block top-layer">
+                  <i class="fa-solid fa-message" ></i>
+                  <span class="year">823</span>
+                  <span class="qns">*ngIf and *ngFor on same element causing error</span>
+                  <span class="date"> Mar 13,2017</span>                    
+               </div>
+               <div class="block top-layer">
+                  <i class="fa-solid fa-message" ></i>
+                  <span class="year">725</span>
+                  <span class="qns">How to add conditional attribute in Angular 2?</span>
+                  <span class="date"> Mar 13,2017</span>                     
+               </div>
+               <div class="block top-layer">
+                  <i class="fa-solid fa-message" ></i>
+                  <span class="year">1985</span>
+                  <span class="qns">What is the difference between Promises and Observables?</span>
+                  <span class="date"> Mar 13,2017</span>                    
+               </div>
+               <div class="block top-layer">
+                  <i class="fa-solid fa-message" ></i>
+                  <span class="year">602</span>
+                  <span class="qns">What is the difference between declarations, providers, and import in NgModule?</span>
+                  <span class="date"> Jul 13,2017</span>                     
+               </div>
+               <div class="block top-layer">
+                  <i class="fa-solid fa-message"></i>
+                  <span class="year">1985</span>
+                  <span class="qns">What is the difference between Promises and Observables?</span>
+                  <span class="date"> Jun 15,2018</span>                     
+               </div>
+               <div class="block top-layer">
+                  <i class="fa-solid fa-message" ></i>
+                  <span class="year">591</span>
+                  <span class="qns">How to pass query parameters with a routerLink</span>
+                  <span class="date"> May 23,2019</span>                     
+               </div>
+            </div>
+            <!-- Top meta post -->
+            <div class="top-meta-posts">
+               <span class="meta-heading" >Top Meta Posts</span>
+               <span class="right-side">
+               <i class="fa-regular fa-message" id="meta-post1"></i><sub>7</sub>
+               <i class="fa-regular fa-message" id="meta-post2"></i><sub>0</sub>
+               </span>
+               <div class="clear"></div>
+            </div>
+            <br>
+            <!-- Top meta post -->
+            <div class="border-meta">
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <i class="fa-brands fa-stack-overflow"></i>
+                  </div>
+                  <div class="network">
+                     <button class="ang bac">98</button>
+                  </div>
+                  <div class="content-meta">
+                     Code snippets are a pest
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <i class="fa-brands fa-stack-overflow"></i>
+                  </div>
+                  <div class="network">
+                     <button class="ang bac">9</button>
+                  </div>
+                  <div class="content-meta">
+                     Search always switches to "relevance" tab
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <i class="fa-brands fa-stack-overflow"></i>
+                  </div>
+                  <div class="network">
+                     <button class="ang bac">6</button>
+                  </div>
+                  <div class="content-meta">
+                     Layout issue in tags filter field in new UI
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <i class="fa-brands fa-stack-overflow"></i>
+                  </div>
+                  <div class="network">
+                     <button class="ang bac">3</button>
+                  </div>
+                  <div class="content-meta">
+                     Find questions that are marked as duplicate
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <i class="fa-brands fa-stack-overflow"></i>
+                  </div>
+                  <div class="network">
+                     <button class="ang bac">3</button>
+                  </div>
+                  <div class="content-meta">
+                     Lots of problems with the editing filter area
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+            </div>
+            <!-- top network post -->
+            <div class="top-meta-posts">
+               <span class="meta-heading" >Top network Posts</span>
+               <span class="right-side">view all network post
+               </span>
+               <div class="clear"></div>
+            </div>
+            <br> 
+            <div class="border-net">
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <i class="fa-brands fa-stack-overflow"></i>
+                  </div>
+                  <div class="network">
+                     <button class="ang bac">56</button>
+                  </div>
+                  <div class="content-meta">
+                     How to make a symlinked folder appear as a normal folder
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
+               <div class="tag-list">
+                  <div class="left-tag">
+                     <i class="fa-brands fa-stack-overflow"></i>
+                  </div>
+                  <div class="network">
+                     <button class="ang bac">3</button>
+                  </div>
+                  <div class="content-meta">
+                     How can I export transactions from GnuCash including references to associated files
+                  </div>
+                  <div class="clear-tag">
+                  </div>
+               </div>
             </div>
          </div>
       </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>	
       <div class="row-clear"></div>
-      </div>
-      </div>
-      <div class="row-4">
-      </div>
-      <div class="row-6">
-      </div>
-      <div class="row-7">
-      </div>
-      <div class="row-8">
-      </div>
-      <div class="row-9">
-      </div>
-      <div class="row-10">
-      </div>
-      <div class="row-11">
-      </div>
-      <div class="row-12">
-      </div>
-      </div>
-      </div>
-      <div class="bottom-container">
-         <div class="col-1"></div>
-         <div class="col-2"></div>
-         <div class="col-3"></div>
-         <div class="col-4"></div>
-         <div class="col-5"></div>
-         <div class="col-6"></div>
-         <div class="col-clear"></div>
-      </div>
       <footer>
          <div class="footer-logo">
             <i class="fa-brands fa-stack-overflow"></i>

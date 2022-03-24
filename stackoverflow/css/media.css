@@ -1,0 +1,15 @@
+@media screen and (max-width: 1024px){ 
+    .signup {
+         margin-right: 67px;
+    }
+    .search-bar {
+        margin-left: 10px;
+    }
+    #image {
+        width: 12%;
+        padding-left: 49px;
+        margin-top: 10px;
+    }
+    
+}
+    
