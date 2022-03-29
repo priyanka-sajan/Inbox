@@ -1,4 +1,4 @@
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   body {
     width: 100%;
   }
@@ -14,8 +14,8 @@
     width: 20%;
   }
   .logo {
-    background-image: url("../assets/menu-icon.png"),
-      url("../assets/stack-overflow-icon.png");
+    background-image: url("../image/menu-icon.png"),
+      url("../image/stack-overflow-icon.png");
     background-repeat: no-repeat, no-repeat;
     background-position: 19% 45%, 90% 45%;
   }
@@ -243,7 +243,7 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  body {
+  *body {
     overflow-x: hidden;
   }
   .main-body {
@@ -251,6 +251,9 @@
 }
   .logo {
     margin-left: 3px;
+  }
+  .products {
+    margin-left: 8px;
   }
   .help i,
   .achievements i,
@@ -261,6 +264,9 @@
     font-size: 14px;
     color: gray;
     padding: 4px;
+  }
+  .user {
+    margin-right: 17px;
   }
   .profile-details {
     flex-direction: column;
