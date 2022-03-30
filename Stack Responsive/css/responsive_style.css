@@ -1,0 +1,396 @@
+@media screen and (max-width: 1024px) {
+  *body {
+    overflow-x: hidden;
+  }
+  .main-body {
+    margin-left: 5%;
+}
+  .logo {
+    margin-left: 3px;
+  }
+  .products {
+    margin-left: 8px;
+  }
+  .help i,
+  .achievements i,
+  .inbox i,
+  .list i {
+    margin-top: 65%;
+    margin-left: 1%;
+    font-size: 14px;
+    color: grey;
+    padding: 4px;
+  }
+  .user {
+    margin-right: 17px;
+  }
+  .profile-details {
+    flex-direction: column;
+    flex: 10%;
+  }
+  .details {
+    padding-left: 0px;
+  }
+  .details .name {
+    font-size: 23px;
+  }
+  .details .qualification {
+    font-size: 13px;
+    color: gray;
+    padding-top: 8px;
+  }
+  .details .location {
+    font-size: 10px;
+    color: gray;
+    padding-top: 8px;
+  }
+  .location i {
+    font-size: 14px;
+    padding-left: 6px;
+  }
+  .content {
+   
+    margin-top: 10px;
+    
+}
+  .stats-communities {
+    flex-direction: column;
+    float: left;
+  }
+ 
+  .stats {
+    width: 31%;
+    border: 1px solid rgb(211, 206, 206);
+  }
+  .communities {
+    width: 100%;
+  }
+  .view-all {
+    float: left;
+    margin-left: 5%;
+  }
+  .about {
+    padding: 5px;
+  }
+  .badges-heading {
+    flex: 25%;
+  }
+  
+  .gold-badges {
+    margin-top: 10px;
+    width: 100%;
+  }
+  table {
+    margin-right: 10px;
+    font-size: 11px;
+    color: gray;
+    height: 10px;
+    width: 80px;
+    border-radius: 15px;
+  }
+  .table2 {
+    height: 10px;
+    width: 40px;
+  }
+  td {
+    padding: 3px 4px;
+  }
+
+  .top-layer i {
+    color: #69b579;
+    font-size: 13px;
+    margin-left: 6px;
+  }
+  .year {
+    background-color: #69b579;
+    border-radius: 3px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px 4px;
+  }
+  .questions {
+    font-size: 12px;
+  }
+  .date {
+    font-size: 11px;
+  }
+  .top-meta-details {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .side-title {
+    font-size: 13px;
+  }
+  .number {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .layer {
+    padding: 11px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .link1 ul li {
+    display: inline;
+  }
+  .footer-description {
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .logo {
+    margin-left: 3px;
+  }
+  .side-nav {
+    left: 40px;
+}
+  .help i,
+  .achievements i,
+  .inbox i,
+  .list i {
+    margin-top: 65%;
+    margin-left: 1%;
+    font-size: 14px;
+    color: gray;
+    padding: 4px;
+  }
+  .user {
+    margin-right:2px;
+  }
+  .profile-details {
+    flex-direction: column;
+    flex: 10%;
+  }
+  .details {
+    padding-left: 0px;
+  }
+  .details .name {
+    font-size: 23px;
+  }
+  .details .qualification {
+    font-size: 13px;
+    color: gray;
+    padding-top: 8px;
+  }
+  .details .location {
+    font-size: 10px;
+    color: gray;
+    padding-top: 8px;
+  }
+  .location i {
+    font-size: 14px;
+    padding-left: 6px;
+  }
+  .content {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .stats-communities {
+    float: left;
+  }
+  .stats {
+    width: 70%;
+  }
+  
+  .communities {
+    width: 70%;
+  }
+  .view-all {
+    float: left;
+    margin-left: 30%;
+  }
+  .about {
+    padding: 5px;
+  }
+  .badges-heading {
+    flex: 25%;
+  }
+  .badges-block {
+    flex-direction: column;
+  }
+  .gold-badges {
+    margin-top: 10px;
+  }
+  table {
+    margin-right: 10px;
+    font-size: 11px;
+    color: gray;
+    height: 10px;
+    width: 80px;
+  }
+  .table2 {
+    height: 10px;
+    width: 40px;
+  }
+  td {
+    padding: 3px 4px;
+  }
+  .top-layer i {
+    color: #69b579;
+    font-size: 13px;
+    margin-left: 6px;
+  }
+  .year {
+    background-color: #69b579;
+    border-radius: 3px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px 4px;
+  }
+  .questions {
+    font-size: 12px;
+  }
+  .date {
+    font-size: 11px;
+  }
+  .top-meta-details {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .side-title {
+    font-size: 13px;
+  }
+  .number {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .layer {
+    padding: 8px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .link1 ul li {
+    display: inline;
+  }
+  .footer-description {
+    margin-top: 2%;
+    margin-left: 6%;
+  }
+}
+@media screen and (max-width: 428px) {
+  body {
+    width: 100%;
+  }
+  .details .name {
+    font-size: 20px;
+  }
+  .logo {
+    flex: 5%;
+    margin-left: 0;
+  }
+  .logo img {
+    display: none;
+    width: 20%;
+  }
+  .logo {
+    background-image: url("../image/menu-icon.png"),
+      url("../image/stack-overflow-icon.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 19% 45%, 90% 45%;
+  }
+  .search-bar {
+    flex: 1%;
+  }
+  .search-bar {
+    padding: 5px;
+  }
+  #img {
+    margin-left: 21px;
+    width: 25px;
+    height: 25px;
+}
+  .side-bar {
+    display: none;
+  }
+  .main-body {
+    border-left: none;
+    width: 100%;
+    padding: 5px;
+    margin-left: 0;
+  }
+  .last-seen {
+    display: block;
+  }
+  .stats-communities {
+    float: left;
+  }
+  .stats,
+  .communities {
+    flex: 90%;
+    padding: 5px;
+    display: none;
+  }
+  .status {
+    width: 100%;
+}
+ .view-all {
+    font-size: 9px;
+  }
+  .community-section {
+    width: 100%;
+    display: none;
+  }
+  .heading {
+    font-size: 13px;
+    font-weight: bolder;
+  }
+  .sub-heading {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .communities .community-sub {
+    font-size: 10px;
+  }
+  .communities .count {
+    font-size: 10px;
+    margin-top: 2px;
+  }
+
+  .twitter-link {
+    margin-top: 5px;
+  }
+  .twitter-link span {
+    font-size: 11px;
+  }
+
+  .about ul li {
+    padding-top: 5px;
+    font-size: 12px;
+  }
+  .top-layer i {
+    font-size: 11px;
+    margin-left: 3px;
+  }
+  .score .score-count {
+    font-size: 15px;
+  }
+  .year {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 2px 4px;
+    font-size: 11px;
+  }
+  .layer .questions {
+    font-size: 11px;
+  }
+  .date {
+    font-size: 10px;
+  }
+  .top-meta-post-block {
+    font-size: 11px;
+  }
+  .footer-description {
+    padding-left: 6%;
+  }
+}
