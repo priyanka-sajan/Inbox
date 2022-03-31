@@ -22,7 +22,7 @@
     padding: 4px;
   }
   .user {
-    margin-right: 17px;
+    margin-right: 7px;
   }
   .profile-details {
     flex-direction: column;
@@ -140,7 +140,15 @@
     margin-left: 5%;
   }
 }
+@media screen and (max-width: 999px) {
+  .badges-block{
+    display:block;
+  }
+  .bronze-badges{
+    float:left;
+  }
 
+}
 
 @media screen and (max-width: 800px) {
   body {
@@ -149,6 +157,9 @@
 
   .logo {
     margin-left: 3px;
+  }
+  .logo img{
+    margin-left: 0;
   }
   .side-nav {
     left: 40px;
@@ -278,6 +289,18 @@
     margin-left: 6%;
   }
 }
+@media screen and (max-width: 600px) {
+  .side-table{
+    display: none;
+  }
+  .sub-heading{
+    font-size: 9px;
+  }
+  .main-body, .about{
+    padding: 15px 0 15px 15px;
+  }
+
+}
 @media screen and (max-width: 428px) {
   body {
     width: 100%;
@@ -301,10 +324,12 @@
   }
   .search-bar {
     flex: 1%;
-  }
-  .search-bar {
     padding: 5px;
   }
+  .prof-num {
+    display: none;
+    font-size: 13px;
+}
   #img {
     margin-left: 21px;
     width: 25px;
@@ -392,5 +417,20 @@
   }
   .footer-description {
     padding-left: 6%;
+  }
+}
+@media screen and (max-width: 371px) {
+  .layer {
+    font-size: 5px;
+}
+}
+@media screen and (max-width: 640px) {
+.layer {
+  font-size: 9px;
+}
+}
+@media screen and (max-width: 640px) {
+  .layer {
+    font-size: 5px;
   }
 }

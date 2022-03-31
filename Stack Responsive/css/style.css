@@ -411,6 +411,9 @@ nav {
   flex-direction: row;
   margin-top: 6%;
 }
+.badges-block {
+  width:91%;
+}
 .badges-heading {
   flex: 75%;
 }
@@ -429,6 +432,22 @@ nav {
   margin-right: 20px;
   border-radius: 10px;
 }
+.silver-badges {
+  float:left;
+  flex: 21%;
+  padding: 15px;
+  border: 1px solid rgb(211, 206, 206);
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.bronze-badges {
+  flex: 21%;
+  padding: 15px;
+  border: 1px solid rgb(211, 206, 206);
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
 .row1 {
   display: flex;
 }
@@ -486,7 +505,7 @@ nav {
   color: #f5d25f;
 }
 .top-tags {
-  width: 100%;
+  width: 89%;
   margin-top: 10px;
   border: 1px solid #d9dbdb;
   border-bottom: none;
