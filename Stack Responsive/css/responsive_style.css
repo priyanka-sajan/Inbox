@@ -146,7 +146,18 @@
   }
   .bronze-badges{
     float:left;
+    margin-top: 22px;
+    padding-bottom: 31px;
+    float: left;
   }
+  .silver-badges {
+    margin-top: 18px;
+    float: left;
+    flex: 21%;
+    padding: 18px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
 
 }
 
@@ -161,7 +172,7 @@
   .logo img{
     margin-left: 0;
   }
-  .side-nav {
+  .side-bar {
     left: 40px;
 }
   .help i,
@@ -392,6 +403,12 @@
   .about ul li {
     padding-top: 5px;
     font-size: 12px;
+  }
+  .silver-badges {
+    width:100%;
+  }
+  .bronze-badges {
+    width:100%;
   }
   .top-layer i {
     font-size: 11px;
