@@ -1,0 +1,42 @@
+body {
+    margin:auto;
+}
+h1 {
+    margin-left: 30%;
+}
+form {
+    margin-left:30%;
+    margin-top:5%;
+}
+.fname {
+    padding: 0px 1px 25px 0;
+}
+.lname {
+    padding:15px 1px 25px 0;
+}
+.email-id {
+    padding:15px 1px 25px 0;
+}
+.password {
+    padding:15px 1px 25px 0;
+}
+.confirm {
+    padding:15px 1px 25px 0;
+}
+.sex {
+    padding:15px 1px 25px 0;
+}
+.address  {
+    padding:15px 1px 25px 0;
+}
+.Language {
+    padding:15px 1px 25px 0;
+}
+.file {
+    padding:15px 1px 25px 0;
+}
+.main-container {
+    width:60%;
+    background-color: rgb(219, 211, 211);
+    margin: 0 auto;
+}
