@@ -9,90 +9,100 @@
    <body>
        <div class="main-container">
             <h1>Registration Form</h1>
-                <form>
-                    <div class="fname">
-                        <label class="user">
-                            First Name:
-                        </label>
-                        <input type="text" name="fname" placeholder="Enter your first Name" required maxlength="45" ><br>
-                    </div>
-                    <div class="lname">
-                        <label class="user">
-                            Last Name:
-                        </label>
-                        <input type="text"email-id name="lname" placeholder="Enter your last Name" required maxlength="45"><br>
-                    </div>
-                    <div class="email-id">
-                        <label class="email">
-                            Email:
-                        </label>
-                        <input type="email" name="emailid" placeholder="priyankasajan96@gmail.com" required><br>
-                    </div>
-                    <div class="password">
-                        <label class="pswrd">
-                            Password:
-                        </label>
-                        <input type="password" name="pswrd" required ><br>
-                    </div>
-                    <div class="confirm">
-                        <label class="pswrd">
-                            Confirm Password:
-                        </label>
-                        <input type="password" name="cpswrd" required><br>
-                    </div>
-                    <div class="sex">
-                        <label class="gender">
-                            Gender:
-                        </label>
-                        <input type="radio" name="radio-btn" value="male">Male
-                        <input type="radio" name="radio-btn" value="female">Female
-                        <input type="radio" name="radio-btn" value="others">others<br>
-                    </div>
-                    <div class="dob">
-                        <label class="bornday">
-                            DOB:
-                        </label>
-                        <input type="date" name="date" required><br>
-                    </div>
-                    <div class="address">
-                        <label class="add">
-                            Address:
-                        </label>
-                        <input type="text" name="address" placeholder="Enter your address" optional>
-                    </div>
-                    <div>
-                        <label class="coun">
-                            Country:
-                        </label>
-                            <select name="country">
-                            <option selected="" value="Default"> Select </option>
-                            <option value="AF">Australia</option>
-                            <option value="AL">Canada</option>
-                            <option value="DZ">India</option>
-                            <option value="AS">Russia</option>
-                            <option value="AD">USA</option>
-                        </select>
-                    </div>
-                    <div class="Language">
-                        <label class="lang">
-                            Language:
-                        </label>
-                        <input type="checkbox" name="en" value="enlish" checked>English
-                        <input type="checkbox" name="hindi" value="hindi" >Hindi
-                        <input type="checkbox" name="malayalam" value="malayalam">Malayalam
-                    </div>
-                    <div class="file">
-                        <label class="add">
-                            Upload Photo:
-                        </label>
-                        <input type="file" name="image" required>
-                    </div>
-                    <div>
-                        <input type="submit" name="submit" value="Submit">
-                        <input type="reset" name="reset" value="Reset">
-                    </div>
+            <form id="myform" onsubmit="validate()">
+                <div class="fname">
+                    <label class="user" for="fname">First Name:</label>
+                    <input type="text" name="fname" placeholder="Enter your first Name"  id="fname" >
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="errors"></span>
+                </div>
+                <div class="lname">
+                    <label class="user" for="lname">Last Name:</label> 
+                    <input type="text" name="lname" placeholder="Enter your last Name"  id="lname">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="errors"></span>
+                </div>
+                <div class="email-id">
+                    <label class="email" for="mail">Email:</label>
+                    <input type="email" name="emailid" placeholder="priyanka@gmail.com"  id="mail">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="errors"></span>
+                </div>
+                <div class="password">
+                    <label class="pswrd" for="pswd">Password:</label>
+                    <input type="password" name="pswrd" id="pswd">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="errors"></span>
+                </div>
+                <div class="confirm">
+                    <label class="pswrd" for="Cpswd">Confirm Password:</label>
+                    <input type="password" name="cpswrd"  id="Cpswd">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="errors"></span>
+                </div>
+                <div class="sex">
+                    <label class="gender"> Gender:</label>
+                    <input type="radio" name="radio-btn" value="male" class="gen">Male
+                    <input type="radio" name="radio-btn" value="female" class="gen">Female
+                    <input type="radio" name="radio-btn" value="others" class="gen">others
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="errors">
+                    </span>
+                </div>
+                <div class="dob">
+                    <label class="bornday"> DOB:</label>
+                    <input type="date" name="dob"  id="dob">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="errors">
+                    </span>
+                </div>
+                <div>
+                    <label class="contact">Phone-no</label>
+                    <input type="number" name="mobile" id="ph">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="errors">
+                    </span>
+                </div>
+                <div class="address">
+                    <label class="add">Address:</label>
+                    <input type="text"  name="message"  id="description">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="errors">
+                    </span>
+                </div>
+                <div class="coun">
+                    <label class="country-id"> Country: </label>
+                    <select name="country">
+                        <option selected="" value="Default">Please Select Your Country </option>
+                        <option value="AF">Australia</option>
+                        <option value="AL">Canada</option>
+                        <option value="DZ">India</option>
+                        <option value="AS">Russia</option>
+                        <option value="AD">USA</option>
+                    </select>   
+                </div>
+                <div class="language">
+                    <label class="lang">Language Known:</label>
+                    <input type="checkbox" name="en" value="enlish"  id="lang1">English
+                    <input type="checkbox" name="hindi" value="hindi" id="lang2" >Hindi
+                    <input type="checkbox" name="malayalam" value="malayalam" id="lang3">Malayalam
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="errors">
+                    </span>
+                </div>
+                <div class="file">
+                    <label class="add">Upload Photo:</label>
+                    <input type="file" name="image" id="file" >
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="errors">
+                    </span>
+                </div>
+                <div>
+                    <button type="submit" name="submit" value="Submit">Submit </button>
+                </div>
             </form>
-       </div>
+        </div>
+       <script src="js/form.js"></script>
     </body>
 </html>
        

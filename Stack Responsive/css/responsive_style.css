@@ -4,7 +4,7 @@
   }
   .main-body {
     margin-left: 5%;
-}
+  }
   .logo {
     margin-left: 3px;
   }
@@ -49,21 +49,18 @@
     padding-left: 6px;
   }
   .content {
-   
-    margin-top: 10px;
-    
-}
+   margin-top: 10px; 
+  }
   .stats-communities {
     flex-direction: column;
     float: left;
   }
- 
-  .stats {
+ .stats {
     width: 31%;
     border: 1px solid rgb(211, 206, 206);
   }
   .communities {
-    width: 100%;
+    /* width: 100%; */
   }
   .view-all {
     float: left;
@@ -75,10 +72,9 @@
   .badges-heading {
     flex: 25%;
   }
-  
   .gold-badges {
     margin-top: 10px;
-    width: 100%;
+    /* width: 100%; */
   }
   table {
     margin-right: 10px;
@@ -157,10 +153,8 @@
     padding: 18px;
     margin-right: 20px;
     border-radius: 10px;
+  }
 }
-
-}
-
 @media screen and (max-width: 800px) {
   body {
     overflow-x: hidden;
@@ -174,7 +168,7 @@
   }
   .side-bar {
     left: 40px;
-}
+  }
   .help i,
   .achievements i,
   .inbox i,
@@ -222,7 +216,6 @@
   .stats {
     width: 70%;
   }
-  
   .communities {
     width: 70%;
   }
@@ -300,7 +293,8 @@
     margin-left: 6%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) 
+{
   .side-table{
     display: none;
   }
@@ -312,9 +306,13 @@
   }
 
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 428px)
+ {
   body {
     width: 100%;
+  }
+  .header {
+    width:100%;
   }
   .details .name {
     font-size: 20px;
@@ -340,12 +338,12 @@
   .prof-num {
     display: none;
     font-size: 13px;
-}
+  }
   #img {
     margin-left: 21px;
     width: 25px;
     height: 25px;
-}
+  }
   .side-bar {
     display: none;
   }
@@ -369,7 +367,7 @@
   }
   .status {
     width: 100%;
-}
+  }
  .view-all {
     font-size: 9px;
   }
@@ -439,12 +437,12 @@
 @media screen and (max-width: 371px) {
   .layer {
     font-size: 5px;
-}
+    }
 }
 @media screen and (max-width: 640px) {
-.layer {
+  .layer {
   font-size: 9px;
-}
+  }
 }
 @media screen and (max-width: 640px) {
   .layer {

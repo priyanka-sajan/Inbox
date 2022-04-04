@@ -7,7 +7,6 @@ body {
   margin: 0;
 }
 header {
-  width: 100%;
   background-color: #f7f8fa;
   display: flex;
   box-shadow: 3px 3px 2px #dae3e3;
@@ -176,7 +175,6 @@ nav {
   font-size: 14px;
 }
 .clear {
-  content: "";
   clear: both;
   display: table;
 }
@@ -571,7 +569,6 @@ td {
   color: #418ee0;
 }
 .top-post-block {
-  width: 100%;
   margin-top: 10px;
   border: 1px solid #d9dbdb;
   border-radius: 5px;
@@ -613,7 +610,6 @@ td {
   color: gray;
 }
 .top-meta-post-block {
-  width: 100%;
   margin-top: 10px;
   border: 1px solid #d9dbdb;
   border-radius: 5px;
@@ -648,7 +644,6 @@ td {
 }
 footer {
   padding: 15px;
-  width: 100%;
   display: flex;
   color: #787773;
   background-color: rgb(38, 41, 44);
