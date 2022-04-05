@@ -183,7 +183,7 @@ function validate()
         else
         {
             errors[10].innerHTML=" ";
-            fail[10].style.visibility="hidden";
+             fail[10].style.visibility="hidden";
         }
 }
 
