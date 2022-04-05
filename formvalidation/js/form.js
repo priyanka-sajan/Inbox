@@ -21,6 +21,7 @@ function validate()
     let file=document.getElementById("file").value;
     let errors=document.getElementsByClassName("errors");
     let fail=document.getElementsByClassName("fa-circle-exclamation");
+    let validPassword=/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
     let validPhone=/^\d{10}$/;
     let validEmail=/[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+[.][a-zA-Z0-9+_.-]+/;
     let name=/[!@#$%^&*]/;
@@ -94,9 +95,9 @@ function validate()
             errors[3].innerHTML="Enter the Password";
             fail[3].style.visibility="visible";
         }
-        else if(password.length<8)
+        else if(!password.match(validPassword))
         {
-            errors[3].innerHTML="Enter atleast 8 characters";
+            errors[3].innerHTML="Atleast 1 capital,smallletter & special characters";
             fail[3].style.visibility="visible";
         }
         else
