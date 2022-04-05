@@ -154,7 +154,7 @@ function validate()
             fail[7].style.visibility="hidden";
         }
         // message validation
-    if(description.length<10)
+    if(description="")
        {
            errors[8].innerHTML="Message feild cannot be empty";
            fail[8].style.visibility="visible";
