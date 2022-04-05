@@ -32,18 +32,18 @@ function validate()
             errors[0].innerHTML="Please enter the name";
             fail[0].style.visibility="visible";
         }
-        else if(!isNaN(firstname))
+    else if(!isNaN(firstname))
         {
             errors[0].innerHTML="Name should be in character";
             fail[0].style.visibility="visible";
             
         }
-        else if(firstname.match(name))
+    else if(firstname.match(name))
         {
             errors[0].innerHTML="Name should not be special characters";
             fail[0].style.visibility="visible";
         }
-        else
+    else
         {
             errors[0].innerHTML=" ";
             fail[0].style.visibility="hidden";
@@ -55,18 +55,18 @@ function validate()
             fail[1].style.visibility="visible";
            
         }
-        else if(!isNaN(lastname))
+    else if(!isNaN(lastname))
         {
             errors[1].innerHTML="Name should be in character";
             fail[1].style.visibility="visible";
             
         }
-        else if(lastname.match(name))
+    else if(lastname.match(name))
         {
             errors[1].innerHTML="Name should not be special characters";
             fail[1].style.visibility="visible";
         }
-        else
+    else
         {
             errors[1].innerHTML=" ";
             fail[1].style.visibility="hidden";
@@ -78,12 +78,12 @@ function validate()
             fail[2].style.visibility="visible";
            
         }
-        else if (!mail.match(validEmail))
+    else if (!mail.match(validEmail))
         {
            errors[2].innerHTML="Enter a valid email";
            fail[2].style.visibility="visible";
         }
-        else
+    else
         {
             errors[2].innerHTML=" ";
             fail[2].style.visibility="hidden";
@@ -95,12 +95,12 @@ function validate()
             errors[3].innerHTML="Enter the Password";
             fail[3].style.visibility="visible";
         }
-        else if(!password.match(validPassword))
+    else if(!password.match(validPassword))
         {
             errors[3].innerHTML="Atleast 1 capital,smallletter & special characters";
             fail[3].style.visibility="visible";
         }
-        else
+    else
          {
             errors[3].innerHTML=" ";
             fail[3].style.visibility="hidden";
@@ -111,7 +111,7 @@ function validate()
             errors[4].innerHTML="Password doesn't match";
             fail[4].style.visibility="visible";
         }
-        else
+    else
         {
             errors[4].innerHTML=" ";
             fail[4].style.visibility="hidden";
@@ -122,7 +122,7 @@ function validate()
          errors[5].innerHTML="Select the gender";
          fail[5].style.visibility="visible";
         }
-     else{
+    else{
         errors[5].innerHTML="";  
         fail[5].style.visibility="hidden";
         }
@@ -132,7 +132,7 @@ function validate()
             errors[6].innerHTML="Enter the date";
             fail[6].style.visibility="visible";
         }
-        else
+    else
         {
             errors[6].innerHTML=" ";
             fail[6].style.visibility="hidden";
@@ -143,12 +143,12 @@ function validate()
             errors[7].innerHTML="Enter phone no:";
             fail[7].style.visibility="visible";
         }
-        else if(!phone.match(validPhone))
+    else if(!phone.match(validPhone))
         {
             errors[7].innerHTML="Enter a valid number";
             fail[7].style.visibility="visible";
         }
-        else
+    else
         {
             errors[7].innerHTML=" ";
             fail[7].style.visibility="hidden";
@@ -159,7 +159,7 @@ function validate()
            errors[8].innerHTML="Message feild cannot be empty";
            fail[8].style.visibility="visible";
        }
-       else
+    else
        {
             errors[8].innerHTML=" ";
             fail[8].style.visibility="hidden";
@@ -170,7 +170,7 @@ function validate()
             errors[9].innerHTML="Select a language";
             fail[9].style.visibility="visible";
          }
-        else
+    else
         {
             errors[9].innerHTML=" ";
             fail[9].style.visibility="hidden";
@@ -181,7 +181,7 @@ function validate()
             errors[10].innerHTML="Choose a file";
             fail[10].style.visibility="visible";
         }
-        else
+    else
         {
             errors[10].innerHTML=" ";
              fail[10].style.visibility="hidden";
