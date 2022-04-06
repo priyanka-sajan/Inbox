@@ -158,11 +158,23 @@ input[type="submit"]
 .errors
 {
     color:red;
-    font-size:13px;
+    font-size:10px;
 }
 .fa-circle-exclamation
 {
     visibility: hidden;
     color:red;
     margin-left:10px;
+}
+.border{
+    border: 2px solid red;
+    box-shadow: 2px solid grey;
+}
+.blue {
+    border: 2px solid blue;
+}
+.icon {
+    background-image: url("../image/icon.png");
+    background-repeat: no-repeat;
+    background-position: 170px;
 }

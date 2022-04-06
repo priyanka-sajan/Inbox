@@ -6,20 +6,24 @@ form.addEventListener("submit",(e)=>
 });
 function validate()
 {
-    let firstname = document.getElementById('fname').value;
-    let lastname = document.getElementById('lname').value;
-    let mail = document.getElementById('mail').value;
-    let phone=document.getElementById("ph").value;
-    let password = document.getElementById('pswd').value;
-    let cpassword = document.getElementById('Cpswd').value;
-    let gen=document.getElementsByClassName("gen");
-    let dateofbirth = document.getElementById('dob').value;
-    let description =document.getElementById("description").value;
-    let lang1=document.getElementById("lang1").checked;
-    let lang2=document.getElementById("lang2").checked;
-    let lang3=document.getElementById("lang3").checked;
-    let file=document.getElementById("file").value;
-    let errors=document.getElementsByClassName("errors");
+    let firstname = document.getElementById('fname');
+    let lastname = document.getElementById('lname');
+    let mail = document.getElementById('mail');
+    let phone=document.getElementById("ph");
+    let password = document.getElementById('pswd');
+    let cpassword = document.getElementById('Cpswd');
+    let gen1=document.getElementById("gen1");
+    let gen2=document.getElementById("gen2");
+    let gen3=document.getElementById("gen3");
+    let dateofbirth = document.getElementById('dob');
+    let message =document.getElementById("description");
+    let lang1=document.getElementById("lang1");
+    let lang2=document.getElementById("lang2");
+    let lang3=document.getElementById("lang3");
+    let file=document.getElementById("file");
+    let border=document.getElementsByClassName("border");
+    let blue=document.getElementsByClassName("blue");
+    // let errors=document.getElementsByClassName("errors");
     let fail=document.getElementsByClassName("fa-circle-exclamation");
     let validPassword=/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
     let validPhone=/^\d{10}$/;
@@ -27,163 +31,170 @@ function validate()
     let name=/[!@#$%^&*]/;
      
         //  firstname validation
-    if(firstname == "") 
+    if(firstname.value.trim()== "") 
         {
-            errors[0].innerHTML="Please enter the name";
-            fail[0].style.visibility="visible";
+            firstname.nextElementSibling.innerHTML="Please enter the name";
+            // fail[0].style.visibility="visible";
+             firstname.className="border icon";
         }
-    else if(!isNaN(firstname))
+    else if(!isNaN(firstname.value))
         {
-            errors[0].innerHTML="Name should be in character";
-            fail[0].style.visibility="visible";
+            firstname.nextElementSibling.innerHTML="Name should be in character";
+            // fail[0].style.visibility="visible";
+            firstname.className="border icon";
             
         }
-    else if(firstname.match(name))
+    else if(firstname.value.match(name))
         {
-            errors[0].innerHTML="Name should not be special characters";
-            fail[0].style.visibility="visible";
+            firstname.nextElementSibling.innerHTML="Name should not be special characters";
+            // fail[0].style.visibility="visible";
+            firstname.className="border icon";
+
         }
     else
         {
-            errors[0].innerHTML=" ";
-            fail[0].style.visibility="hidden";
+            firstname.nextElementSibling.innerHTML=" ";
+            // fail[0].style.visibility="hidden";
+            firstname.className="border";
         }
         // lastname validation
-    if(lastname == "") 
+    if(lastname.value.trim()==="") 
         {
-            errors[1].innerHTML="Enter the last name";
-            fail[1].style.visibility="visible";
+            lastname.nextElementSibling.innerHTML="Enter the last name";
+            // fail[1].style.visibility="visible";
+            lastname.className="red";
+            firstname.className="border icon";
            
         }
-    else if(!isNaN(lastname))
+    else if(!isNaN(lastname.value))
         {
-            errors[1].innerHTML="Name should be in character";
+            lastname.nextElementSibling.innerHTML="Name should be in character";
             fail[1].style.visibility="visible";
             
         }
-    else if(lastname.match(name))
+    else if(lastname.value.match(name))
         {
-            errors[1].innerHTML="Name should not be special characters";
+            lastname.nextElementSibling.innerHTML="Name should not be special characters";
             fail[1].style.visibility="visible";
         }
     else
         {
-            errors[1].innerHTML=" ";
+            lastname.nextElementSibling.innerHTML=" ";
             fail[1].style.visibility="hidden";
         }
         // Email validation
-    if(mail=="")
+    if(mail.value.trim()=="")
         {
-            errors[2].innerHTML="Enter email";
+            mail.nextElementSibling.innerHTML="Enter email";
             fail[2].style.visibility="visible";
            
         }
-    else if (!mail.match(validEmail))
+    else if (!mail.value.match(validEmail))
         {
-           errors[2].innerHTML="Enter a valid email";
+           mail.nextElementSibling.innerHTML="Enter a valid email";
            fail[2].style.visibility="visible";
         }
     else
         {
-            errors[2].innerHTML=" ";
+            mail.nextElementSibling.innerHTML=" ";
             fail[2].style.visibility="hidden";
         }
     
         // password validation
-    if(password == "")
+    if(password.value.trim()=="")
         {
-            errors[3].innerHTML="Enter the Password";
+            password.nextElementSibling.innerHTML="Enter the Password";
             fail[3].style.visibility="visible";
         }
-    else if(!password.match(validPassword))
+    else if(!password.value.match(validPassword))
         {
-            errors[3].innerHTML="Atleast 1 capital,smallletter & special characters";
+            password.nextElementSibling.innerHTML="Atleast 1 capital,smallletter & special characters";
             fail[3].style.visibility="visible";
         }
     else
          {
-            errors[3].innerHTML=" ";
+            password.nextElementSibling.innerHTML=" ";
             fail[3].style.visibility="hidden";
         }
         //confirm-password Validdation
-    if(cpassword!=password)
+    if(cpassword.value!=password.value)
         {
-            errors[4].innerHTML="Password doesn't match";
+            cpassword.nextElementSibling.innerHTML="Password doesn't match";
             fail[4].style.visibility="visible";
         }
     else
         {
-            errors[4].innerHTML=" ";
+            cpassword.nextElementSibling.innerHTML=" ";
             fail[4].style.visibility="hidden";
         }
         // gender validation
-    if(gen[0].checked==false && gen[1].checked==false && gen[2].checked==false)
+    if(gen1.checked==false && gen2.checked==false && gen3.checked==false)
         {
-         errors[5].innerHTML="Select the gender";
+         gen3.nextElementSibling.innerHTML="Select the gender";
          fail[5].style.visibility="visible";
         }
     else{
-        errors[5].innerHTML="";  
+        gen3.nextElementSibling.innerHTML="";  
         fail[5].style.visibility="hidden";
         }
         // dob validation
-    if (dateofbirth == "")
+    if (dateofbirth.value.trim()=="")
         {
-            errors[6].innerHTML="Enter the date";
+            dateofbirth.nextElementSibling.innerHTML="Enter the date";
             fail[6].style.visibility="visible";
         }
     else
         {
-            errors[6].innerHTML=" ";
+            dateofbirth.nextElementSibling.innerHTML=" ";
             fail[6].style.visibility="hidden";
         }
         // phone no validation
-    if(phone=="")
+    if(phone.value.trim()=="")
         {
-            errors[7].innerHTML="Enter phone no:";
+            phone.nextElementSibling.innerHTML="Enter phone no:";
             fail[7].style.visibility="visible";
         }
-    else if(!phone.match(validPhone))
+    else if(!phone.value.match(validPhone))
         {
-            errors[7].innerHTML="Enter a valid number";
+            phone.nextElementSibling.innerHTML="Enter a valid number";
             fail[7].style.visibility="visible";
         }
     else
         {
-            errors[7].innerHTML=" ";
+            phone.nextElementSibling.innerHTML=" ";
             fail[7].style.visibility="hidden";
         }
         // message validation
-    if(description="")
+    if(message.value.trim()=="")
        {
-           errors[8].innerHTML="Message feild cannot be empty";
+           message.nextElementSibling.innerHTML="Message feild cannot be empty";
            fail[8].style.visibility="visible";
        }
     else
        {
-            errors[8].innerHTML=" ";
+            message.nextElementSibling.innerHTML=" ";
             fail[8].style.visibility="hidden";
        }
         // language validation
-    if(lang1==false && lang2==false && lang3==false)
+    if(lang1.checked==false && lang2.checked==false && lang3.checked==false)
         {
-            errors[9].innerHTML="Select a language";
+            lang3.nextElementSibling.innerHTML="Select a language";
             fail[9].style.visibility="visible";
          }
     else
         {
-            errors[9].innerHTML=" ";
+            lang3.nextElementSibling.innerHTML=" ";
             fail[9].style.visibility="hidden";
         }
         //  file validation
-    if(file=="") 
+    if(file.value.trim()=="") 
         {
-            errors[10].innerHTML="Choose a file";
+            file.nextElementSibling.innerHTML="Choose a file";
             fail[10].style.visibility="visible";
         }
     else
         {
-            errors[10].innerHTML=" ";
+             file.nextElementSibling.innerHTML=" ";
              fail[10].style.visibility="hidden";
         }
 }
