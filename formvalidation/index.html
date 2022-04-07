@@ -10,85 +10,94 @@
        <div class="main-container">
             <h1>Registration Form</h1>
             <form id="myform" onsubmit="validate()">
-                <div class="fname">
+                <div class="fname fieldMsg">
                     <label class="user" for="fname">
                         First Name:
                     </label>
-                    <input type="text" name="fname" placeholder="Enter your first Name"  id="fname" >
-                    <span class="errors"></span>
+                    <input type="text" name="fname" placeholder="Enter your first Name"  id="fname" onblur="validate()">
+                    <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <p></p>
                 </div>
-                <div class="lname">
+                <div class="lname fieldMsg">
                     <label class="user" for="lname">
                         Last Name:
                     </label> 
-                    <input type="text" name="lname" placeholder="Enter your last Name"  id="lname">
-                    <span class="errors"></span>
+                    <input type="text" name="lname" placeholder="Enter your last Name" onblur="validate()" id="lname">
+                    <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <p></p>
                 </div>
-                <div class="email-id">
+                <div class="email-id fieldMsg">
                     <label class="email" for="mail">
                         Email:
                     </label>
-                    <input type="email" name="emailid" placeholder="priyanka@gmail.com"  id="mail">
-                    <span class="errors"></span>
+                    <input type="email" name="emailid" placeholder="priyanka@gmail.com" onblur="validate()" id="mail">
+                    <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <p></p>
                 </div>
-                <div class="password">
+                <div class="password fieldMsg">
                     <label class="pswrd" for="pswd">
                         Password:
                     </label>
-                    <input type="password" name="pswrd" placeholder="Password" id="pswd">
-                    <span class="errors"></span>
+                    <input type="password" name="pswrd" placeholder="Password" onblur="validate()" id="pswd">
+                    <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <p></p>
                 </div>
-                <div class="confirm">
+                <div class="confirm fieldMsg">
                     <label class="pswrd" for="Cpswd">
                         Confirm Password:
                     </label>
-                    <input type="password" name="cpswrd" placeholder="Confirm Password" id="Cpswd">
-                    <span class="errors"></span>
+                    <input type="password" name="cpswrd" placeholder="Confirm Password" onblur="validate()" id="Cpswd">
+                    <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <p></p>
                 </div>
-                <div class="sex">
+                <div class="sex fieldMsg">
                     <label class="gender"> 
                         Gender:
                     </label>
-                    <input type="radio" name="male-btn" value="male" id="gen1">Male
-                    <input type="radio" name="female-btn" value="female" id="gen2">Female
-                    <input type="radio" name="others-btn" value="others" id="gen3">Others</span>
-                    <span class="errors"></span>
+                    <input type="radio" name="male-btn" value="male" id="gen1" class="common">Male
+                    <input type="radio" name="female-btn" value="female" id="gen2" class="common">Female
+                    <input type="radio" name="others-btn" value="others" id="gen3" class="common">Others</span>
+                    <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <p></p>
                 </div>
-                <div class="dob">
+                <div class="dob fieldMsg">
                     <label class="bornday">
                          DOB:
                     </label>
-                    <input type="date" name="dob"  id="dob">
-                    <span class="errors"></span>
+                    <input type="date" name="dob" onblur="validate()" id="dob">
+                    <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <p></p>
                 </div>
-                <div>
+                <div class="fieldMsg">
                     <label class="contact">
                         Phone-no
                     </label>
-                    <input type="number" name="mobile" id="ph">
-                    <span class="errors"> </span>
+                    <input type="number" name="mobile" onblur="validate()" id="ph">
+                    <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <p></p>
                 </div>
-                <div class="address">
+                <div class="address fieldMsg">
                     <label class="add">
                         Address:
                     </label>
-                    <input type="text"  name="message" id="description">
-                    <span class="errors"></span>
+                    <input type="text"  name="message" onblur="validate()" id="description">
+                    <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <p></p>
                 </div>
-                <div class="coun">
+                <div class="coun fieldMsg">
                     <label class="country-id"> 
                         Country: 
                     </label>
-                    <select name="country">
+                    <select name="country" onblur="validate()" id="drop-down">
                         <option selected="" value="Default">Please Select Your Country </option>
                         <option value="AF">Australia</option>
                         <option value="AL">Canada</option>
@@ -97,23 +106,25 @@
                         <option value="AD">USA</option>
                     </select>   
                 </div>
-                <div class="language">
+                <div class="language fieldMsg">
                     <label class="lang">
                         Language Known:
                     </label>
-                    <input type="checkbox" name="en" value="enlish"  id="lang1">English
-                    <input type="checkbox" name="hindi" value="hindi" id="lang2" >Hindi
-                    <input type="checkbox" name="malayalam" value="malayalam" id="lang3">Malayalam
-                    <span class="errors"></span>
+                    <input type="checkbox" name="en" value="enlish" onblur="validate()" id="lang1" class="common">English
+                    <input type="checkbox" name="hindi" value="hindi"onblur="validate()" id="lang2" class="common" >Hindi
+                    <input type="checkbox" name="malayalam" value="malayalam"onblur="validate()" id="lang3" class="common">Malayalam
+                    <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <p></p>
                 </div>
-                <div class="file">
+                <div class="file fieldMsg">
                     <label class="add">
-                        Upload Photo:
+                        Upload File:
                     </label>
-                    <input type="file" name="image" id="file" >
-                    <span class="errors"> </span>
+                    <input type="file" name="image"onblur="validate()" id="file" >
+                    <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <p></p>
                 </div>
                 <div>
                     <button type="submit" name="submit" value="Submit">Submit </button>

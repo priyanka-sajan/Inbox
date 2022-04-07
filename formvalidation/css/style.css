@@ -53,9 +53,9 @@ form
 {
     padding:4px 1px 4px 0;
 }
-.dob 
+#dob 
 {
-    padding:4px 1px 4px 0;
+    padding:12px 42px 20px 42px;
 }
 .coun 
 {
@@ -69,11 +69,12 @@ form
 {
     padding:4px 1px 4px 0;
 }
-.file 
+#file 
 {
-    padding:4px 1px 4px 0;
+    padding:14px 20px 20px 20px;
+    border:1px solid black;
+    background-color:white;
 }
-
 .firstname 
 {
     margin-left: 9%;
@@ -81,13 +82,20 @@ form
 }
 input
 {
-    padding:7px 30px 7px  7px;
-    margin-top:15px;
+    width:50%;
+    padding:14px 7px 20px 7px;
+    margin-top:10px;
 }
 input[type=file] 
 {
     margin-left: 46px;
     padding: 7px 0px 7px 5px;
+}
+select
+{
+    width:50%;
+    padding:14px 7px;
+    margin-top:10px;
 }
 button[type=submit] 
 {
@@ -155,6 +163,10 @@ input[type="submit"]
     margin-left:13%;
     padding:20px;
 }
+#drop-down
+{
+    margin-bottom:25px;
+}
 .errors
 {
     color:red;
@@ -164,7 +176,13 @@ input[type="submit"]
 {
     visibility: hidden;
     color:red;
-    margin-left:10px;
+    margin-left:30px;
+}
+.fa-circle-check
+{
+    visibility: hidden;
+    color:green;
+    margin-left:30px;
 }
 .border{
     border: 2px solid red;
@@ -177,4 +195,57 @@ input[type="submit"]
     background-image: url("../image/icon.png");
     background-repeat: no-repeat;
     background-position: 170px;
+}
+.feildMsg
+{
+   position:relative;
+}
+.feildMsg i
+{
+    position: absolute;
+    visibility: hidden;
+    left:63%;
+    top:38px;
+    font-size:16px;
+}
+.feildMsg p
+{
+    visibility: hidden;
+    margin-left:22%;
+    bottom:0;
+    top:0;
+}
+.feildMsg.success input
+{
+    border:2px solid green;
+}
+.feildMsg.success i.fa-circle-check
+{
+    visibility: visible;
+    color:green;
+}
+.feildMsg.error input
+{
+    border:2px solid red;
+}
+
+.feildMsg.error p
+{
+    visibility:visible;
+    color:red;
+    font-size:13px;
+    bottom:0;
+}
+.feildMsg.error i.fa-circle-exclamation
+{
+    visibility: visible;
+    color:red;
+}
+.common
+{
+    padding:0px;
+    margin-top:10px;
+    width:4%;
+    margin-left:5px;
+    margin-right:5px;
 }
