@@ -68,7 +68,7 @@ function validate()
     }
     // password validation
     if (password.value.trim() == "") {
-        error(password, "Password field is required");
+        error(password,"Password field is required");
     } else if (!password.value.match(validPassword))
     {
         error(password, "Atleast 1 capital,smallletter & special characters");
@@ -79,7 +79,7 @@ function validate()
     //confirm-password Validdation
     if (cpassword.value == "") 
     {
-        error(cpassword, "enter password");
+        error(cpassword,"Password must be filled out");
     } else if (cpassword.value != password.value) 
     {
         error(cpassword, "Password doesn't match");
@@ -90,10 +90,12 @@ function validate()
     // gender validation
     if (gen1.checked == false && gen2.checked == false && gen3.checked == false) 
     {
-        error(gen1, "Select the gender");
+        // error(gen1, "Select the gender");
+        document.getElementById("error1").innerHTML="Select gender";
     } else 
     {
-        success(gen1);
+        // success(gen1);
+        document.getElementById("error1").innerHTML="";
     }
     // dob validation
     if (dateofbirth.value.trim() == "")
@@ -128,19 +130,20 @@ function validate()
     // language validation
     if (lang1.checked == false && lang2.checked == false && lang3.checked == false)
     {
-        error(lang1, "select the language");
+        document.getElementById("error2").innerHTML="Select any language";
     } else 
     {
-        success(lang1);
+        document.getElementById("error2").innerHTML="";
     }
     //  file validation
     if (file.value.trim() == "") 
     {
         error(file, "Choose a file");
-    } else if (file.value.trim() != "") 
+    }
+    else if (file.value.trim() != "") 
     {
         let fileValue = file.value.trim();
-        let validExtension = ["jpg", "png", "pdf", "docx"];
+        let validExtension = ["jpg", "png"];
         let imagPos = fileValue.lastIndexOf(".");
         let imageExt = fileValue.substring(imagPos + 1);
         let output = validExtension.includes(imageExt);
@@ -151,27 +154,8 @@ function validate()
         {
             success(file);
         }
-    } else if (file.files.length > 0) 
-    {
-        for (const i = 0; i <= file.files.length - 1; i++) 
-        {
-            const fsize = file.files.item(i).size;
-            const file = Math.round((fsize / 1024));
-            if (file >= 4096) 
-            {
-                file.nextElementSibling.innerHTML = "Select a file less than 1mb";
-                file.parentElement.querySelector('.fa-circle-exclamation').classList.add('visible');
-            } else if (file < 1024)
-            {
-                file.nextElementSibling.innerHTML = "";
-                file.parentElement.querySelector('.fa-circle-exclamation').classList.add('visible');
-            } else 
-            {
-                document.getElementById('size').innerHTML = '<b>' +
-                    file + '</b> KB';
-            }
-        }
-    } else 
+    }  
+    else 
     {
         success(file);
     }
