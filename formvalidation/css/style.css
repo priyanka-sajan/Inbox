@@ -184,18 +184,6 @@ input[type="submit"]
     color:green;
     margin-left:30px;
 }
-.border{
-    border: 2px solid red;
-    box-shadow: 2px solid grey;
-}
-.blue {
-    border: 2px solid blue;
-}
-.icon {
-    background-image: url("../image/icon.png");
-    background-repeat: no-repeat;
-    background-position: 170px;
-}
 .feildMsg
 {
    position:relative;
