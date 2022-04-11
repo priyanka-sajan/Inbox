@@ -21,7 +21,7 @@ function validate()
     let lang2 = document.getElementById("lang2");
     let lang3 = document.getElementById("lang3");
     let file = document.getElementById("file");
-    let fail = document.getElementsByClassName("fa-circle-exclamation");
+    // let fail = document.getElementsByClassName("fa-circle-exclamation");
     let validPassword = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
     let validPhone = /^\d{10}$/;
     let validEmail = /[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+[.][a-zA-Z0-9+_.-]+/;
@@ -30,60 +30,72 @@ function validate()
     //  firstname validation
     if (firstname.value.trim() == "") 
     {
-        error(firstname, "first name cannot be empty");
-    } else if (!isNaN(firstname.value))
+        error(firstname, "* first name cannot be empty");
+    } 
+    else if (!isNaN(firstname.value))
     {
-        error(firstname, "Name should be in character");
-    } else if (firstname.value.match(name)) 
+        error(firstname, "* Name should be in character");
+    }
+    else if (firstname.value.match(name)) 
     {
-        error(firstname, "Name should not be special characters");
-    } else 
+        error(firstname, "* Name should not be special characters");
+    }
+    else 
     {
         success(firstname);
     }
     // lastname validation
     if (lastname.value.trim() === "") 
     {
-        error(lastname, "Last name cannot be empty");
-    } else if (!isNaN(lastname.value))
+        error(lastname, "* Last name cannot be empty");
+    } 
+    else if (!isNaN(lastname.value))
     {
-        error(lastname, "Name should be in character");
-    } else if (lastname.value.match(name))
+        error(lastname, "* Name should be in character");
+    } 
+    else if (lastname.value.match(name))
     {
-        error(lastname, "Name should not be special characters");
-    } else
+        error(lastname, "* Name should not be special characters");
+    } 
+    else
     {
         success(lastname);
     }
     // Email validation
     if (mail.value.trim() == "") 
     {
-        error(mail, "Email field is required");
-    } else if (!mail.value.match(validEmail)) 
+        error(mail, "* Email field is required");
+    } 
+    else if (!mail.value.match(validEmail)) 
     {
-        error(mail, "Enter a valid email");
-    } else 
+        error(mail, "* Enter a valid email");
+    } 
+    else 
     {
         success(mail);
     }
     // password validation
     if (password.value.trim() == "") {
-        error(password,"Password field is required");
-    } else if (!password.value.match(validPassword))
+        error(password,"* Password field is required");
+    } 
+    else if (!password.value.match(validPassword))
     {
-        error(password, "Atleast 1 capital,smallletter & special characters");
-    } else 
+        error(password, "* Atleast 1 capital,smallletter & special characters");
+    } 
+    else 
     {
         success(password);
     }
     //confirm-password Validdation
     if (cpassword.value == "") 
     {
-        error(cpassword,"Password must be filled out");
-    } else if (cpassword.value != password.value) 
+        error(cpassword,"* Password must be filled out");
+    } 
+    else if (cpassword.value != password.value) 
     {
-        error(cpassword, "Password doesn't match");
-    } else 
+        error(cpassword, "* Password doesn't match");
+    } 
+    else 
     {
         success(cpassword);
     }
@@ -92,7 +104,8 @@ function validate()
     {
         // error(gen1, "Select the gender");
         document.getElementById("error1").innerHTML="Select gender";
-    } else 
+    } 
+    else 
     {
         // success(gen1);
         document.getElementById("error1").innerHTML="";
@@ -100,45 +113,51 @@ function validate()
     // dob validation
     if (dateofbirth.value.trim() == "")
     {
-        error(dateofbirth, "Enter the date");
-    } else 
+        error(dateofbirth, "* Enter the date");
+    } 
+    else 
     {
         success(dateofbirth);
     }
     // phone no validation
     if (phone.value.trim() == "")
     {
-        error(phone, "Enter the phone no:");
-    } else if (!phone.value.match(validPhone))
+        error(phone, "* Enter the phone no:");
+    } 
+    else if (!phone.value.match(validPhone))
     {
-        error(phone, "Enter a valid number");
-    } else
+        error(phone, "* Enter a valid number");
+    } 
+    else
     {
         success(phone);
     }
     // message validation
     if (message.value.trim() == "")
     {
-        error(message, "Message feild cannot be empty");
-    } else if (message.value.length < 10) 
+        error(message, "* Message feild cannot be empty");
+    } 
+    else if (message.value.length < 10) 
     {
-        error(message, "Address must contain more than 10 characters");
-    } else 
+        error(message, "* Address must contain more than 10 characters");
+    } 
+    else 
     {
         success(message);
     }
     // language validation
     if (lang1.checked == false && lang2.checked == false && lang3.checked == false)
     {
-        document.getElementById("error2").innerHTML="Select any language";
-    } else 
+        document.getElementById("error2").innerHTML="* Select any language";
+    } 
+    else 
     {
         document.getElementById("error2").innerHTML="";
     }
     //  file validation
     if (file.value.trim() == "") 
     {
-        error(file, "Choose a file");
+        error(file, "* Choose a file");
     }
     else if (file.value.trim() != "") 
     {
@@ -149,8 +168,9 @@ function validate()
         let output = validExtension.includes(imageExt);
         if (!output)
         {
-            error(file, "enter  valid file");
-        } else 
+            error(file, "* enter  valid file");
+        }
+        else 
         {
             success(file);
         }
