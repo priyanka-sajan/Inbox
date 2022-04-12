@@ -1,0 +1,261 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family:sans-serif;
+    margin:auto;  
+    background-image:url("../image/photo.jpg") ; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.main-container 
+{
+    width:60%;
+    background-image:url("../image/bgimg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius:25px;
+    margin: 0 auto;
+}
+h1 
+{
+    padding-top:3%;
+    margin-left: 40%;
+}
+form
+{
+    margin-left:30%;
+    margin-top:5%;
+}
+.fname 
+{
+    padding: 0px 1px 4px 0;
+}
+.lname 
+{
+    padding:4px 1px 5px 0;
+}
+.email-id 
+{
+    padding:4px 1px 4px 0;
+}
+.password 
+{
+    padding:4px 1px 4px 0;
+}
+.confirm 
+{
+    padding:4px 1px 4px 0;
+}
+.sex
+{
+    padding:4px 1px 4px 0;
+}
+#dob 
+{
+    padding:12px 42px 20px 42px;
+}
+.coun 
+{
+    padding:4px 1px 4px 0;
+}
+.address  
+{
+    padding:4px 1px 4px 0;
+}
+.language 
+{
+    padding:4px 1px 4px 0;
+}
+#file 
+{
+    padding:14px 20px 20px 20px;
+    border:1px solid black;
+    background-color:white;
+}
+.firstname 
+{
+    margin-left: 9%;
+    padding: 2%;
+}
+input
+{
+    width:50%;
+    padding:14px 7px 20px 7px;
+    margin-top:10px;
+}
+input[type=file] 
+{
+    margin-left: 46px;
+    padding: 7px 0px 7px 5px;
+}
+select
+{
+    width:50%;
+    padding:14px 7px;
+    margin-top:10px;
+}
+button[type=submit] 
+{
+    text-align:center;
+    margin-left:18%;
+    padding:12px 45px;
+    margin-top:10px;
+    background-color:rgb(35, 128, 35);
+    border:3px outset gray;
+    color:white;
+}
+.gender
+{
+    margin-right:30px;
+}
+#Cpswd 
+{
+    margin-left: 4px;
+}
+input[type="password"]
+{
+    margin-left: 62px;
+}
+#mail 
+{
+    margin-left: 90px;
+}
+#lname 
+{
+    margin-left: 51px;
+}
+#fname 
+{
+    margin-left: 50px;
+}
+input[type="date"] 
+{
+    margin-left: 104px;
+}
+#ph 
+{
+    margin-left: 65px;
+}
+select 
+{
+    margin-left: 82px;
+    padding:7px 30px 7px  7px;
+    margin-top:15px;
+}
+input[type="checkbox"] 
+{
+    margin-left: 20px;
+}
+input[type="radio"] 
+{
+    margin-left: 53px;
+}
+input[type="submit"] 
+{
+    margin-left: 59px;
+    margin-bottom: 43px;
+}
+#description
+{
+    margin-left:13%;
+    padding:20px;
+}
+#drop-down
+{
+    margin-bottom:25px;
+}
+.errors
+{
+    color:red;
+    font-size:10px;
+}
+.fa-circle-exclamation
+{
+    visibility: hidden;
+    color:red;
+    margin-left:30px;
+}
+.fa-circle-check
+{
+    visibility: hidden;
+    color:green;
+    margin-left:30px;
+}
+.feildMsg
+{
+   position:relative;
+}
+.feildMsg i
+{
+    position: absolute;
+    visibility: hidden;
+    left:63%;
+    top:38px;
+    font-size:16px;
+}
+.feildMsg p
+{
+    visibility: hidden;
+    margin-left:22%;
+    bottom:0;
+    top:0;
+}
+.feildMsg.success input
+{
+    border:2px solid green;
+}
+.feildMsg.success i.fa-circle-check
+{
+    visibility: visible;
+    color:green;
+}
+
+.feildMsg.error input
+{
+    border:2px solid red;
+}
+
+.feildMsg.error p
+{
+    visibility:visible;
+    color:red;
+    font-size:13px;
+    bottom:0;
+}
+.feildMsg.error i.fa-circle-exclamation
+{
+    visibility: visible;
+    color:red;
+}
+#error2
+{
+    visibility:visible;
+    color:red;
+    font-size:13px;
+    bottom:0;
+    margin-left:25%;
+}
+.common
+{
+    padding:0px;
+    margin-top:10px;
+    width:4%;
+    margin-left:5px;
+    margin-right:5px;
+}
+.fa-asterisk 
+{
+    color:red;
+    font-size:12px;
+}
+#error1
+{
+    visibility:visible;
+    color:red;
+    font-size:13px;
+    bottom:0;
+    margin-left:25%;
+}
