@@ -13,7 +13,9 @@ body
 .main-container 
 {
     width:60%;
-    background-image:url("../image/bgimg.jpg") ;
+    /* background-image:url("../image/wallpaper.jpg") ; */
+    background-color: rgba(231, 225, 225, 0.968);
+    background-color: #d9d9d9;
     background-repeat: no-repeat;
     background-size: cover; 
     border-radius:25px;
@@ -79,6 +81,10 @@ form
 {
     margin-left: 9%;
     padding: 2%;
+}
+select:focus
+{
+    outline:none;
 }
 input
 {
@@ -207,6 +213,10 @@ input[type="submit"]
 {
     border:2px solid green;
 }
+.feildMsg.success select
+{
+    border:2px solid green;
+}
 .feildMsg.success i.fa-circle-check
 {
     visibility: visible;
@@ -217,7 +227,10 @@ input[type="submit"]
 {
     border:2px solid red;
 }
-
+.feildMsg.error select
+{
+    border:2px solid red;
+}
 .feildMsg.error p
 {
     visibility:visible;

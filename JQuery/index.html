@@ -60,9 +60,9 @@
                     <label class="gender"> 
                         Gender:
                     </label>
-                    <input type="radio" name="male-btn" value="male" id="gen1" class="common">Male
-                    <input type="radio" name="female-btn" value="female" id="gen2" class="common">Female
-                    <input type="radio" name="others-btn" value="others" id="gen3" class="common">Others
+                    <input type="radio" name="male-btn" value="male" id="gen1" class="common" onblur="validate()">Male
+                    <input type="radio" name="female-btn" value="female" id="gen2" class="common" onblur="validate()">Female
+                    <input type="radio" name="others-btn" value="others" id="gen3" class="common" onblur="validate()">Others
                     <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
                     <p id="error1"></p>
@@ -98,14 +98,15 @@
                     <label class="country-id">
                         Country: 
                     </label>
-                    <select name="country" onblur="validate()" id="drop-down">
-                        <option selected="" value="Default">Please Select Your Country </option>
+                    <select name="country" onblur="validate()" id="dropDown">
+                        <option value="">Please Select Your Country </option>
                         <option value="AF">Australia</option>
                         <option value="AL">Canada</option>
                         <option value="DZ">India</option>
                         <option value="AS">Russia</option>
                         <option value="AD">USA</option>
-                    </select>   
+                    </select> 
+                    <p></p>  
                 </div>
                 <div class="language fieldMsg">
                     <label class="lang">
