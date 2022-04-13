@@ -213,6 +213,10 @@ input[type="submit"]
 {
     border:2px solid green;
 }
+.feildMsg.success #file
+{
+    border:2px solid green;
+}
 .feildMsg.success select
 {
     border:2px solid green;
@@ -224,6 +228,10 @@ input[type="submit"]
 }
 
 .feildMsg.error input
+{
+    border:2px solid red;
+}
+.feildMsg.error  #file
 {
     border:2px solid red;
 }
