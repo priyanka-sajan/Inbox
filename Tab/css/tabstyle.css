@@ -1,13 +1,13 @@
 * {
 	box-sizing: border-box;
 }
-html,body {
+html, body {
 	margin:0px;
 	font-size: 18px;
 	font-family: Arial, Arial, Helvetica, sans-serif;
 	line-height: 1.5;
 }
-.tabs{
+.main-container{
 	max-width: 700px;
 	margin: 0 auto;
 }
@@ -28,14 +28,14 @@ html,body {
     color: #fff;
     min-width: 107px;
 }
-.tabs .tabNav li:hover{
+ .tabNav li:hover{
     cursor:pointer;
 }
-.tabs .tabNav li a{
+.tabNav li a{
     text-decoration: none;
     color:white;
 }
-.tabs .tab{
+ .tab{
     display:none;
     width:96%;
     min-height:250px;
@@ -47,7 +47,7 @@ html,body {
     clear:both;
 }
 
-.tabs .tab p{
+.tab p{
     line-height:20px;
     letter-spacing: 1px;
 }
