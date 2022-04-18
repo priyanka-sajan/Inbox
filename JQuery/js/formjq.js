@@ -1,4 +1,4 @@
-$(document).ready(function () 
+$(document).ready(function() 
 {
     $('#myform').submit(function (e) 
     { 
@@ -132,7 +132,7 @@ function validate()
     {
         error(message, "* Message feild cannot be empty");
     } 
-    else if (message.val().length < 10) 
+    else if (message.val().length <10) 
     {
         error(message, "* Address must contain more than 10 characters");
     }

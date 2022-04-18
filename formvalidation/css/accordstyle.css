@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.mainContainer {
+	border: 6px solid blue;
+	width: 82%;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #f8f9fb;
+}
+
+.wrapper {
+	max-width: 95%;
+	width: 100%;
+	margin: 50px auto;
+}
+
+.title {
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 41px;
+	padding-left: 2px;
+	padding: 21px;
+	color: #fff;
+	border-radius: 2px;
+	background-color: #109ee3;
+}
+
+.accordionItem {
+	margin-left: 32%;
+	padding: 8px;
+	margin-right: 33%;
+	margin-bottom: 2px;
+	box-shadow: 0 0 5px rgba(225, 255, 255, 0.5);
+}
+
+.accordionTab {
+	padding: 20px;
+	background-color: #fff;
+	color: #2e3038;
+	font-size: 18px;
+	font-weight: 600px;
+	position: relative;
+	cursor: pointer;
+}
+
+.content {
+	background: #fff;
+	display: none;
+	transition: all 0.3s ease;
+}
+
+.content p {
+	font-size: 14px;
+	line-height: 22px;
+	padding: 20px;
+	color: #858aa5;
+}
+
+.fa-circle-chevron-down {
+	position: absolute;
+	top: 19px;
+	right: 0;
+	width: 25px;
+	height: 25px;
+	color: #5393dc;
+}
+
+.active {
+	color: #fff;
+	background: #5393dc;
+}
+
+.accordionTab.active+.content {
+	display: block;
+}
