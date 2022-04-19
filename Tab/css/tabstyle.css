@@ -1,4 +1,4 @@
-* {
+/** {
 	box-sizing: border-box;
 }
 html, body {
@@ -11,12 +11,12 @@ html, body {
 	max-width: 700px;
 	margin: 0 auto;
 }
-.tabNav {
+.tab-menu {
 	padding: 0;
 	margin: 0;
 	list-style-type:none;
 }
-.tabNav li {
+.tab-menu li {
 	margin-top: 8%;
     display: inline-block;
     padding: 13px 4px;
@@ -28,10 +28,10 @@ html, body {
     color: #fff;
     min-width: 107px;
 }
- .tabNav li:hover{
+ .tab-menu li:hover{
     cursor:pointer;
 }
-.tabNav li a{
+.tab-menu li a{
     text-decoration: none;
     color:white;
 }
@@ -46,18 +46,115 @@ html, body {
     color:darkslategray;
     clear:both;
 }
+.content
+{
+    padding-left:50px;
+    display:none;
 
+}
 .tab p{
     line-height:20px;
     letter-spacing: 1px;
 }
-.active{
-    display:block !important;
-}
-.tabNav li.active{
+
+.tab-menu li.active{
     background-color:lavender !important;
     color:black !important;
 }
-.active a{
-    color:black !important;
+/
+p
+{
+   display:none;
+}
+.active
+{
+   display:block;
+}
+.tabs
+{
+    width:752px;
+    height:200px;
+    border:1px solid gray;
+    border-top:4px solid  rgb(14, 169, 207);
+}
+.tab-content
+{
+    padding:40px;
+    padding-top:10px;
+   
+}*/
+
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+   font-family:sans-serif;
+}
+.main-container
+{
+    width:800px;
+    margin:0 auto;
+    margin-top:40px;
+}
+ul{
+   list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+.tab-navigation  li {
+    display:inline-block;
+    border:1px solid gray;
+    border-bottom:none;
+    border-radius:15px 15px 0px 0px;
+    padding:20px 55px;
+    background-color: grey;
+}
+.content{
+    padding-left:50px;
+    display:none;
+}
+.tab-navigation{
+    padding: 0;
+    margin-bottom:0;
+}
+.tab-navigation li{
+    display: inline-block;
+    margin-right:12px;
+}
+.tab-navigation li:hover {
+   background-color: rgb(14, 169, 207);
+}
+p{
+   display:none;
+}
+.active {
+   display:block;
+}
+.tabs
+{
+    width:752px;
+    height:200px;
+    border:1px solid gray;
+    border-top:4px solid  rgb(14, 169, 207);
+}
+.content{
+    padding:40px;
+    padding-top:10px;   
+}
+.heading {
+    font-size:22px;
+    font-weight:bolder;
+    margin-left:40%;
+    margin-bottom:10px;
+}
+.photo {
+    width: 126px;
+    height: 126px;
+    float: left;
+    clear: both;
+    border-radius: 10px;
+    margin-right: 18px;
 }
