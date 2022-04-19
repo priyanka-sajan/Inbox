@@ -1,8 +1,11 @@
 $(document).ready(function () {
   $(".open-btn").click(function () {
-      $(".content").addClass("show");
+    $(".container").addClass("show");
   })
-})
+  $(".container").click(function() {
+    $(".container").removeClass("show");
+  })
+});
 
 
 

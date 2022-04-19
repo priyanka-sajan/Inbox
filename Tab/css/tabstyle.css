@@ -1,99 +1,10 @@
-/** {
-	box-sizing: border-box;
-}
-html, body {
-	margin:0px;
-	font-size: 18px;
-	font-family: Arial, Arial, Helvetica, sans-serif;
-	line-height: 1.5;
-}
-.main-container{
-	max-width: 700px;
-	margin: 0 auto;
-}
-.tab-menu {
-	padding: 0;
-	margin: 0;
-	list-style-type:none;
-}
-.tab-menu li {
-	margin-top: 8%;
-    display: inline-block;
-    padding: 13px 4px;
-    margin-right: 61px;
-    right: 30px;
-    background-color: grey;
-    text-align: center;
-    border-radius: 6px 6px 0 0;
-    color: #fff;
-    min-width: 107px;
-}
- .tab-menu li:hover{
-    cursor:pointer;
-}
-.tab-menu li a{
-    text-decoration: none;
-    color:white;
-}
- .tab{
-    display:none;
-    width:96%;
-    min-height:250px;
-    height:auto;
-    border-radius:3px;
-    padding:20px 15px;
-    background-color:lavender;
-    color:darkslategray;
-    clear:both;
-}
-.content
-{
-    padding-left:50px;
-    display:none;
-
-}
-.tab p{
-    line-height:20px;
-    letter-spacing: 1px;
-}
-
-.tab-menu li.active{
-    background-color:lavender !important;
-    color:black !important;
-}
-/
-p
-{
-   display:none;
-}
-.active
-{
-   display:block;
-}
-.tabs
-{
-    width:752px;
-    height:200px;
-    border:1px solid gray;
-    border-top:4px solid  rgb(14, 169, 207);
-}
-.tab-content
-{
-    padding:40px;
-    padding-top:10px;
-   
-}*/
-
-*
-{
+*{
     box-sizing: border-box;
 }
-body
-{
+body{
    font-family:sans-serif;
 }
-.main-container
-{
+.main-container {
     width:800px;
     margin:0 auto;
     margin-top:40px;
@@ -106,15 +17,17 @@ a{
 }
 .tab-navigation  li {
     display:inline-block;
-    border:1px solid gray;
+    border:1px solid grey;
     border-bottom:none;
     border-radius:15px 15px 0px 0px;
     padding:20px 55px;
-    background-color: grey;
+    background-color: rgb(245, 241, 241);
 }
 .content{
     padding-left:50px;
     display:none;
+    padding: 40px 0 0 40px;
+    padding-top:10px; 
 }
 .tab-navigation{
     padding: 0;
@@ -125,24 +38,24 @@ a{
     margin-right:12px;
 }
 .tab-navigation li:hover {
-   background-color: rgb(14, 169, 207);
+   background-color: rgb(108, 224, 108);
 }
 p{
    display:none;
+  
+}
+.text {
+    color:grey;
+    opacity:0.9;
 }
 .active {
    display:block;
 }
-.tabs
-{
-    width:752px;
+.tab-menu {
+    width:94%;
     height:200px;
     border:1px solid gray;
     border-top:4px solid  rgb(14, 169, 207);
-}
-.content{
-    padding:40px;
-    padding-top:10px;   
 }
 .heading {
     font-size:22px;
@@ -150,9 +63,10 @@ p{
     margin-left:40%;
     margin-bottom:10px;
 }
-.photo {
-    width: 126px;
-    height: 126px;
+.image {
+    width: 161px;
+    height: 143px;
+    margin-top: -21px;
     float: left;
     clear: both;
     border-radius: 10px;

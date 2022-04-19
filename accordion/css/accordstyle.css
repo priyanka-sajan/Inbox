@@ -66,10 +66,19 @@ body {
 .fa-circle-chevron-down {
 	position: absolute;
 	top: 19px;
-	right: 0;
+	right: 26px;
 	width: 25px;
 	height: 25px;
 	color: #5393dc;
+}
+.fa-angle-up {
+	/* display: none !important; */
+	position: absolute;
+	top: 19px;
+	right: 0;
+	width: 25px;
+	height: 25px;
+	color: white;
 }
 
 .active {
