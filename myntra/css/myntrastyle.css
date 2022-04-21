@@ -80,3 +80,11 @@ input[type="text"] {
 .text{
     margin-left:7px;
 }
+a{
+    text-decoration: none;
+    color: #282c3f;
+}
+.name{
+    color:black;
+    font-size: 15px;
+}
