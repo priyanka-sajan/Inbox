@@ -240,6 +240,33 @@ b.hello {
     color:black;
     font-size: 17px;
 }
+.emi-option {
+    font-size: 16px;
+}
+.emi{
+    font-weight: 500;
+}
+.product{
+    font-weight:600;
+}
+.feature{
+    font-weight:600;
+    font-size:14px;   
+}
+.fit{
+font-weight:600;
+}
+.care{
+    font-weight:600;
+}
+.plan{
+    color:#ff3e6c;
+}
+.plan{
+    font-size:14px;
+    font:bold;
+    font-weight: 600;
+}
 h6 {
     font-size: 17px;
 }
@@ -299,4 +326,25 @@ b.omni {
 }
 p.view-supplier {
     font-size: 17px;
+}
+
+element.style {
+}
+img.image1 {
+    width: 212px;
+}
+img.image2 {
+    width: 213px;
+}
+img.image3 {
+    width: 213px;
+}
+img.image4 {
+    width: 200px;
+}
+img.image5 {
+    width: 200px;
+}
+img.image6 {
+    width: 200px;
 }
