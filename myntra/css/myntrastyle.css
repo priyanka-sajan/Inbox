@@ -348,3 +348,145 @@ img.image5 {
 img.image6 {
     width: 200px;
 }
+.button1 {
+    border-radius: 20px;
+     border:1px solid gray; 
+    margin-left: 26%;
+    margin-top: 40px;
+    color:#ff3e6c;
+    font-weight: 500;
+}
+.button2 {
+    border-radius: 20px;
+    margin-left: 22px;
+    border:1px solid gray;
+    margin-top: 40px;
+    color:#ff3e6c;
+    font-weight: 500;
+}
+.button3 {
+    border-radius: 20px;
+    margin-left: 20px;
+    border:1px solid gray;
+    margin-top: 40px;
+    color:#ff3e6c;
+    font-weight: 500;
+}
+.button1:hover{
+    border:1px solid red;
+    color:#ff3e6c;
+}
+.button2:hover{
+    border:1px solid red;
+    color:#ff3e6c;
+}
+.button3:hover{
+    border:1px solid red;
+    color:#ff3e6c;
+}
+.links3{
+    border:1px solid red;
+}
+footer{
+    border:1px solid blue;
+    width:100%;
+}
+.footer-row
+{
+    display:flex;
+    flex-direction:row;
+}
+.navlinks{
+  cursor: pointer;
+  border-bottom: 3px solid transparent ;
+}
+.navlinks:hover{
+  border-bottom: 3px solid red;
+  position: relative;
+  z-index: 2;
+  transition-delay: .15s;
+}
+
+.navlinks:hover .content{
+  visibility: visible;
+}
+
+.sup{
+  color: #ff3f6c;
+}
+
+.search{
+  width: 88%;
+  padding:10px;
+  text-indent: 30px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  background-color: rgba(77, 77, 77, 0.05);
+  background-image: url("../assets/search.png");
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+.search-icon{
+  padding: 12px;
+  border-radius: 2px;
+  background-color: rgba(77, 77, 77, 0.05);
+  border: none;
+}
+.search:focus{
+  outline: none;
+  border: none;
+  background-color: white;
+  border: 1px solid rgb(0,0,0,0.1)
+}
+.footer-row
+{
+    display:flex;
+    flex-direction:row;
+}
+.fa-google-play
+{
+    font-size:25px;
+    margin-top:10px;
+    padding-right:0px; 
+}
+.footer-links a
+{
+    color:rgb(129, 126, 126);
+}
+.new-button
+{
+    color:white;
+    background-color: red;
+    font-size:10px;
+    border-radius:25px;
+    border:1px solid red;
+}
+.play-store-button
+{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    margin-right:5px;
+    padding:0px 15px;
+}
+.smaller-text
+{
+    font-size:7px;
+    margin-top:8px;
+    letter-spacing: 1px;
+}
+.fa-apple
+{
+    font-size:25px;
+    margin-top:10px;
+    padding-right:1px; 
+}
+.social-media-icons i 
+{
+    margin-right:5px;
+    font-size:17px;
+    font-size:25px;
+}
