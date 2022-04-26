@@ -62,9 +62,7 @@ input[type="text"] {
     margin-left: 43px;
     font-size: 16px;
 }
-.navbar-nav{
-    width:100%;
-}
+
 .profile {
     color: black;
     font-size: 14px;
@@ -302,7 +300,17 @@ img.photo4 {
     width: 67px;
 }
 img.photo5 {
-    width: 100px;
+    width: 91px;
+    margin-top: 14px;
+    margin-bottom: 15px;
+    margin-left: 33px;
+}
+.myntra {
+    margin-left: 28px;
+}
+.likes {
+    margin-left: 186px;
+    margin-right: 18px;
 }
 img.photo6 {
     width: 100px;
@@ -514,6 +522,28 @@ footer{
     left:200px;
     z-index: 1;
 }
+img.star2 {
+    width: 15px;
+}
+p img{
+    width:350px;
+    margin-left:80px;
+}
+.hoverstudio{
+    visibility: hidden;
+    position: fixed;
+    background-color: white;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 4px grey;
+    left:400px;
+    z-index: 1;
+    width:600px;
+}
+.studio:hover .hoverstudio{
+    /* display: flex !important; */
+    /* flex-wrap: wrap !important; */
+    visibility: visible;
+}
 .women:hover .hoverwomen {
     visibility: visible;
 }
@@ -526,6 +556,28 @@ footer{
     left:200px;
     z-index: 1;
 }
+.studio-images
+{
+    position:absolute;
+    top:99%;
+    left:30%;
+    display:none;
+    width:45%;
+    border:none;
+    background-color:white;
+}
+.studio-area:hover .studio-images
+{
+    display:block;
+}
+.studio-photo
+{
+    width:90%;
+}
+.studio-text
+{
+    font-size:22px;
+}
 .kid:hover .hoverkid {
     visibility: visible;
 }
@@ -535,7 +587,7 @@ footer{
     background-color: white;
     border: 1px solid transparent;
     box-shadow: 0px 0px 4px grey;
-    left:200px;
+    left:300px;
     z-index: 1;
 }
 .home:hover .hoverhome {
@@ -677,4 +729,10 @@ img.photo5 {
     width: 91px;
     margin-top: 14px;
     margin-bottom: 15px;
+}
+.content1{
+    margin-left:124px;
+}
+.content2{
+    margin-left:30px;
 }
