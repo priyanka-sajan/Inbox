@@ -12,6 +12,18 @@
     border: none;
     padding: 4px;
 }
+.cardbloc{
+    position: absolute;
+    top:70%;
+    color:black;
+    left:4%;
+    
+}
+.small-star
+{
+    color:#72bfbc;
+    font-size:10px;
+}
 .fa-search {
     margin-top: 11px;
     margin-left: 64px;
@@ -305,8 +317,23 @@ img.photo5 {
     margin-bottom: 15px;
     margin-left: 33px;
 }
+.spec {
+    font-size: 17px;
+    font-weight: 600;
+}
+.cust-liked {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.description{
+    font-size: 16px;
+    line-height: 20px;
+}
 .myntra {
     margin-left: 28px;
+    font-weight: 300;
+    font-size: 14px;
 }
 .likes {
     margin-left: 186px;
@@ -314,29 +341,46 @@ img.photo5 {
 }
 img.photo6 {
     width: 100px;
+    margin-left: 37px;
+}
+span.cust-name {
+    margin-left: 30px;
+    font-weight: 300;
+    font-size: 14px;
 }
 img.photo7 {
     width: 100px;
+    margin-left: 20px;
+}
+img.photo8 {
+    width: 100px;
+    margin-left: 20px;
+}
+img.photo9 {
+    width: 100px;
+    margin-left: 20px;
 }
 p .view-all {
-    font-size: 19px;
-    color:#ff3e6c;
+    font-size: 14px;
+    color: #ff3e6c;
 }
 p.product-code {
-    font-size: 19px;
+    font-size: 16px;
+    font-weight: 300;
 }
 b.code {
-    font-size: 19px;
-}
-b.omni {
-    font-size: 18px;
-    color:#ff3e6c;
-}
-p.view-supplier {
     font-size: 17px;
 }
-
-element.style {
+b.omni {
+    font-size: 16px;
+    color: #ff3e6c;
+}
+p.view-supplier {
+    font-size: 14px;
+    font-weight: 700;
+}
+p.seller {
+    font-weight: 300;
 }
 img.image1 {
     width: 212px;
