@@ -12,12 +12,20 @@
     border: none;
     padding: 4px;
 }
+/* .effect{
+    box-shadow: 5px 10px 8px #f8f8f8;
+} */
 .cardbloc{
     position: absolute;
-    top:70%;
+    top:65%;
     color:black;
-    left:4%;
-    
+    left:4%;  
+}
+.cardblock1{
+    position: absolute;
+    top:55%;
+    color:black;
+    left:4%;    
 }
 .small-star
 {
@@ -48,9 +56,9 @@ b {
 }
 
 input[type="text"] {
-    padding-left: 39px;
-    width: 500px;
-    margin-left: 50px;
+    /* padding-left: 39px; */
+    /* width: 500px; */
+    /* margin-left: 50px; */
     background-color: #f2f4f7;
     border-radius: 3px;
     border: none;
@@ -244,7 +252,7 @@ span.price{
     font-size: 14px;
 }
 .best-price-list{
-    margin-left:20px;
+    padding-left:30px;
 }
 b.hello {
     color:black;
@@ -402,7 +410,7 @@ img.image6 {
 }
 .button1 {
     border-radius: 20px;
-     border:1px solid gray; 
+    border:1px solid gray; 
     margin-left: 26%;
     margin-top: 40px;
     color:#ff3e6c;
@@ -439,10 +447,6 @@ img.image6 {
 .links3{
     border:1px solid red;
 }
-footer{
-    border:1px solid blue;
-    width:100%;
-}
 .footer-row
 {
     display:flex;
@@ -466,7 +470,12 @@ footer{
 .sup{
   color: #ff3f6c;
 }
+.cardimg {
+    /* width: 217px; */
+}
+.common-body{
 
+}
 .search{
   width: 88%;
   padding:10px;
@@ -724,9 +733,6 @@ progress#file5 {
 img.star1 {
     width: 14px;
 }
-/* img.star2 {
-    width: 15px;
-} */
 img.star3 {
     width: 14px;
 }
@@ -774,9 +780,49 @@ img.photo5 {
     margin-top: 14px;
     margin-bottom: 15px;
 }
-.content1{
-    margin-left:124px;
+
+.content1 {
+    /* margin-left: 124px; */
+    font-weight: 300;
+    font-size: 15px;
 }
-.content2{
-    margin-left:30px;
+span.content3 {
+    /* margin-left: 33%; */
+}
+span.content2 {
+    /* margin-left: 120px; */
+    font-weight: 300;
+}
+img .original{
+    width:20%;
+}
+img .googleplay{
+    width:200px;
+}
+.contact{
+    font-size:16px;
+    color:blue;
+}
+.online-shopping {
+    font-weight: 500;
+    margin-left: -13px;
+}
+.original{
+    width: 30px;
+    height: 30px;
+}
+.see {
+    font-weight: 400;
+    font-size: 12px;
+}
+b.rupee {
+    font-size: 14px;
+    margin-left: 1px;
+    top:10px;
+}
+.popular {
+    margin-left: 123px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
