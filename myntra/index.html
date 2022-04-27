@@ -7,20 +7,35 @@
 		<title>Myntra</title>
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<script src="js/icons.js"></script>
-		<script src="js/bootstrap.js"></script>
 		<link href="css/myntrastyle.css" rel="stylesheet">
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg shadow navbar-light">
+		<nav class="navbar  sticky-top navbar-expand-lg shadow navbar-light">
 			<div class="container-fluid">
-				<a class="navbar-brand ms-3 mt-1 " href="#">
-					<img src="image/myntralogo.png" alt="logo" class="image">
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+				<div class="offcanvas d-lg-none d-block offcanvas-start offcanvasMenu" id="demo">
+                    <div class="offcanvas-header">
+                      <div class="offcanvas-title">
+                        <img src="image/myntralogo.png" class="ps-4" alt="logo-image" id="logo-img1">
+                      </div>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                       <div class="container">
+                        <a class="nav-link" aria-current="page" href="#"><b>MEN</b></a>
+                        <a class="nav-link" aria-current="page" href="#"><b>WOMEN</b></a>
+                        <a class="nav-link" aria-current="page" href="#"><b>KIDS</b></a>
+                        <a class="nav-link" aria-current="page" href="#"><b>HOME&LIVING</b></a>
+                        <a class="nav-link" aria-current="page" href="#"><b>BEAUTY</b></a>
+                        <a class="nav-link" aria-current="page" href="#"><b>STUDIO</b></a>
+                       </div>
+                    </div>
+                </div>
+				  <button  class="navbar-toggler float-start ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+				<a class="navbar-brand ps-4 " href="#" id="logo">
+                    <img src="image/myntralogo.png"  alt="logo-image" id="logo-img">
+                </a>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<div class="navbar-nav">
 						<div class="nav-item ms-2 mt-2 ">
@@ -628,7 +643,7 @@
 					</div>
 				</div>
 			</div>
-		</nav> 
+		</nav>
 		<div class="container-fluid">
 			<div class="breadcrumbs-container ">
 				<a href="/" class="text-muted">Home</a>
@@ -1090,10 +1105,10 @@
 								<div>
 									<div class="myntra text-secondary">
 										Myntra Customer |29 Sept 2020
-										<span class="likes small-text text-secondary">
+										<span class="likes text-secondary">
 											<i class="fa-regular fa-thumbs-up"></i>0
 										</span>
-										<span class="dis-likes small-text text-secondary">
+										<span class="dis-likes  text-secondary">
 											<i class="fa-regular fa-thumbs-down"></i>1
 										</span>
 									</div>
@@ -1106,19 +1121,15 @@
 								<div class="5star">
 									<img src="image/3star.png" class="star2" alt="image">
 								</div>
-
 								<div>
 									<p class="text-secondary">
 										Awesome and dark t-shirt 🌟
 									</p>
-
 								</div>
 							</div>
-
 							<div>
 								<img src="image/photo6.jpg" class="photo6" alt="tshirt-image">
 								<img src="image/photo7.jpg" class="photo7" alt="tshirt-image">
-
 							</div>
 							<div class="pt-3">
 								<span class="cust-name text-secondary">
@@ -1143,7 +1154,6 @@
 									be perfect. Otherwise it's okay I'm happy.
 								</span>
 							</div>
-
 							<div class="pt-3">
 								<img src="image/photo8.jpg" class="photo8" alt="tshirt-image">
 								<img src="image/photo9.jpg" class="photo9" alt="tshirt-image">
@@ -1171,8 +1181,6 @@
 				</div>
 			</div>
 		</div>
-
-
 		<div class="container-fluid pt-3">
 			<div class="row">
 				<p class="h6"><b>SIMILAR PRODUCTS</b></p>
@@ -1188,8 +1196,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>Roadster</b></h4>
-							<p class="card-text large-text">Graphic Cotton T-Shirt</p>
+							<h4 class="card-title"><b>Roadster</b></h4>
+							<p class="card-text">Graphic Cotton T-Shirt</p>
 							<p>
 								<b>RS.274 </b>
 								<del class="text-secondary"> Rs.499 </del>
@@ -1208,8 +1216,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>DILLINGER</b></h4>
-							<p class="card-text large-text">Clour Blocked Blue T-Shirt</p>
+							<h4 class="card-title"><b>DILLINGER</b></h4>
+							<p class="card-text">Clour Blocked Blue T-Shirt</p>
 							<p>
 								<b>RS.476 </b>
 								<del class="text-secondary"> Rs.899 </del>
@@ -1228,8 +1236,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>Huetrap</b></h4>
-							<p class="card-text large-text">Graphic Cotton T-Shirt</p>
+							<h4 class="card-title"><b>Huetrap</b></h4>
+							<p class="card-text">Graphic Cotton T-Shirt</p>
 							<p>
 								<b>RS.489 </b>
 								<del class="text-secondary"> Rs.1399 </del>
@@ -1248,8 +1256,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>HRX by Hrithik Roshan</b></h4>
-							<p class="card-text large-text">Men rapid dry running T-shirt</p>
+							<h4 class="card-title"><b>HRX by Hrithik Roshan</b></h4>
+							<p class="card-text">Men rapid dry running T-shirt</p>
 							<p>
 								<b>RS.719 </b>
 								<del class="text-secondary"> Rs.1199 </del>
@@ -1268,8 +1276,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>Roadster</b></h4>
-							<p class="card-text large-text">Typography Cotton T-shirt</p>
+							<h4 class="card-title"><b>Roadster</b></h4>
+							<p class="card-text">Typography Cotton T-shirt</p>
 							<p>
 								<b>RS.349 </b>
 								<del class="text-secondary"> Rs.699 </del>
@@ -1288,8 +1296,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>Roadster</b></h4>
-							<p class="card-text large-text">Graphic Cotton T-Shirt</p>
+							<h4 class="card-title"><b>Roadster</b></h4>
+							<p class="card-text">Graphic Cotton T-Shirt</p>
 							<p>
 								<b>RS.274 </b>
 								<del class="text-secondary"> Rs.499 </del>
@@ -1308,8 +1316,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>DILLINGER</b></h4>
-							<p class="card-text large-text">Clour Blocked Blue T-Shirt</p>
+							<h4 class="card-title"><b>DILLINGER</b></h4>
+							<p class="card-text">Clour Blocked Blue T-Shirt</p>
 							<p>
 								<b>RS.476 </b>
 								<del class="text-secondary"> Rs.899 </del>
@@ -1328,8 +1336,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>Huetrap</b></h4>
-							<p class="card-text large-text">Graphic Cotton T-Shirt</p>
+							<h4 class="card-title"><b>Huetrap</b></h4>
+							<p class="card-text">Graphic Cotton T-Shirt</p>
 							<p>
 								<b>RS.489 </b>
 								<del class="text-secondary"> Rs.1399 </del>
@@ -1348,8 +1356,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>HRX by Hrithik Roshan</b></h4>
-							<p class="card-text large-text">Men rapid dry running T-shirt</p>
+							<h4 class="card-title"><b>HRX by Hrithik Roshan</b></h4>
+							<p class="card-text">Men rapid dry running T-shirt</p>
 							<p>
 								<b>RS.719 </b>
 								<del class="text-secondary"> Rs.1199 </del>
@@ -1368,8 +1376,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>Roadster</b></h4>
-							<p class="card-text large-text">Typography Cotton T-shirt</p>
+							<h4 class="card-title"><b>Roadster</b></h4>
+							<p class="card-text">Typography Cotton T-shirt</p>
 							<p>
 								<b>RS.349 </b>
 								<del class="text-secondary"> Rs.699 </del>
@@ -1388,8 +1396,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>Roadster</b></h4>
-							<p class="card-text large-text">Graphic Cotton T-Shirt</p>
+							<h4 class="card-title"><b>Roadster</b></h4>
+							<p class="card-text">Graphic Cotton T-Shirt</p>
 							<p>
 								<b>RS.274 </b>
 								<del class="text-secondary"> Rs.499 </del>
@@ -1408,8 +1416,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>DILLINGER</b></h4>
-							<p class="card-text large-text">Pure Cotton T-Shirt</p>
+							<h4 class="card-title"><b>DILLINGER</b></h4>
+							<p class="card-text">Pure Cotton T-Shirt</p>
 							<p>
 								<b>RS.476 </b>
 								<del class="text-secondary"> Rs.899 </del>
@@ -1428,8 +1436,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>WROGAN</b></h4>
-							<p class="card-text large-text">Graphic Cotton T-Shirt</p>
+							<h4 class="card-title"><b>WROGAN</b></h4>
+							<p class="card-text">Graphic Cotton T-Shirt</p>
 							<p>
 								<b>RS.889 </b>
 								<del class="text-secondary"> Rs.1399 </del>
@@ -1448,8 +1456,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>HRX by Hrithik Roshan</b></h4>
-							<p class="card-text large-text">Men rapid dry running T-shirt</p>
+							<h4 class="card-title"><b>HRX by Hrithik Roshan</b></h4>
+							<p class="card-text">Men rapid dry running T-shirt</p>
 							<p>
 								<b>RS.719 </b>
 								<del class="text-secondary"> Rs.1199 </del>
@@ -1468,8 +1476,8 @@
 							</div>
 						</div>
 						<div class="card-body">
-							<h4 class="card-title large-text"><b>Roadster</b></h4>
-							<p class="card-text large-text">Typography Cotton T-shirt</p>
+							<h4 class="card-title"><b>Roadster</b></h4>
+							<p class="card-text">Typography Cotton T-shirt</p>
 							<p>
 								<b>RS.349 </b>
 								<del class="text-secondary"> Rs.699 </del>
@@ -1500,8 +1508,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/box2.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text "><b>WildHorn</b></h4>
-								<p class="card-text large-text">Men RFID Protected Genuine</p>
+								<h4 class="card-title"><b>WildHorn</b></h4>
+								<p class="card-text">Men RFID Protected Genuine</p>
 								<p class="medium-text">
 									<b>RS.839 </b>
 									<del class="text-secondary"> Rs.2299 </del>
@@ -1514,8 +1522,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/belt.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text"><b>Calvadoss</b></h4>
-								<p class="card-text large-text">Men Premium belt</p>
+								<h4 class="card-title"><b>Calvadoss</b></h4>
+								<p class="card-text">Men Premium belt</p>
 								<p class="medium-text">
 									<b>RS.782 </b>
 									<del class="text-secondary"> Rs.2899 </del>
@@ -1528,8 +1536,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/towel.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text"><b>HERE & NOW</b></h4>
-								<p class="card-text large-text">Men Side Striped Track Pants</p>
+								<h4 class="card-title"><b>HERE & NOW</b></h4>
+								<p class="card-text">Men Side Striped Track Pants</p>
 								<p class="medium-text">
 									<b>RS.642 </b>
 									<del class="text-secondary"> Rs.1899 </del>
@@ -1542,8 +1550,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/jeggings.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text"><b>Softweave</b></h4>
-								<p class="card-text large-text">Men Self Design Bath towel </p>
+								<h4 class="card-title"><b>Softweave</b></h4>
+								<p class="card-text">Men Self Design Bath towel </p>
 								<p class="medium-text"><b>RS.929</b></p>
 							</div>
 						</div>
@@ -1552,8 +1560,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/towel.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text"><b>WildHorn</b></h4>
-								<p class="card-text large-text">Men RFID Protected Genuine</p>
+								<h4 class="card-title"><b>WildHorn</b></h4>
+								<p class="card-text">Men RFID Protected Genuine</p>
 								<p class="medium-text">
 									<b>RS.889 </b>
 									<del class="text-secondary"> Rs.1399 </del>
@@ -1566,8 +1574,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/belt2.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text "><b>WildHorn</b></h4>
-								<p class="card-text large-text">Men RFID Protected Genuine</p>
+								<h4 class="card-title"><b>WildHorn</b></h4>
+								<p class="card-text">Men RFID Protected Genuine</p>
 								<p class="medium-text">
 									<b>RS.889</b>
 									<del class="text-secondary"> Rs.1399 </del>
@@ -1580,8 +1588,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/box3.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text"><b>WildHorn</b></h4>
-								<p class="card-text large-text">Men RFID Protected Genuine</p>
+								<h4 class="card-title"><b>WildHorn</b></h4>
+								<p class="card-text ">Men RFID Protected Genuine</p>
 								<p class="medium-text">
 									<b>RS.889 </b>
 									<del class="text-secondary"> Rs.1399 </del>
@@ -1594,9 +1602,9 @@
 						<div class="card">
 							<img class="card-img-top" src="image/bun.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text">
+								<h4 class="card-title">
 									<b>Blacksmith</b></h4>
-								<p class="card-text large-text">Men White & Green Gift Set</p>
+								<p class="card-text">Men White & Green Gift Set</p>
 								<p class="medium-text">
 									<b>RS.889 </b>
 									<del class="text-secondary"> Rs.1399 </del>
@@ -1609,8 +1617,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/oil.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text"><b>MANCODE</b></h4>
-								<p class="card-text large-text">Pack of Two beard Oil&Soap</p>
+								<h4 class="card-title"><b>MANCODE</b></h4>
+								<p class="card-text">Pack of Two beard Oil&Soap</p>
 								<p class="medium-text">
 									<b>RS.719 </b>
 									<del class="text-secondary"> Rs.1199 </del>
@@ -1623,8 +1631,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/mask.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text"><b>MASQ</b></h4>
-								<p class="card-text large-text">Women Pack Of 3cloth masks</p>
+								<h4 class="card-title"><b>MASQ</b></h4>
+								<p class="card-text">Women Pack Of 3cloth masks</p>
 								<p class="medium-text">
 									<b>RS.349 </b>
 									<del class="text-secondary"> Rs.699 </del>
@@ -1637,8 +1645,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/box4.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text "><b>Wild-horn</b></h4>
-								<p class="card-text large-text">Men RFID Protected Genuine</p>
+								<h4 class="card-title"><b>Wild-horn</b></h4>
+								<p class="card-text">Men RFID Protected Genuine</p>
 								<p class="medium-text">
 									<b>RS.274 </b>
 									<del class="text-secondary"> Rs.499 </del>
@@ -1651,8 +1659,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/box6.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text"><b>amicraft</b></h4>
-								<p class="card-text large-text">Combo of wallet&Belt</p>
+								<h4 class="card-title"><b>amicraft</b></h4>
+								<p class="card-text">Combo of wallet&Belt</p>
 								<p class="medium-text">
 									<b>RS.476 </b>
 									<del class="text-secondary"> Rs.899 </del>
@@ -1665,8 +1673,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/bun2.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text"><b>WildHorn</b></h4>
-								<p class="card-text large-text">Men leather accessory gift</p>
+								<h4 class="card-title"><b>WildHorn</b></h4>
+								<p class="card-text">Men leather accessory gift</p>
 								<p class="medium-text">
 									<b>RS.889 </b>
 									<del class="text-secondary"> Rs.1399 </del>
@@ -1679,8 +1687,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/shorts.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text"><b>Blacksmith</b></h4>
-								<p class="card-text large-text">Black & White Printed Gift </p>
+								<h4 class="card-title"><b>Blacksmith</b></h4>
+								<p class="card-text">Black & White Printed Gift </p>
 								<p class="medium-text">
 									<b>RS.719 </b>
 									<del class="text-secondary"> Rs.1199 </del>
@@ -1693,8 +1701,8 @@
 						<div class="card">
 							<img class="card-img-top" src="image/box3.jpg" alt="Card image">
 							<div class="card-body border-top">
-								<h4 class="card-title large-text"><b>Wear your Mind</b></h4>
-								<p class="card-text large-text">Sports-Shorts</p>
+								<h4 class="card-title"><b>Wear your Mind</b></h4>
+								<p class="card-text">Sports-Shorts</p>
 								<p class="medium-text">
 									<b>RS.349 </b>
 									<del class="text-secondary"> Rs.699 </del>
@@ -1707,235 +1715,104 @@
 			</div>
 		</div>
 		<div class="container-fuid my-5">
-            <footer class="text-center text-lg-start text-secondary">     
-                <div class="container p-4 pb-0">
-                    <!-- <section class=""> -->
-                        <div class="row">
-                            <div class="col-lg-3 col-md-5 mb-4 mb-md-0">
-                                <div class=" footer-links">
-                                    <p class="color-black">ONLINE SHOPPING</p>
-                                    <div class=""><a href="#" class="text-decoration-none">Men</a></div>
-                                    <div class=""><a href="#"  class="text-decoration-none">Women</a></div>
-                                    <div class=""><a href="#"  class="text-decoration-none">Kids</a></div>
-                                    <div class=""><a href="#"  class="text-decoration-none">Home&Living</a></div>
-                                    <div class=""><a href="#"  class="text-decoration-none">Beauty</a></div>
-                                    <div class=""><a href="#"  class="text-decoration-none">Gift cards</a></div>
-                                    <div class="">
-                                    <a href="#"  class="text-decoration-none">Mynthra Insider</a>
-                                    <button type="button" class="new-button">New</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-md-5 mb-4 mb-md-0">
-                                <div class=" footer-links ">
-                                    <p class="small-text color-black">USEFUL LINKS</p>
-                                    <div class=""><a href="#" class="text-decoration-none">Contact Us</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">FAQ</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">T&C</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">Terms of Use</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">Track orders</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">Shipping</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">Cancellation</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">Returns</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">Whitehat</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">Blogs</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">Careers</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">Privacy&Policy</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none">Site Map</a></div>
-                                    <div class=""><a href="#" class="text-decoration-none"> Information</a></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-5 mb-4 mb-md-0">
-                                <div class="">
-                                    <p class="color-black">EXPERIENCE MYNTRA APP ON MOBILE</p>
-                                </div>
-                                <div class="d-flex flex-row justify-content-center pt-3 gap-2 ">
-                                    <img src="image/googleplay.png" class="play-store" alt="playstore">
-                                    <img src="image/apple.png" class="apple-store" alt="playstore">
-                                </div>
-                                <div class="pt-3">
-                                    <p class="small-text color-black">KEEP IN TOUCH</p>
-                                    <div class="social-media-icons">
-                                        <i class="fa-brands fa-facebook-square"></i>
-                                        <i class="fa-brands fa-twitter"></i>
-                                        <i class="fa-brands fa-youtube"></i>
-                                        <i class="fa-brands fa-instagram-square"></i>
-                                    </div>
-                                </div>                                   
-                            </div>
-                            <div class="col-lg-4 col-md-5 mb-4 mb-md-0 ">
-                                <div class="ps-5 pt-2 d-flex flex-row  ">
-                                    <div class="pb-3 ">
-                                        <img src="image/orginal.png" class="original-image" alt="image">
-                                    </div>
-                                    <div class="large-text"> <b class="color-black">100% ORIGINAL</b> guarantee <br>for all products at myntra.com</div>
-                                    <br>
-                                </div>
-                                <div class="p-1  ps-5 d-flex flex-row">
-                                    <div>
-                                        <img src="image/arrow.png" class="original-image" alt="image">
-                                    </div>
-                                    <div class="ps-2"> <b class="color-black">Return within 30days</b> guarantee <br>of receiving your order</div>
-                                </div>
-                            </div>
-                        </div>
-                    <!-- </section> -->
-                    </div>
-                    <div class="container pt-4">
-                        <div class="row d-flex flex-row">
-                            <p class="popular-searches"><b>POPULAR SEARCHES</b></p>
-                        </div>
-                        <div class="popular-search-content pt-3">
-                            Peesafe |  Myra |  Neerus |  Khadi | Natural | La Senza |
-                            Wild Stone | Decathlon | Koskii | Swisse | Arrow | Gucci|
-                            Philips | Jockey | Amster | Panit | Pantaloons | Men Pants|
-                            Justice League | Diesel | Manu | Sugar | G Shock  Fossil | 
-                            Nivea | Aristocrat |  Lakme |  Vega | Maybelline | Denver | Shirts For Mens|  
-                            Men Underwear | Kurta For Mens | Jockey Men Inner Wear |  Tissot  |
-                            Jacket For Men | Men Hoodies | Jeans Pant | Lower For Men | Mens Printed Shirts | 
-                            Jockey Underwear Men | Pajamas For Men |  Men Overcoat |  Mens Cotton Shorts | 
-                            Jockey Shorts For Men | Joggers For Men | Mens Cargo Shorts | Yelloe  |
-                            Himalaya  Bose  Boat
-                        </div>
-                        <div class=" row d-flex flex-row pt-4">
-                            <p class="col-sm-8 medium-text float-start">In case of any concern, <a href="#" class="text-decoration-none">Contact Us</a></p>
-                            <p class=" col-sm-4  large-text website-link ">© 2022 www.myntra.com. All rights reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-		<!-- <footer class="px-5 bg-light mt-4">
-			<div class="container ">
-				<div class="footer-row">
-					<div class="  footer-links content1">
-						<p class="online-shopping"><b>ONLINE SHOPPING</b></p>
-						<div class="medium-text">
-							<a href="#" class="text-decoration-none">Men</a>
-						</div>
-						<div class="medium-text">
-							<a href="#" class="text-decoration-none">Women</a>
-						</div>
-						<div class="medium-text">
-							<a href="#" class="text-decoration-none">Kids</a>
-						</div>
-						<div class="medium-text">
-							<a href="#" class="text-decoration-none">Home&Living</a>
-						</div>
-						<div class="medium-text">
-							<a href="#" class="text-decoration-none">Beauty</a>
-						</div>
-						<div class="medium-text">
-							<a href="#" class="text-decoration-none">Gift cards</a>
-						</div>
-						<div class="medium-text">
-							<a href="#" class="text-decoration-none">Mynthra Insider</a>
-							<button type="button" class="new-button">New</button>
-						</div>
-					</div>
-					<div class="  footer-links ">
-						<p class="small-text"><b>USEFUL LINKS</b></p>
-						<div class="medium-text">
-							<a href="#" class="text-decoration-none">Contact Us</a>
-						</div>
-						<div class="medium-text">
-							<a href="#" class="text-decoration-none">FAQ</a>
-						</div>
-						<div class="medium-text"><a href="#" class="text-decoration-none">T&C</a></div>
-						<div class="medium-text"><a href="#" class="text-decoration-none">Terms of Use</a></div>
-						<div class="medium-text"><a href="#" class="text-decoration-none">Track orders</a></div>
-						<div class="medium-text"><a href="#" class="text-decoration-none">Shipping</a></div>
-						<div class="medium-text"><a href="#" class="text-decoration-none">Cancellation</a></div>
-						<div class="medium-text"><a href="#" class="text-decoration-none">Returns</a></div>
-						<div class="medium-text"><a href="#" class="text-decoration-none">Whitehat</a></div>
-						<div class="medium-text"><a href="#" class="text-decoration-none">Blogs</a></div>
-						<div class="medium-text"><a href="#" class="text-decoration-none">Careers</a></div>
-						<div class="medium-text"><a href="#" class="text-decoration-none">Privacy&Policy</a></div>
-						<div class="medium-text"><a href="#" class="text-decoration-none">Site Map</a></div>
-						<div class="medium-text"><a href="#" class="text-decoration-none"> Information</a></div>
-					</div>
-					<div class=" ">
-						<p class="small-text">
-							<b>EXPERIENCE MYNTRA APP ON MOBILE</b>
-						</p>
-						<div class="d-flex flex-row pt-3">
-							<button type="button" class="border  play-store-button">
-								<i class="fa-brands fa-google-play"></i>
-								<div>
-									<div class="smaller-text">
-										GET IT ON
-									</div>
-									<div class="medium-text">
-										Google Play
-									</div>
+			<footer class="text-lg-start text-secondary">
+				<div class="container p-4 pb-0">
+					<div class="row">
+						<div class="col-lg-3 col-md-5 mb-4 mb-md-0">
+							<div class=" footer-links">
+								<p>ONLINE SHOPPING</p>
+								<div class=""><a href="#" class="text-decoration-none">Men</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Women</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Kids</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Home&Living</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Beauty</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Gift cards</a></div>
+								<div class="">
+									<a href="#" class="text-decoration-none">Mynthra Insider</a>
+									<button type="button" class="new-button">New</button>
 								</div>
-							</button>
-							<button type="button" class="border play-store-button">
-								<i class="fa-brands fa-apple"></i>
-								<span>
-									<span class="small-text">
-										Download on the
-									</span><br>
-									<span class="medium-text">
-										Appstore
-									</span>
-								</span>
-							</button>
+							</div>
 						</div>
-						<div class="pt-3">
-							<p class="small-text">KEEP IN TOUCH</p>
-							<div class="social-media-icons">
-								<i class="fa-brands fa-facebook-square"></i>
-								<i class="fa-brands fa-twitter"></i>
-								<i class="fa-brands fa-youtube"></i>
-								<i class="fa-brands fa-instagram-square"></i>
+						<div class="col-lg-2 col-md-5 mb-4 mb-md-0">
+							<div class=" footer-links ">
+								<p class="small-text color-black">USEFUL LINKS</p>
+								<div class=""><a href="#" class="text-decoration-none">Contact Us</a></div>
+								<div class=""><a href="#" class="text-decoration-none">FAQ</a></div>
+								<div class=""><a href="#" class="text-decoration-none">T&C</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Terms of Use</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Track orders</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Shipping</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Cancellation</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Returns</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Whitehat</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Blogs</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Careers</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Privacy&Policy</a></div>
+								<div class=""><a href="#" class="text-decoration-none">Site Map</a></div>
+								<div class=""><a href="#" class="text-decoration-none"> Information</a></div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-5 mb-4 mb-md-0">
+							<div class="">
+								<p class="color-black">EXPERIENCE MYNTRA APP ON MOBILE</p>
+							</div>
+							<div class="d-flex flex-row justify-content-center pt-3 gap-2 ">
+								<img src="image/googleplay.png" class="play-store" alt="playstore">
+								<img src="image/apple.png" class="apple-store" alt="playstore">
+							</div>
+							<div class="pt-3">
+								<p class="small-text color-black">KEEP IN TOUCH</p>
+								<div class="social-media-icons">
+									<i class="fa-brands fa-facebook-square"></i>
+									<i class="fa-brands fa-twitter"></i>
+									<i class="fa-brands fa-youtube"></i>
+									<i class="fa-brands fa-instagram-square"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-5 mb-4 mb-md-0 ">
+							<div class="ps-5 pt-2 d-flex flex-row  ">
+								<div class="pb-3 ">
+									<img src="image/orginal.png" class="original-image" alt="image">
+								</div>
+								<div class="large-text"> <b class="color-black">100% ORIGINAL</b> guarantee <br>for all
+									products at myntra.com</div>
+								<br>
+							</div>
+							<div class="p-1  ps-5 d-flex flex-row">
+								<div>
+									<img src="image/arrow.png" class="original-image" alt="image">
+								</div>
+								<div class="ps-2"> <b class="color-black">Return within 30days</b> guarantee <br>of
+									receiving your order</div>
 							</div>
 						</div>
 					</div>
-					<div>
-						<div class=" d-flex flex-row">
-							<div class="original">
-								<img src="image/orginal.png" class="original-image" alt="image">
-							</div>
-							<div class="large-text">
-								<b>100% ORIGINAL</b> guarantee <br>for all products at myntra.com
-							</div><br>
-						</div>
-						<div class="arrow">
-							<img src="image/arrow.png" class="original-image" alt="image">
-						</div>
-						<div class="large-text">
-							<b>Return within 30days of</b> <br>receiving your order
-						</div>
+				</div>
+				<div class="container pt-4">
+					<div class="row d-flex flex-row">
+						<p class="popular-searches"><b>POPULAR SEARCHES</b></p>
+					</div>
+					<div class="popular-search-content pt-3">
+						Peesafe | Myra | Neerus | Khadi | Natural | La Senza |
+						Wild Stone | Decathlon | Koskii | Swisse | Arrow | Gucci|
+						Philips | Jockey | Amster | Panit | Pantaloons | Men Pants|
+						Justice League | Diesel | Manu | Sugar | G Shock Fossil |
+						Nivea | Aristocrat | Lakme | Vega | Maybelline | Denver | Shirts For Mens|
+						Men Underwear | Kurta For Mens | Jockey Men Inner Wear | Tissot |
+						Jacket For Men | Men Hoodies | Jeans Pant | Lower For Men | Mens Printed Shirts |
+						Jockey Underwear Men | Pajamas For Men | Men Overcoat | Mens Cotton Shorts |
+						Jockey Shorts For Men | Joggers For Men | Mens Cargo Shorts | Yelloe |
+						Himalaya Bose Boat
+					</div>
+					<div class=" row d-flex flex-row pt-4">
+						<p class="col-sm-8 medium-text float-start">In case of any concern, <a href="#"
+								class="text-decoration-none">Contact Us</a></p>
+						<p class=" col-sm-4  large-text website-link ">© 2022 www.myntra.com. All rights reserved.</p>
 					</div>
 				</div>
-			</div>
-			<div class="container-fluid bg-light">
-				<div class="popular">
-					Popular Searches
-					<hr>
-				</div>
-				<p class="content1">
-					Peesafe | Myra | Neerus | Khadi | Natural | La Senza |
-					Wild Stone | Decathlon | Koskii | Swisse | Arrow | Gucci|
-					Philips | Jockey | Amster | Panit | Pantaloons | Men Pants|<br>
-					Justice League | Diesel | Manu | Sugar | G Shock Fossil |
-					Nivea | Aristocrat | Lakme | Vega | Maybelline | Denver | Shirts For Mens|
-					Men Underwear | Kurta For Mens |<br> Jockey Men Inner Wear | Tissot |
-					Jacket For Men | Men Hoodies | Jeans Pant | Lower For Men | Mens Printed Shirts |
-					Jockey Underwear Men | Pajamas For Men |<br> Men Overcoat | Mens Cotton Shorts |
-					Jockey Shorts For Men | Joggers For Men | Mens Cargo Shorts | Yelloe |
-					Himalaya Bose Boat
-				</p>
-				<div>
-					<span class="content2">
-						In case of any concern,<b class="contact">Contact Us</b>
-					</span>
-					<span class="content3">
-						© 2022 www.myntra.com. All rights reserved.
-					</span>
-				</div>
-			</div>
-		</footer> -->
-
+			</footer>
+		</div>
+		<script src="js/bootstrap.js"></script>
 	</body>
 </html>
