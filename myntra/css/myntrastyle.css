@@ -20,6 +20,10 @@
     color: black;
     left: 4%;
 }
+.side-logo-img
+{
+    width: 100px;
+}
 
 .cardblock1 {
     position: absolute;
@@ -44,27 +48,10 @@ img#logo-img {
     margin-left: 5px;
     position: absolute;
 }
-.search-bar input {
-    padding: 10px;
-    margin-top: 7px;
-    border-radius: 2px;
-    border: 1px solid #b5b4b3;
-    margin-left: 22px;
-}
-
-.search-bar input:focus {
-    outline: 3px solid #a9e6eb;
-}
-
 b {
     margin-left: 13px;
     font-size: 13px;
 }
-
-.home {
-    font-size: 11px;
-}
-
 input[type="text"] {
     background-color: #f2f4f7;
     border-radius: 3px;
@@ -72,9 +59,6 @@ input[type="text"] {
     height: 40px;
 }
 
-.search-container {
-    margin-top: 12px;
-}
 
 .fa-user {
     margin-left: 60px;
@@ -510,7 +494,7 @@ img.image6 {
     border: 1px solid gray;
     margin-top: 40px;
     color: #ff3e6c;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .button1:hover {
@@ -548,11 +532,25 @@ img.image6 {
     z-index: 2;
     transition-delay: .15s;
 }
+.online{
+
+}
 
 .navlinks:hover .content {
     visibility: visible;
 }
-
+img#play-store {
+    width: 37%;
+}
+img#apple-store {
+    width: 38%;
+}
+img#original-image {
+    width: 84%;
+}
+img#arrow-image {
+    width: 67%;
+}
 .sup {
     color: #ff3f6c;
 }
@@ -875,9 +873,9 @@ img.photo2 {
     margin-right: 10px;
 }
 
-img.photo4 {
+/* img.photo4 {
     width: 69px;
-}
+} */
 
 img.photo3 {
     width: 70px;
@@ -921,20 +919,28 @@ img .original {
 img .googleplay {
     width: 200px;
 }
-
+.online{
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
 .contact {
     font-size: 16px;
     color: blue;
 }
-
-.online-shopping {
-    font-weight: 500;
-    margin-left: -13px;
-}
-
 .original {
     width: 30px;
     height: 30px;
+}
+.experience{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;  
+}
+.useful-links{
+    font-size: 16px;
+    color: black;
+    font-weight: 600; 
 }
 
 .see {
@@ -953,4 +959,66 @@ b.rupee {
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
+}
+.search-bar
+{
+    border:1px solid rgb(214, 209, 209);
+    width:25%;
+    background-color: #f5f5f6;
+    border-radius:5px;   
+}
+.search-content
+{
+    width:80%;
+    padding:2px;
+    border:none;
+    background-color: #f5f5f6;
+}
+.search-content:focus
+{
+    outline:none;
+}
+.fa-magnifying-glass
+{
+    font-size:16px;
+    padding:10px 2px;
+    color:gray;
+}
+.color
+{
+    color:black;
+}
+.card-icon
+{
+    position:absolute;
+    background-color:white;
+    top:68%;
+    left:3%;
+    font-size:9px;
+    padding:0px 2px;
+}
+.card-star
+{
+    font-size:8px;
+    color:#14958f;
+}
+.bg-image
+{
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../image/photo4.jpg");
+  background-size: cover;
+  width:82px;
+  
+}
+.overlay-content
+{
+    color: white;
+    text-align: center;
+    margin-top:20px;
+    /* margin-top:25px;
+    margin-left:10px; */
 }
