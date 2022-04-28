@@ -286,26 +286,8 @@ b.hello {
 .emi-option {
     font-size: 16px;
 }
-
-.emi {
-    font-weight: 500;
-}
-
-.product {
-    font-weight: 600;
-}
-
 .feature {
-    font-weight: 600;
     font-size: 14px;
-}
-
-.fit {
-    font-weight: 600;
-}
-
-.care {
-    font-weight: 600;
 }
 
 .plan {
@@ -314,8 +296,6 @@ b.hello {
 
 .plan {
     font-size: 14px;
-    font: bold;
-    font-weight: 600;
 }
 
 h6 {
@@ -372,13 +352,11 @@ img.photo5 {
 
 .spec {
     font-size: 17px;
-    font-weight: 600;
 }
 
 .cust-liked {
     margin-left: 20px;
     font-size: 16px;
-    font-weight: 600;
 }
 
 .description {
@@ -430,7 +408,6 @@ p .view-all {
 
 p.product-code {
     font-size: 16px;
-    font-weight: 300;
 }
 
 b.code {
@@ -444,13 +421,7 @@ b.omni {
 
 p.view-supplier {
     font-size: 14px;
-    font-weight: 700;
 }
-
-p.seller {
-    font-weight: 300;
-}
-
 img.image1 {
     width: 212px;
 }
@@ -478,7 +449,7 @@ img.image6 {
 .button1 {
     border-radius: 20px;
     border: 1px solid gray;
-    margin-left: 26%;
+    margin-left: 5%;
     margin-top: 40px;
     color: #ff3e6c;
     font-weight: 500;
@@ -490,7 +461,7 @@ img.image6 {
     border: 1px solid gray;
     margin-top: 40px;
     color: #ff3e6c;
-    font-weight: 500;
+    
 }
 
 .button3 {
@@ -499,7 +470,6 @@ img.image6 {
     border: 1px solid gray;
     margin-top: 40px;
     color: #ff3e6c;
-    font-weight: bold;
 }
 
 .button1:hover {
@@ -537,9 +507,6 @@ img.image6 {
     z-index: 2;
     transition-delay: .15s;
 }
-
-.online {}
-
 .navlinks:hover .content {
     visibility: visible;
 }
@@ -587,34 +554,11 @@ img#arrow-image {
     border: 1px solid red;
 }
 
-.play-store-button {
-    display: flex;
-    flex-direction: row;
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    margin-right: 5px;
-    padding: 0px 15px;
-}
-
-.smaller-text {
-    font-size: 7px;
-    margin-top: 8px;
-    letter-spacing: 1px;
-}
-
-.fa-apple {
-    font-size: 25px;
-    margin-top: 10px;
-    padding-right: 1px;
-}
-
 .social-media-icons i {
     margin-right: 5px;
     font-size: 17px;
     font-size: 25px;
 }
-
 .hovermen {
     /* display: none; */
     visibility: hidden;
@@ -625,13 +569,11 @@ img#arrow-image {
     left: 169px;
     z-index: 1;
 }
-
 .men1:hover .hovermen {
     /* display: flex !important; */
     /* flex-wrap: wrap !important; */
     visibility: visible;
 }
-
 .hoverwomen {
     visibility: hidden;
     position: fixed;
@@ -641,29 +583,6 @@ img#arrow-image {
     left: 200px;
     z-index: 1;
 }
-
-.men-details {
-    display: none;
-}
-
-.men-details-show {
-    display: block;
-}
-
-.men-details {
-    position: absolute;
-    top: 99%;
-    left: 8%;
-    display: none;
-    width: 85%;
-    border: none;
-    background-color: white;
-}
-
-.nav-item:hover .men-details {
-    display: block;
-}
-
 img.star2 {
     width: 15px;
 }
@@ -672,7 +591,6 @@ p img {
     width: 350px;
     margin-left: 80px;
 }
-
 .hoverstudio {
     visibility: hidden;
     position: fixed;
@@ -685,15 +603,12 @@ p img {
 }
 
 .studio:hover .hoverstudio {
-    /* display: flex !important; */
-    /* flex-wrap: wrap !important; */
     visibility: visible;
 }
 
 .women:hover .hoverwomen {
     visibility: visible;
 }
-
 .hoverkid {
     visibility: hidden;
     position: fixed;
@@ -761,7 +676,6 @@ p img {
 .rating-star {
     margin-top: 15px;
     font-size: 16px;
-    font-weight: 600;
 }
 
 .rating-review {
@@ -781,7 +695,6 @@ img {
 .customer {
     margin-top: 20px;
     font-size: 16px;
-    font-weight: 600;
 }
 
 span .img {
@@ -798,7 +711,6 @@ progress#file6 {
 
 .expected {
     font-size: 14px;
-    font-weight: 500;
 }
 
 .length {
@@ -808,7 +720,6 @@ progress#file6 {
 .view-details {
     margin-top: 14px;
     color: #ff3e6c;
-    font-weight: 700;
 }
 
 progress#file7 {
@@ -817,7 +728,6 @@ progress#file7 {
 
 .asexpected {
     font-size: 14px;
-    font-weight: 600;
 }
 
 .feedback {
@@ -887,11 +797,6 @@ img.photo2 {
     width: 68px;
     margin-right: 10px;
 }
-
-/* img.photo4 {
-    width: 69px;
-} */
-
 img.photo3 {
     width: 70px;
 }
@@ -911,22 +816,6 @@ img.photo5 {
     margin-top: 14px;
     margin-bottom: 15px;
 }
-
-.content1 {
-    /* margin-left: 124px; */
-    font-weight: 300;
-    font-size: 15px;
-}
-
-span.content3 {
-    /* margin-left: 33%; */
-}
-
-span.content2 {
-    /* margin-left: 120px; */
-    font-weight: 300;
-}
-
 img .original {
     width: 20%;
 }
@@ -953,14 +842,12 @@ img .googleplay {
 
 .experience {
     font-size: 16px;
-    color: black;
-    font-weight: 600;
+    color: black;   
 }
 
 .useful-links {
     font-size: 16px;
     color: black;
-    font-weight: 600;
 }
 
 .see {
@@ -1041,7 +928,7 @@ b.rupee {
 
 .zoom {
 
-   
+
     transition: transform 2s;
     margin: 0 auto;
 }
