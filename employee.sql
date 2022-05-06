@@ -55,6 +55,7 @@ concat('$',salary*15/100+salary) as salary from employees;
 select concat(emp_name,"    ",job_name) as "Employee & Job" from employees; 
 select emp_id,emp_name,salary,date_format(hire_date,'%M %d, %Y') from employees;
 select length(trim(emp_name)) from employees;
+select emp_id,salary,commisssion from employees;
 select distinct dep_id,job_name from employees;
 select * from employees where dep_id not in (2001);
 select * from employees where hire_date<("1991-1-1");
@@ -63,7 +64,6 @@ select * from employees where emp_name="BLAZE";
 select * from employees where (1.25*salary)>3000;
 select * from employees where date_format(hire_date,'%M')="January";
 select emp_id,emp_name,hire_date,salary from employees where hire_date<("1991-04-01");
-select emp_name,salary from employees where emp_name="FRANK";
 select * from employees where job_name not in("president","manager") order by salary asc;
 select max(salary) from employees;
 select job_name,avg(salary),avg(salary+commisssion) from employees group by job_name;
@@ -75,3 +75,53 @@ select manager_id,count(*) as count from employees
 group by manager_id order by manager_id asc;
 select dep_id,count(*) as count from employees
 group by dep_id having count(*)>=2;
+select employees.emp_name,employees.salary from employees,salary_grade
+where employees.emp_name='frank'
+and employees.salary between salary_grade.min_salary and salary_grade.max_salary
+and employees.salary=salary_grade.max_salary;
+alter table employees add gender varchar(10);
+UPDATE EMPLOYEES
+SET gender='FEMALE'
+WHERE emp_id=68319;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=66928;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=67832;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=65646;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=67858;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=69062;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=63679;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=64989;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=65271;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=68319;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=66564;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=68454;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=68736;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=69000;
+UPDATE EMPLOYEES
+SET gender='MALE'
+WHERE emp_id=69324;
