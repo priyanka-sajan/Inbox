@@ -53,7 +53,7 @@ select distinct job_name from employees;
 select emp_name,
 concat('$',salary*15/100+salary) as salary from employees;
 select concat(emp_name,"    ",job_name) as "Employee & Job" from employees; 
-select emp_id,emp_name,salary,date_format(hire_date,'%M %d, %Y') from employees;
+select emp_id,emp_name,salary,date_format(hire_date,'%M %d, %Y') as to_char from employees;
 select length(trim(emp_name)) from employees;
 select emp_id,salary,commisssion from employees;
 select distinct dep_id,job_name from employees;
