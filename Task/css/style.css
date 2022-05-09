@@ -119,6 +119,10 @@ span.time4 {
     color: grey;
    padding-bottom: 10px;
 }
+span.time1 {
+    position: absolute;
+    margin-left: -29px;
+}
 .text5 {
     
     font-size: 11px;
