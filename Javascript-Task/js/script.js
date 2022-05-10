@@ -42,7 +42,7 @@ function myFunction() {
 
     for (var i = 0; i < 10; i++) {
         var tag = document.createElement("div");
-        tag.setAttribute('exercise', 'bg-color')
+        tag.setAttribute('class', 'bg-color')
         var text = document.createTextNode("exercise");
         tag.appendChild(text);
         var element = document.getElementById("new");
