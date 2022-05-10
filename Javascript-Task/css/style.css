@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.top-container {
+   
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.main-container{
+    height:600px;
+    border:1px solid red;
+    width: 82%;
+    margin-left:11%;
+}
+.bg-color{
+    background-color: #e1ecf4;
+}
+
+.time {
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}
+
+.schedule {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.time-schedule {
+    margin-left:8%;
+    border-bottom: 1px solid #e9e5e5;
+    padding-bottom: 11px;
+}
+
