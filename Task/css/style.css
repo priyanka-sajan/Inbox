@@ -1,106 +1,120 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    /* font-family: 'Open Sans', sans-serif; */
 }
+
 .main-container {
-	
-	width: 82%;
-	margin: 0 auto;
+    width: 82%;
+    margin: 0 auto;
     margin-top: 20px;
 }
+
 .time {
     font-size: 12px;
     font-weight: 500;
     color: grey;
 }
-.font-size
-{
-    font-size:12px;
-    margin-left:20px;
+
+.font-size {
+    font-size: 12px;
+    margin-left: 20px;
 }
-.code-review
-{
-    width:94%;
-    display:flex;
+
+.code-review {
+    width: 94%;
+    display: flex;
     flex-direction: row;
 }
-.sub-code-review
-{
-    width:94%;
+
+.sub-code-review {
+    width: 94%;
     background-color: #e1ecf4;
     font-size: 10px;
-    padding:5px;
-    border-left:3px solid #699ecc;
+    padding: 5px;
+    border-left: 3px solid #699ecc;
 }
+
 .schedule {
     font-size: 16px;
     font-weight: 600;
 }
+
 .time-schedule {
     border-bottom: 1px solid #e9e5e5;
     padding-bottom: 11px;
 }
+
 .exercise-time {
-    border-left: 3px solid #699ecc ;
+    border-left: 3px solid #699ecc;
     margin-left: 48px;
     margin-right: 71px;
     background-color: #e1ecf4;
 }
-.flex{
+
+.flex {
     border-bottom: 1px solid #e9e5e5;
     display: flex;
     padding-bottom: 37px;
 }
-.plan-container{
+
+.plan-container {
     display: flex;
-    width:50%;
+    width: 50%;
 }
-.plan-day{
+
+.plan-day {
     display: flex;
-    margin-top:18px;
-    border-left: 3px solid #699ecc ;
+    margin-top: 18px;
+    border-left: 3px solid #699ecc;
     margin-left: 48px;
     margin-right: 71px;
     background-color: #e1ecf4;
 }
-.review-container{
+
+.review-container {
     border-bottom: 1px solid;
-    border-left: 3px solid #699ecc ;
+    border-left: 3px solid #699ecc;
     margin-left: 48px;
     margin-right: 71px;
     background-color: #e1ecf4;
 }
-.travel-container{
+
+.travel-container {
     margin-bottom: 10px;
-    width:50%;
+    width: 50%;
 }
+
 .text2 {
     font-size: 10px;
     padding-bottom: 19px;
 }
+
 .text3 {
     font-size: 11px;
 }
+
 .text4 {
     border-left: 3px solid #699ecc;
     font-size: 11px;
     padding-bottom: 6px;
 }
-.follow-container{
+
+.follow-container {
     display: flex;
     border-bottom: 1px solid #e9e5e5;
 }
+
 .follow-up-block {
     border-left: 3px solid #699ecc;
     background-color: #e1ecf4;
     width: 50%;
     margin-left: 7px;
-    height:50px;
-    margin-top:7px;
-    font-size:10px;
+    height: 50px;
+    margin-top: 7px;
+    font-size: 10px;
 }
+
 .follow-up-blocks {
     margin-top: 10px;
     border-left: 3px solid #699ecc;
@@ -108,136 +122,117 @@
     width: 50%;
     height: 56px;
     margin-left: 7px;
-    font-size:10px;
+    font-size: 10px;
 }
-.skype-container{
-    width:50%;
+
+.skype-container {
+    width: 50%;
 }
+
 .skype-call {
     width: 84%;
     border-left: 3px solid #699ecc;
     background-color: #e1ecf4;
     padding: 7px;
-    font-size:10px;
-    padding-bottom:14px;
+    font-size: 10px;
+    padding-bottom: 14px;
 }
+
 .skype-calls {
     border-left: 3px solid #699ecc;
     background-color: #e1ecf4;
     padding: 5px;
-    margin-top:5px;
+    margin-top: 5px;
 }
+
 .skype-callss {
     border-left: 3px solid #699ecc;
     background-color: #e1ecf4;
     padding: 5px;
-    margin-top:5px;
+    margin-top: 5px;
     width: 84%;
-    font-size:10px;
+    font-size: 10px;
 }
+
 .push-up {
     width: 83%;
     margin-top: 11px;
     border-left: 3px solid #699ecc;
     background-color: #e1ecf4;
     padding: 10px;
-    font-size:10px;
+    font-size: 10px;
 }
+
 .push-ups {
     margin-top: 11px;
     background-color: #e1ecf4;
     padding: 7px;
-    height:15px;
+    height: 15px;
     width: 84%;
 }
+
 span.time1 {
     position: absolute;
     font-size: 13px;
     color: grey;
 }
+
 span.time2 {
     position: absolute;
     margin-left: 23px;
     font-size: 12px;
     color: grey;
 }
-span.time3{
+
+span.time3 {
     position: absolute;
     margin-left: 23px;
     font-size: 12px;
     color: grey;
 }
+
 span.text {
     font-size: 8px;
 }
-.code-container1{
+
+.code-container1 {
     margin-bottom: 15px;
-    margin-top:18px;
+    margin-top: 18px;
     margin-left: 48px;
     margin-right: 71px;
     background-color: #e1ecf4;
     border-bottom: 1px solid #e9e5e5;
 }
-.color{
-    color:grey;
-    opacity:0.2;
+
+.color {
+    color: grey;
+    opacity: 0.2;
 }
-.review-container1{
+
+.review-container1 {
     margin-bottom: 15px;
-    margin-top:18px;
+    margin-top: 18px;
     margin-left: 48px;
     margin-right: 71px;
     background-color: #e1ecf4;
     border-bottom: 1px solid #e1ecf4;
 }
+
 span.time4 {
     position: absolute;
     margin-left: -22px;
     font-size: 10px;
 }
-.time5{
-    margin-top: 10px;
-    position: absolute;
-    margin-left: 23px;
-    font-size: 12px;
-    color: grey;
-}
-.time6 {
-    margin-top: 35px;
-    position: absolute;
-    margin-left: 24px;
-    font-size: 10px;
-    color: grey;
-   padding-bottom: 10px;
-}
 
-.section-container{
+.section-container {
     border: 1px solid red;
 }
-.time7{
-    position: absolute;
-    margin-left: 24px;
-    font-size: 10px;
-    color: grey;
-   padding-bottom: 10px;
-}
-.time8{
-    position: absolute;
-    margin-left: 24px;
-    font-size: 10px;
-    color: grey;
-   padding-bottom: 10px;
-}
+
 span.time1 {
     position: absolute;
     margin-left: -29px;
 }
-.text5 {
-    
-    font-size: 11px;
-    padding-bottom: 6px;
-    margin-left: 49px;
-}
+
 .lunch {
     width: 90%;
     border-left: 3px solid #699ecc;
@@ -245,100 +240,58 @@ span.time1 {
     margin-left: 5px;
     margin-right: 69px;
     height: 111px;
-    font-size:10px;
-}
-.time7 {
-    position: absolute;
-    margin-left: -28px;
-}
-.text5 {
-    font-size: 11px;
-    padding-bottom: 6px;
-    margin-left: 2px;
-}
-.time8 {
-    position: absolute;
-    margin-left: -27px;
-    color:grey;
-}
-.time9 {
-    position: absolute;
-    margin-left: -34px;
     font-size: 10px;
-    margin-top: 24px;
-    color:grey;
 }
-.time10 {
-    position: absolute;
-    font-size: 10px;
-    margin-left: -30px;
-    margin-top: 47px;
-    color: grey;
-}
-.block{
+
+.block {
     border-bottom: 1px solid #e1ecf4;
 }
-span.time11 {
-    margin-left: 18px;
-    font-size: 12px;
-}
-span.time12 {
-    
-    font-size: 10px;
-    padding-top: 28px;
-    margin-left: 20px;
-}
-span.time11 {
-    margin-left: 18px;
-    font-size: 12px;
-}
-span.time13 {
-    font-size: 12px;
-    margin-left: 17px;
-    
-}
+
 .first {
     margin-top: 14px;
     font-size: 11px;
     margin-left: 19px;
     margin-bottom: 3px;
 }
+
 .second {
     font-size: 9px;
     margin-left: 21px;
 }
+
 .time-section {
     border-bottom: 1px solid #e9e5e5;
 }
-.time-sec{
-    border-bottom: 1px solid #e9e5e5;
-}
-.time-section1{
+
+.time-section1 {
     background-color: #e1ecf4;
     border-left: 3px solid #699ecc;
     border-bottom: 1px solid #e9e5e5;
 }
+
 .third {
     font-size: 11px;
     margin-left: 17px;
     margin-top: 1px;
 }
+
 .fourth {
     font-size: 10px;
     margin-left: 18px;
     margin-top: 3px;
 }
-.content-section{
-    border-left: 3px solid #699ecc ;
+
+.content-section {
+    border-left: 3px solid #699ecc;
     margin-left: 48px;
     margin-right: 71px;
     background-color: #e1ecf4;
 }
-.vertical-space
-{
-    margin-top:17px;
+
+.vertical-space {
+    margin-top: 17px;
 }
-.commits
-{
-    margin-top:25px;
+
+.commits {
+    margin-top: 25px;
 }
