@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.border{
+   border:1px solid red;
+}
+
+.head{
+    margin-left: 10%;
+    /* margin-top: 3%; */
+    padding: 8px;
+    font-size: 14px;
+    width: 80%;
+   
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.excercise{
+    margin-left: 2px;
+    padding-left: 5px;
+}
+.plan{
+    margin-left: 1px;
+    padding: 5px;
+    margin-top: 5px;
+    padding-bottom: 13px;
+}
+#opacity{
+    opacity: 0.5;
+    color: red;
+    font-size: 10px;
+}
+.code{
+    margin-left: 4px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.lunch{
+    margin-left: 2px;
+    padding: 5px;
+}
+.follow {
+    margin-left: 4px;
+    padding: 5px;
+    height: 34px;
+    margin-top: 7px;
+}
+.border-bottom{
+     border-bottom: 1px solid #e7ecf3;
+     width: 80%;
+     /* border-bottom: 2px solid red; */
+}
+hr{
+    color:#e7ecf3;
+}
+.width-45{
+    width: 45%;
+}
+.border-top{
+    border-top: 1px solid #e7ecf3;
+    padding-top: 0px;
+    /* border-bottom: 2px solid red; */
+}
+.review{
+    margin-left: 1px;
+    padding: 5px;
+}
+.head-1{
+    margin-left: 10%;
+    padding: 8px;
+    font-size: 14px;
+    width: 80%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.small-font {
+    font-size: 10px;
+    padding-top: 0;
+    padding-left: 0;
+}
+.font{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.small-font-1{
+    font-size: 12px;
+    margin-top: 5px;
+
+    
+}
+.small-font-2{
+    font-size: 10px;
+    margin-top: 18px;
+    
+}
+.small-font-3{
+    font-size: 10px;
+    
+}
+.small-font-4{
+    font-size: 10px;
+    
+}
+.small-font-5{
+    font-size: 10px;
+    padding-left: 0;
+    padding-top: 0;
+    
+}
+.mt{
+    margin-top: 3px;
+}
+.space{
+    margin-left: 20px;
+}
+.space-1{
+    margin-left: 10px;
+}
+.margin-bottom{
+    margin-bottom: 1px;
+}
+.content-right{
+    width: 500px;
+    padding: 3px;
+ 
+}
+.flex-1{
+    display: flex;
+    width: 40%;
+}
+.border-left{
+    border-left: 2px solid #699ecc;
+}
+.margin-left{
+    margin-left: 10%;
+}
+.bgcolor{
+     background-color: #e1ecf4 ; 
+     /* width: ; */
+}
+.white {
+    background-color:white;
+    color: white;
+    margin-top: 3px;
+    height: 8px;
+    font-size: 8px;
+}
+.blank{
+    background-color:white;
+    color: white;
+    margin-top: 3px;
+    height: 5px;
+    font-size: 2px;
+}
+.fs-8{
+    font-size: 8px;
+    opacity: 0.5;
+}
+.width-80{
+    width: 91%;
+}
+.width-90{
+    width: 93%;
+}
+.width-border{
+    width: 80%;
+    margin-left: 10%;
+}
+.flex{
+    display: flex;
+    
+}
+.width-85{
+    width: 85%;
+}
+.travel {
+    /* border-left: 2px solid #a6c5eb; */
+    /* height: 47px; */
+    background-color: #e1ecf4;
+}
+.clear{
+    clear: both;
+}
+.padding{
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 12px;
+}
+.width-50{
+    width: 46%;
+}
+.width{
+    width: 100%;
+}
+.skype {
+    padding: 5px;
+    padding-bottom: 12px;
+    padding-left: 0;
+    padding-top: 0;
+}
+.push{
+    padding: 5px;
+    padding-bottom: 12px;
+    padding-left: 0;
+    padding-top: 0;
+    /* height: 30px; */
+}
+
+/* new CSS */
+.time{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+}
+.schedule{
+    position: absolute;
+    width: 96%;
+    right: 0;
+    height: 600px;
+}
+
+.schedule-item{
+    font-size: 9px;
+    position: absolute;
+    width: 100%;
+    border-left: 3px solid #73AD21;
+    background-color: #699ecc;
+    color: white;
+}
+.body{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.spaceMe{
+    height: 30px;
+}
+
