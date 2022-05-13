@@ -333,7 +333,7 @@ span.time1 {
     font-size: 8px;
     opacity: 0.5;
 }
-/* new CSS */
+
 .time{
     position: absolute;
     width: 100%;
@@ -354,6 +354,7 @@ span.time1 {
     border-left: 3px solid #699ecc;
     background-color: #e1ecf4;
     color: black;
+    
 }
 .body{
     position: relative;
