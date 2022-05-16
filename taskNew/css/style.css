@@ -10,7 +10,7 @@
     margin-top: 20px;
 }
 .head{
-    margin-left: 10%;
+    margin-left: 3%;
     /* margin-top: 3%; */
     padding: 8px;
     font-size: 14px;
@@ -321,6 +321,7 @@ span.time1 {
     font-size: 10px;
 }
 .small-font {
+    color:grey;
     font-size: 10px;
     padding-top: 0;
     padding-left: 0;
@@ -343,7 +344,7 @@ span.time1 {
 .schedule{
     position: absolute;
     width: 96%;
-    right: 0;
+    right: 0%;
     height: 600px;
 }
 
@@ -364,4 +365,12 @@ span.time1 {
 
 .spaceMe{
     height: 30px;
+}
+.bg
+{
+    background-color: #e1ecf4;
+    border-left: 2px solid #699ecc;
+    font-size: 8px;
+    width:40%;
+    padding-left: 2px;
 }

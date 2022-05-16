@@ -46,7 +46,7 @@ for(var i = 0; i < 600; i+=30) {
     if(min == 0){
         timeDataHTML += '<div class="small-font border-top spaceMe">'+ ("0" + hr).slice(-2).toString() +":00"+'</div>';
     }else{
-        timeDataHTML += '<div class="small-font-1 fs-8 border-top spaceMe">'+ ("0" + hr).slice(-2).toString() +":30" +'</div>';
+        timeDataHTML += '<div class="small-font-1 fs-8  spaceMe">'+ ("0" + hr).slice(-2).toString() +":30" +'</div>';
     }
     min += 30;
     if(min == 60){
@@ -82,24 +82,7 @@ data.forEach(function(item) {
     scheduleHTML += '<div class="schedule-item" style = "height: '+(item.duration).toString()+'px; width: '+(100/maxVal).toString()+'%; right: '+((100/maxVal) * (secondMaxVal - 1)).toString()+'%; top:'+(item.start).toString()+'px;" >'+item['title']+'</div>';
 });
 
-// var count = 1;
-// console.log(data.length);
-// for (var i = 0; i < data.length; i++) 
-// {
-//     var duration = 0;
-//     var Value = 0;
-//     tempdata = 0;
-//     if(data[i].start!=0)
-//     {
-//         Value =data[i].start-(data[i-1].start+ data[i-1].duration);
-//     }
-//     $(".content").append(`
-//        <div class=" background" style="height:${data[i].duration}px;margin-top:5px;margin-left:${(count == 1 )? 0 : 100/count}%">  ${data[i].title}</div>
-//        `);
-// }
-
-
-
 document.getElementById("sectionTwo").innerHTML = scheduleHTML;
 
-                
+
+       
