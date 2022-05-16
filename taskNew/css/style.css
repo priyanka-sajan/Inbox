@@ -11,17 +11,13 @@
 }
 .head{
     margin-left: 3%;
-    /* margin-top: 3%; */
     padding: 8px;
     font-size: 14px;
     width: 80%;
    
     font-family:Arial, Helvetica, sans-serif;
 }
-.small-font-1{
-    font-size: 12px;
-    margin-top: 5px;   
-}
+
 .width-border{
     width: 80%;
     margin-left: 10%;
@@ -76,7 +72,7 @@
 
 .plan-container {
     display: flex;
-    width: 50%;
+    width: 49%;
 }
 
 .plan-day {
@@ -328,7 +324,6 @@ span.time1 {
 }
 .small-font-1{
     font-size: 12px;
-    margin-top: 5px;  
 }
 .fs-8{
     font-size: 8px;
@@ -364,13 +359,5 @@ span.time1 {
 }
 
 .spaceMe{
-    height: 30px;
-}
-.bg
-{
-    background-color: #e1ecf4;
-    border-left: 2px solid #699ecc;
-    font-size: 8px;
-    width:40%;
-    padding-left: 2px;
+    height: 29px;
 }
