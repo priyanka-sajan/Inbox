@@ -9,19 +9,21 @@
     margin: 0 auto;
     margin-top: 20px;
 }
-.head{
+
+.head {
     margin-left: 3%;
     padding: 8px;
     font-size: 14px;
     width: 80%;
-   
-    font-family:Arial, Helvetica, sans-serif;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.width-border{
+.width-border {
     width: 80%;
     margin-left: 10%;
 }
+
 .time-start {
     font-size: 12px;
     font-weight: 500;
@@ -307,57 +309,64 @@ span.time1 {
 .commits {
     margin-top: 25px;
 }
-.border-top{
+
+.border-top {
     border-top: 1px solid #e7ecf3;
     padding-top: 0px;
 }
-#opacity{
+
+#opacity {
     opacity: 0.5;
     color: red;
     font-size: 10px;
 }
+
 .small-font {
-    color:grey;
+    color: grey;
     font-size: 10px;
     padding-top: 0;
     padding-left: 0;
 }
-.small-font-1{
+
+.small-font-1 {
     font-size: 12px;
 }
-.fs-8{
+
+.fs-8 {
     font-size: 8px;
     opacity: 0.5;
 }
 
-.time{
+.time {
     position: absolute;
     width: 100%;
     height: 600px;
     z-index: -1;
 }
-.schedule{
+
+.schedule {
     position: absolute;
     width: 96%;
     right: 0%;
     height: 600px;
 }
 
-.schedule-item{
+.schedule-item {
     font-size: 9px;
     position: absolute;
     width: 100%;
     border-left: 3px solid #699ecc;
     background-color: #e1ecf4;
     color: black;
-    
+
 }
-.body{
+
+.body {
     position: relative;
     width: 100%;
     height: 600px;
 }
 
-.spaceMe{
+.spaceMe {
     height: 29px;
 }
