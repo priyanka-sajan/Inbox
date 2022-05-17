@@ -91,7 +91,7 @@ data.forEach(function(item) {
             isRight = true;
         }
     }
-    scheduleHTML += '<div class="schedule-item" style = "height: '+(item.duration).toString()+'px; width: '+((100/maxVal) -0.3).toString()+'%; right: '+((100/maxVal) * (secondMaxVal - 1)).toString()+'%; top:'+(item.start).toString()+'px;" >'+item['title']+'</div>';
+    scheduleHTML += '<div class="schedule-item" style = "height: '+(item.duration).toString()+'px; width: '+((100/maxVal) - 0.3).toString()+'%; right: '+((100/maxVal) * (secondMaxVal - 1)).toString()+'%; top:'+(item.start).toString()+'px;" >'+item['title']+'</div>';
 });
 
 document.getElementById("sectionTwo").innerHTML = scheduleHTML;
