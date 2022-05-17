@@ -73,13 +73,13 @@ var scheduleHTML = "";
 isRight = true;
 data.forEach(function(item) {
     maxVal = Math.max(...arr.slice(item.start, item.start + item.duration + 1));
-    console.log(item.title);
-    console.log(arr2.slice(item.start, item.start + item.duration + 1));
+    // console.log(item.title);
+    // console.log(arr2.slice(item.start, item.start + item.duration + 1));
     for (var i = item.start; i < item.start + item.duration; i++) {
         arr2[i]++;
     }
-    console.log(arr.slice(item.start, item.start + item.duration + 1));
-    console.log(arr2.slice(item.start, item.start + item.duration + 1));
+    // console.log(arr.slice(item.start, item.start + item.duration + 1));
+    // console.log(arr2.slice(item.start, item.start + item.duration + 1));
     secondMaxVal = Math.max(...arr2.slice(item.start, item.start + item.duration + 1));
     if(!isRight){
         secondMaxVal = 1;
